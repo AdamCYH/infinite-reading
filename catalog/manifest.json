@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "embeddingModel": null,
+  "scenes": [
+    {
+      "id": "rain-window-city-night",
+      "name": "Rain on a City Window",
+      "description": "Rain running down a window at night, blurred city lights and neon reflections beyond the glass. Melancholy, urban, contemplative. Suits noir, modern city scenes, loneliness, insomnia and quiet introspection.",
+      "imageUrl": "scenes/rain-window-city-night.webp"
+    },
+    {
+      "id": "desert-dunes-noon",
+      "name": "Desert Dunes",
+      "description": "Vast sunlit sand dunes under a pale sky, heat haze on the horizon, no shelter in sight. Arid, immense, punishing. Suits desert crossings, caravans, exile, thirst, endurance and desolate journeys.",
+      "imageUrl": "scenes/desert-dunes-noon.webp",
+      "overlayAlpha": 0.72
+    },
+    {
+      "id": "storm-at-sea",
+      "name": "Storm at Sea",
+      "description": "A dark heaving ocean under a bruised sky, spray tearing off the wave crests. Violent, cold, perilous. Suits shipwrecks, whaling voyages, naval battles, sailors in danger and storms at sea.",
+      "imageUrl": "scenes/storm-at-sea.webp"
+    },
+    {
+      "id": "candlelit-study",
+      "name": "Candlelit Study",
+      "description": "A cramped wood-panelled study at night, papers and ledgers stacked by candlelight, shutters closed. Secretive, scholarly, close. Suits investigation, correspondence, conspiracies, late-night work and Victorian interiors.",
+      "imageUrl": "scenes/candlelit-study.webp"
+    },
+    {
+      "id": "snowbound-village",
+      "name": "Snowbound Village",
+      "description": "A small village under deep snow at dusk, windows glowing faintly, smoke from chimneys, tracks in the drifts. Isolated, hushed, wintry. Suits harsh winters, remote communities, folklore and homecoming.",
+      "imageUrl": "scenes/snowbound-village.webp"
+    },
+    {
+      "id": "grand-ballroom",
+      "name": "Grand Ballroom",
+      "description": "A gilded ballroom lit by chandeliers, mirrors and polished floors, crowded and formal. Opulent, social, performative. Suits balls, courtship, high society, intrigue among the wealthy and period drama.",
+      "imageUrl": "scenes/grand-ballroom.webp"
+    },
+    {
+      "id": "ruined-abbey",
+      "name": "Ruined Abbey",
+      "description": "Roofless stone arches overgrown with ivy, weak light through empty windows, rubble underfoot. Ancient, haunted, melancholy. Suits ruins, forgotten history, gothic dread and abandoned sacred places.",
+      "imageUrl": "scenes/ruined-abbey.webp",
+      "overlayAlpha": 0.69
+    },
+    {
+      "id": "steam-train-carriage",
+      "name": "Steam Train Carriage",
+      "description": "The interior of an old railway carriage in motion, countryside sliding past the window, brass fittings and worn upholstery. Transitional, enclosed, rhythmic. Suits journeys, chance meetings, pursuit and travel between cities.",
+      "imageUrl": "scenes/steam-train-carriage.webp"
+    },
+    {
+      "id": "battlefield-dawn",
+      "name": "Battlefield at Dawn",
+      "description": "An open field under low grey light, smoke drifting, banners and spears in the distance. Tense, grim, monumental. Suits armies before battle, sieges, epic conflict and the aftermath of war.",
+      "imageUrl": "scenes/battlefield-dawn.webp",
+      "overlayAlpha": 0.66
+    },
+    {
+      "id": "tropical-harbour",
+      "name": "Tropical Harbour",
+      "description": "A busy colonial harbour in bright heat, wooden ships at anchor, crates and palms along the quay. Lively, humid, mercantile. Suits ports of call, trade, arrivals by sea and island settlements.",
+      "imageUrl": "scenes/tropical-harbour.webp",
+      "overlayAlpha": 0.71
+    }
+  ]
+}
