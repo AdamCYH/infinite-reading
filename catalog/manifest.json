@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "embeddingModel": null,
   "scenes": [
     {
@@ -65,6 +65,318 @@
       "description": "A busy colonial harbour in bright heat, wooden ships at anchor, crates and palms along the quay. Lively, humid, mercantile. Suits ports of call, trade, arrivals by sea and island settlements.",
       "imageUrl": "scenes/tropical-harbour.webp",
       "overlayAlpha": 0.71
+    },
+    {
+      "id": "bamboo-grove-mist",
+      "name": "Bamboo Grove in Mist",
+      "description": "A dense grove of tall green bamboo in morning mist, stems creaking overhead, narrow paths of packed earth running between them. Enclosed, hushed, green-lit. Suits martial arts, hermits and sages, ambushes among the stalks, and journeys through southern China or Japan.",
+      "imageUrl": "scenes/bamboo-grove-mist.webp",
+      "overlayAlpha": 0.68
+    },
+    {
+      "id": "autumn-birch-forest",
+      "name": "Autumn Birch Forest",
+      "description": "A stand of white-trunked birches in late autumn, the canopy turned gold and the ground deep in fallen leaves. Bright, brittle, wistful. Suits journeys on foot, partings, the turn of a season, and memories of childhood woods.",
+      "imageUrl": "scenes/autumn-birch-forest.webp"
+    },
+    {
+      "id": "mangrove-swamp-dusk",
+      "name": "Mangrove Swamp at Dusk",
+      "description": "Brackish water threading between tangled mangrove roots at dusk, still and thick with insects, no firm ground anywhere. Humid, claustrophobic, uneasy. Suits escapes through wetland, fevers, smuggling, and places where a body would never be found.",
+      "imageUrl": "scenes/mangrove-swamp-dusk.webp"
+    },
+    {
+      "id": "red-rock-canyon",
+      "name": "Red Rock Canyon",
+      "description": "A deep canyon of layered red sandstone with a thin river far below, walls striped by centuries, heat coming off the stone. Immense, ancient, exposed. Suits frontier crossings, pursuit through ravines, prospectors, and vast indifferent country.",
+      "imageUrl": "scenes/red-rock-canyon.webp"
+    },
+    {
+      "id": "limestone-cavern-pool",
+      "name": "Limestone Cavern",
+      "description": "A vast underground chamber of pale limestone, still water holding a perfect reflection, stalactites overhead and no sound but dripping. Cold, echoing, otherworldly. Suits caves and tunnels, hidden sanctuaries, subterranean journeys, and discoveries made below ground.",
+      "imageUrl": "scenes/limestone-cavern-pool.webp"
+    },
+    {
+      "id": "volcanic-badlands",
+      "name": "Volcanic Badlands",
+      "description": "A blasted plain of black lava rock and sulphur-yellow crust, steam venting from fissures, nothing growing. Hostile, primordial, sulphurous. Suits forges and underworlds, blighted lands, trials of endurance, and the aftermath of catastrophe.",
+      "imageUrl": "scenes/volcanic-badlands.webp"
+    },
+    {
+      "id": "aurora-over-tundra",
+      "name": "Aurora Over Tundra",
+      "description": "Green light rippling across a black polar sky above an endless frozen plain, silent and enormous. Awed, solitary, numinous. Suits polar expeditions, long nights, visions and omens, and the feeling of being very small.",
+      "imageUrl": "scenes/aurora-over-tundra.webp"
+    },
+    {
+      "id": "salt-flat-mirror",
+      "name": "Salt Flat",
+      "description": "An endless white salt pan under a wide sky, a film of water turning the whole plain into a mirror, the horizon impossible to place. Disorienting, silent, dreamlike. Suits crossings without landmarks, hallucination, exile, and the edge of the world.",
+      "imageUrl": "scenes/salt-flat-mirror.webp",
+      "overlayAlpha": 0.71
+    },
+    {
+      "id": "highland-moor-fog",
+      "name": "Highland Moor",
+      "description": "Rolling heather moorland swallowed in fog, peat underfoot and drystone walls appearing and vanishing. Bleak, lonely, ominous. Suits searches and disappearances, hauntings, walks gone wrong, and country far from help.",
+      "imageUrl": "scenes/highland-moor-fog.webp"
+    },
+    {
+      "id": "jungle-waterfall-basin",
+      "name": "Jungle Waterfall",
+      "description": "A waterfall dropping into a green pool ringed by rainforest, spray hanging in the air, vines and broad leaves crowding the wet rock. Lush, loud, hidden. Suits expeditions, lost places, bathing and respite, and the deep interior of a jungle.",
+      "imageUrl": "scenes/jungle-waterfall-basin.webp"
+    },
+    {
+      "id": "olive-grove-terraces",
+      "name": "Olive Grove",
+      "description": "Gnarled olive trees on dry stone terraces above a hot valley, cicadas going, silver leaves turning in the wind. Sun-baked, ancient, unhurried. Suits Mediterranean villages, old feuds and old families, summer heat, and classical antiquity.",
+      "imageUrl": "scenes/olive-grove-terraces.webp"
+    },
+    {
+      "id": "reed-marsh-dawn",
+      "name": "Reed Marsh at Dawn",
+      "description": "Flat water and tall reeds at first light, mist lying on the surface, wildfowl calling out of sight. Still, cold, expectant. Suits fenland, wildfowling, ambushes at dawn, and long waits in cover.",
+      "imageUrl": "scenes/reed-marsh-dawn.webp"
+    },
+    {
+      "id": "frozen-lake-bare-trees",
+      "name": "Frozen Lake",
+      "description": "A wide frozen lake ringed by leafless trees, ice creaking underfoot, tracks crossing the snow to nowhere. Cold, quiet, tense. Suits winter journeys, thin ice, isolation, and things hidden under the surface.",
+      "imageUrl": "scenes/frozen-lake-bare-trees.webp",
+      "overlayAlpha": 0.67
+    },
+    {
+      "id": "stone-circle-dawn",
+      "name": "Standing Stones",
+      "description": "A ring of weathered standing stones on open grassland at first light, lichen-crusted and leaning, older than any record. Solemn, pagan, watchful. Suits folklore, ritual, deep history, and thresholds between worlds.",
+      "imageUrl": "scenes/stone-circle-dawn.webp",
+      "overlayAlpha": 0.68
+    },
+    {
+      "id": "cliff-path-seabirds",
+      "name": "Cliff Path",
+      "description": "A narrow path along the top of sea cliffs, gulls wheeling below, turf cropped short by the wind and a long drop to white water. Wind-scoured, vertiginous, bracing. Suits coastal walks, confrontations at the edge, watching for ships, and remote headlands.",
+      "imageUrl": "scenes/cliff-path-seabirds.webp"
+    },
+    {
+      "id": "becalmed-ship-doldrums",
+      "name": "Becalmed Ship",
+      "description": "A sailing ship stalled on a dead flat sea under a blank hot sky, sails hanging slack and no wind for days. Airless, stagnant, dreadful. Suits long voyages, dwindling water, superstition among a crew, and the slow arrival of despair.",
+      "imageUrl": "scenes/becalmed-ship-doldrums.webp",
+      "overlayAlpha": 0.73
+    },
+    {
+      "id": "fishing-village-quay",
+      "name": "Northern Fishing Village",
+      "description": "A small cold-water fishing village, painted wooden houses stacked above a stone quay, nets drying and boats knocking together in grey swell. Working, weathered, close-knit. Suits hard coastal lives, weather coming in, returning home, and communities that keep their own counsel.",
+      "imageUrl": "scenes/fishing-village-quay.webp"
+    },
+    {
+      "id": "lighthouse-headland",
+      "name": "Lighthouse on the Headland",
+      "description": "A white lighthouse on a bare headland above a heavy sea, its beam sweeping out through rain. Solitary, dutiful, exposed. Suits keepers and watchers, signals in the dark, isolation with a purpose, and nights when ships are in trouble.",
+      "imageUrl": "scenes/lighthouse-headland.webp"
+    },
+    {
+      "id": "wheat-field-harvest",
+      "name": "Wheat Field at Harvest",
+      "description": "A wide field of ripe wheat moving in the wind, a distant barn, the harvest not yet in. Golden, laborious, fleeting. Suits farming years, summer's end, work that cannot wait, and the countryside just before a change.",
+      "imageUrl": "scenes/wheat-field-harvest.webp",
+      "overlayAlpha": 0.68
+    },
+    {
+      "id": "vineyard-autumn",
+      "name": "Vineyard in Autumn",
+      "description": "Rows of vines on a slope turning red and gold after the grape harvest, mist pooled in the valley below. Ripe, settled, valedictory. Suits estates and inheritance, the end of a season's labour, long meals, and country wealth.",
+      "imageUrl": "scenes/vineyard-autumn.webp"
+    },
+    {
+      "id": "water-mill-stream",
+      "name": "Water Mill",
+      "description": "An old stone mill beside a fast stream, its wheel turning, flour dust in the air and moss on the wet stonework. Rhythmic, rural, industrious. Suits village trades, meetings at the edge of a settlement, childhood places, and the sound of moving water.",
+      "imageUrl": "scenes/water-mill-stream.webp"
+    },
+    {
+      "id": "monastery-cloister",
+      "name": "Monastery Cloister",
+      "description": "A stone cloister enclosing a plain garden, arcades on all four sides and no sound but footsteps on flagstones. Austere, ordered, contemplative. Suits scholars and monks, refuge, vows and obligations, and lives lived to a bell.",
+      "imageUrl": "scenes/monastery-cloister.webp",
+      "overlayAlpha": 0.68
+    },
+    {
+      "id": "orchard-blossom-spring",
+      "name": "Orchard in Blossom",
+      "description": "An old orchard in full blossom, petals coming down in the wind and long grass between the trunks. Tender, transient, hopeful. Suits courtship, new beginnings, spring festivals, and happiness that will not last.",
+      "imageUrl": "scenes/orchard-blossom-spring.webp",
+      "overlayAlpha": 0.66
+    },
+    {
+      "id": "shepherds-hut-highlands",
+      "name": "Shepherd's Hut",
+      "description": "A low drystone hut on empty upland grazing, smoke from a peat fire pulled sideways by the wind, sheep scattered on the slope. Rough, sheltering, remote. Suits hard winters, hiding out, hospitality from strangers, and country with no roads.",
+      "imageUrl": "scenes/shepherds-hut-highlands.webp"
+    },
+    {
+      "id": "country-churchyard-mist",
+      "name": "Country Churchyard",
+      "description": "A small churchyard of leaning headstones under old yews, mist settling between them at the end of the day. Melancholy, quiet, freighted. Suits burials and remembrance, secrets kept by a village, ghosts, and the weight of the past.",
+      "imageUrl": "scenes/country-churchyard-mist.webp"
+    },
+    {
+      "id": "medieval-market-square",
+      "name": "Medieval Market Square",
+      "description": "A cobbled square crowded with stalls and awnings under timber-framed houses, produce and livestock and shouting. Busy, grubby, mercantile. Suits town life, proclamations and public punishment, pickpockets, and the day a stranger rides in.",
+      "imageUrl": "scenes/medieval-market-square.webp",
+      "overlayAlpha": 0.71
+    },
+    {
+      "id": "narrow-alley-lamplight",
+      "name": "Narrow Alley",
+      "description": "A tight alley of wet cobbles between high walls, a single lamp throwing long shadows and washing strung overhead. Furtive, cramped, threatening. Suits pursuit on foot, back-street meetings, cutpurses, and the parts of a city nobody maps.",
+      "imageUrl": "scenes/narrow-alley-lamplight.webp"
+    },
+    {
+      "id": "city-rooftops-dusk",
+      "name": "City Rooftops",
+      "description": "A sea of tiled roofs and chimney stacks at dusk, smoke going up straight and the streets invisible below. Elevated, secretive, free. Suits escapes over the tiles, thieves and spies, cities seen from above, and stolen privacy.",
+      "imageUrl": "scenes/city-rooftops-dusk.webp"
+    },
+    {
+      "id": "grand-railway-station",
+      "name": "Grand Railway Station",
+      "description": "A great iron-and-glass train shed full of steam and echo, departure boards and a clock high above the crowd. Cavernous, transitional, urgent. Suits departures and reunions, pursuit through crowds, wartime partings, and the beginning of a journey.",
+      "imageUrl": "scenes/grand-railway-station.webp"
+    },
+    {
+      "id": "textile-mill-floor",
+      "name": "Textile Mill",
+      "description": "A long mill floor of clattering looms and belt-driven shafting, lint hanging in the light from high windows. Deafening, relentless, industrial. Suits factory work, strikes and foremen, childhoods cut short, and the machinery of a new century.",
+      "imageUrl": "scenes/textile-mill-floor.webp"
+    },
+    {
+      "id": "dockside-warehouses-fog",
+      "name": "Dockside Warehouses",
+      "description": "Brick warehouses along a black river in fog, cranes overhead and crates stacked on a wet wharf. Commercial, shadowed, unwatched. Suits smuggling and cargo, meetings after dark, industrial ports, and business best done quietly.",
+      "imageUrl": "scenes/dockside-warehouses-fog.webp"
+    },
+    {
+      "id": "metro-platform-late",
+      "name": "Late Metro Platform",
+      "description": "An empty underground platform late at night, tiled walls and fluorescent light, warm air pushed ahead of a train that has not arrived. Modern, hollow, suspended. Suits city solitude, waiting, near-misses, and journeys home that feel too long.",
+      "imageUrl": "scenes/metro-platform-late.webp"
+    },
+    {
+      "id": "covered-bazaar-lanterns",
+      "name": "Covered Bazaar",
+      "description": "A vaulted bazaar hung with lanterns and carpets, spice sacks open and light coming down in dusty shafts. Crowded, aromatic, labyrinthine. Suits foreign cities, disappearing into a crowd, goods that arrived by long roads, and quarters a stranger gets lost in.",
+      "imageUrl": "scenes/covered-bazaar-lanterns.webp"
+    },
+    {
+      "id": "tenement-courtyard",
+      "name": "Tenement Courtyard",
+      "description": "A narrow courtyard between tall tenements, washing strung across it and only a square of sky overhead. Poor, overlooked, communal. Suits crowded cities, hard childhoods, neighbours who hear everything, and lives lived close together.",
+      "imageUrl": "scenes/tenement-courtyard.webp",
+      "overlayAlpha": 0.69
+    },
+    {
+      "id": "roadside-diner-night",
+      "name": "Roadside Diner",
+      "description": "A lone diner lit up at night beside an empty highway, neon humming and nothing else for miles. Modern, transient, lonely. Suits road journeys, drifters and strangers, late-night conversations, and small-town America.",
+      "imageUrl": "scenes/roadside-diner-night.webp"
+    },
+    {
+      "id": "cathedral-nave",
+      "name": "Cathedral Nave",
+      "description": "The nave of a great cathedral, columns going up into shadow and coloured light falling across the stone floor. Sublime, cold, hushed. Suits faith and doubt, sanctuary, coronations and funerals, and spaces built to make a person feel small.",
+      "imageUrl": "scenes/cathedral-nave.webp"
+    },
+    {
+      "id": "panelled-courtroom",
+      "name": "Courtroom",
+      "description": "An oak-panelled courtroom with a raised bench and a rail worn smooth by hands, benches empty and the air stale. Formal, adversarial, weighty. Suits trials and testimony, reputations at stake, the law as an instrument, and verdicts about to land.",
+      "imageUrl": "scenes/panelled-courtroom.webp"
+    },
+    {
+      "id": "hospital-ward-night",
+      "name": "Hospital Ward at Night",
+      "description": "A long ward of iron beds at night, one lamp burning at the nurse's desk and the rest in shadow. Vigilant, antiseptic, precarious. Suits illness and recovery, wartime nursing, deathbeds, and the hours when nothing can be done but wait.",
+      "imageUrl": "scenes/hospital-ward-night.webp"
+    },
+    {
+      "id": "empty-theatre-stalls",
+      "name": "Empty Theatre",
+      "description": "A theatre auditorium with the house lights low, red velvet seats empty and the safety curtain down. Expectant, faded, theatrical. Suits performers and rehearsals, illusions, opening nights, and rooms that feel wrong when nobody is in them.",
+      "imageUrl": "scenes/empty-theatre-stalls.webp"
+    },
+    {
+      "id": "farmhouse-kitchen-hearth",
+      "name": "Farmhouse Kitchen",
+      "description": "A flagstoned kitchen with a fire in the range, a scrubbed table and things hung to dry from the beams. Warm, domestic, safe. Suits homecomings, family talk, shelter from weather, and the heart of a working house.",
+      "imageUrl": "scenes/farmhouse-kitchen-hearth.webp"
+    },
+    {
+      "id": "dusty-attic-trunks",
+      "name": "Attic",
+      "description": "An attic under bare rafters, trunks and sheeted furniture and a single window thick with dust. Forgotten, private, nostalgic. Suits discoveries, old letters and photographs, hiding, and the past kept just out of sight.",
+      "imageUrl": "scenes/dusty-attic-trunks.webp"
+    },
+    {
+      "id": "wine-cellar-vaults",
+      "name": "Wine Cellar",
+      "description": "Brick barrel vaults lined with racked bottles and casks, cool and windowless, candlelight not reaching far. Cool, hidden, patient. Suits conspiracies below stairs, hoards, hiding places, and houses with more beneath them than above.",
+      "imageUrl": "scenes/wine-cellar-vaults.webp"
+    },
+    {
+      "id": "throne-room-banners",
+      "name": "Throne Room",
+      "description": "A long stone hall hung with banners, a throne on a dais at the far end and a floor made for approaching slowly. Imposing, political, ceremonial. Suits courts and audiences, oaths, intrigue among the powerful, and the moment before a decision.",
+      "imageUrl": "scenes/throne-room-banners.webp"
+    },
+    {
+      "id": "stone-prison-cell",
+      "name": "Prison Cell",
+      "description": "A stone cell with a barred slit high in the wall, straw on the floor and marks scratched into the masonry. Confining, cold, interminable. Suits captivity, interrogation, waiting for judgement, and the slow measurement of time.",
+      "imageUrl": "scenes/stone-prison-cell.webp"
+    },
+    {
+      "id": "victorian-laboratory",
+      "name": "Victorian Laboratory",
+      "description": "A cluttered private laboratory of brass instruments and glassware, specimen jars on the shelves and something still bubbling. Inquisitive, obsessive, faintly unwholesome. Suits experiments, inventors, discoveries that go too far, and the science of a confident century.",
+      "imageUrl": "scenes/victorian-laboratory.webp"
+    },
+    {
+      "id": "glasshouse-conservatory",
+      "name": "Glasshouse",
+      "description": "A Victorian glasshouse crowded with palms and ferns, condensation on the panes and iron ribs arching overhead. Humid, green, sheltered. Suits botanical obsession, convalescence, private conversations, and gardens kept alive against the climate.",
+      "imageUrl": "scenes/glasshouse-conservatory.webp"
+    },
+    {
+      "id": "wizards-workroom",
+      "name": "Wizard's Workroom",
+      "description": "A tower room crowded with an orrery, chalked sigils and jars of things best not identified, lit by a floating glow. Arcane, obsessive, charged. Suits sorcery, apprentices, bargains struck with powers, and magic treated as a craft with a cost.",
+      "imageUrl": "scenes/wizards-workroom.webp"
+    },
+    {
+      "id": "torchlit-dungeon",
+      "name": "Dungeon Corridor",
+      "description": "A low vaulted corridor of damp stone, torches spaced too far apart and iron doors along one side. Oppressive, echoing, dangerous. Suits descents, imprisonment, delving, and places built so that nobody comes back up.",
+      "imageUrl": "scenes/torchlit-dungeon.webp"
+    },
+    {
+      "id": "airship-gondola-clouds",
+      "name": "Airship Gondola",
+      "description": "The cabin of an airship above a floor of cloud, brass fittings and a wide window, engines droning below. Adventurous, precarious, expansive. Suits voyages, mapping unknown country, escapes by air, and confidence in machines.",
+      "imageUrl": "scenes/airship-gondola-clouds.webp",
+      "overlayAlpha": 0.7
+    },
+    {
+      "id": "overgrown-city-ruins",
+      "name": "Overgrown Ruins",
+      "description": "A city street reclaimed by trees, saplings through the tarmac and vines over the facades, silent of engines. Post-human, green, uncanny. Suits collapse and after, survivors, nature outlasting us, and cities remembered rather than lived in.",
+      "imageUrl": "scenes/overgrown-city-ruins.webp",
+      "overlayAlpha": 0.66
     }
   ]
 }

@@ -4,7 +4,7 @@
     ./catalog/prepare-images.py <input-dir>
 
 Input:  one image per scene, named <scene-id>.<jpg|jpeg|png|webp>, any resolution.
-Output: catalog/scenes/<scene-id>.webp, short edge 1600px, WebP q82.
+Output: catalog/scenes/<scene-id>.webp, short edge at most 1600px, WebP q82.
 
 The ONLY pixel operations are a proportional downscale and the WebP re-encode. Images are never
 cropped (screens vary — phones, tablets, foldables — so framing is the app's business at runtime)
@@ -32,12 +32,13 @@ from PIL import Image, ImageFilter
 SHORT_EDGE = 1600
 QUALITY = 82
 
-# Must mirror ReaderScreen: Modifier.blur(8.dp) over BookPageBackgroundDark at 65%,
-# with BookPageTextDark on top.
+# Must mirror ReaderScreen: SCENE_BLUR_RADIUS over BookPageBackgroundDark at
+# DEFAULT_SCENE_OVERLAY_ALPHA, with BookPageTextDark on top. Less blur means more local contrast
+# for text to fight, so these values and the measured overlayAlpha move together.
 TEXT_RGB = (0xCF, 0xCF, 0xCF)
 OVERLAY_RGB = (0x1A, 0x1C, 0x1E)
 OVERLAY_ALPHA = 0.65
-BLUR_PX_AT_3X = 24
+BLUR_PX_AT_3X = 15  # SCENE_BLUR_RADIUS (5.dp) at 3x density
 PHONE_W, PHONE_H = 1080, 2340
 
 MIN_CONTRAST = 4.5      # WCAG AA for body text
@@ -135,8 +136,17 @@ def main() -> int:
                 f"portrait screen so the sides will be lost. Portrait 2:3 is preferred."
             )
 
-        scale = SHORT_EDGE / min(im.width, im.height)
-        im = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)
+        # Downscale only. A master smaller than SHORT_EDGE carries no extra detail to recover, so
+        # enlarging it would just spend bytes on interpolation - and these are blurred at runtime,
+        # where the difference is invisible anyway.
+        scale = min(1.0, SHORT_EDGE / min(im.width, im.height))
+        if scale < 1.0:
+            im = im.resize((round(im.width * scale), round(im.height * scale)), Image.LANCZOS)
+        elif min(im.width, im.height) < SHORT_EDGE:
+            warnings.append(
+                f"{scene_id}: master is {im.width}x{im.height}, short edge under {SHORT_EDGE}px; "
+                f"kept at native size rather than upscaled."
+            )
 
         alpha, achieved = required_overlay_alpha(im)
         overlay_alpha[scene_id] = alpha
@@ -166,8 +176,12 @@ def main() -> int:
     # art stays untouched.
     manifest = json.load(open(manifest_path))
     for scene in manifest["scenes"]:
-        alpha = overlay_alpha.get(scene["id"])
-        if alpha is None or alpha == OVERLAY_ALPHA:
+        # Only touch scenes this run actually measured. Re-running on a folder of one new scene
+        # must not strip the overlay from every scene that was not in it.
+        if scene["id"] not in overlay_alpha:
+            continue
+        alpha = overlay_alpha[scene["id"]]
+        if alpha == OVERLAY_ALPHA:
             scene.pop("overlayAlpha", None)
         else:
             scene["overlayAlpha"] = alpha
