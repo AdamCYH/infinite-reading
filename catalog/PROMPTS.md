@@ -35,7 +35,7 @@ overlay on top. That changes what "good" means:
 - Keep the **style suffix identical** across every scene. Switching backgrounds mid-chapter should feel
   like a change of place, not a change of medium.
 
-### Shared style suffix — append to every prompt
+### Style suffix A (painterly) — for historical and fantastic scenes
 
 > atmospheric digital matte painting, painterly brushwork, soft diffused light, muted
 > desaturated palette, cinematic depth of field, clear foreground midground and background
@@ -44,11 +44,51 @@ overlay on top. That changes what "good" means:
 Painterly rather than photoreal is deliberate: blurred photographs tend to read as *out-of-focus
 photos* (i.e. a mistake), whereas a painting blurs into pleasing fields of colour.
 
-### Shared negative prompt
+### Negative prompt for suffix A
 
 > people, human figures, faces, hands, text, letters, signage, watermark, logo, signature, frame,
 > border, harsh centred highlight, blown-out highlights, high-frequency noise, busy clutter,
 > lens flare, tilt-shift, fisheye
+
+### Style suffix B (photoreal) — for contemporary scenes
+
+> cinematic photograph, natural available light, 35mm, shallow depth of field, muted colour
+> grade, fine film grain, clear foreground midground and background separation, no people,
+> no legible text, no watermark, no logo, no borders
+
+### Negative prompt for suffix B
+
+> people, human figures, faces, hands, legible text, readable signage, kanji, hanzi, hangul,
+> latin lettering, brand logos, shop names, license plates, watermark, signature, frame, border,
+> harsh centred highlight, blown-out highlights, HDR halos, oversharpening, heavy vignette,
+> lens flare, tilt-shift, fisheye
+
+### Why two tracks
+
+The first sixty scenes are all painterly, which made the whole catalog read as period drama even
+where the subject was modern — look at `roadside-diner-night`. Contemporary scenes now use
+suffix B instead. Every scene below is tagged **PAINT** or **PHOTO**; use the matching suffix and
+negative prompt, and do not mix them within one image.
+
+Mixing mediums across a catalog would normally be a mistake. Two things make it safe here. Scenes
+are chosen by what the book says, so a contemporary novel stays among PHOTO scenes and a Victorian
+one stays among PAINT scenes — switching tracks mid-book is rare. And every scene is blurred at
+5dp under a dark overlay before anyone sees it, which flattens most of the difference between a
+photograph and a painting anyway.
+
+**What actually happened in batch three.** Suffix B did not take. The generator applied its own
+painterly house style to the PHOTO scenes regardless of the photograph wording — compare
+`motel-room-night` or `airport-gate-late` against any PAINT scene and the medium is the same. The
+modern *subjects* arrived, which was the point, but not the photoreal rendering. Two consequences:
+the medium-clash risk the tracks were designed around never materialised and the catalog still
+reads as one medium, and if photoreal contemporary scenes are genuinely wanted they will need a
+different image tool rather than a different prompt. The signage instruction, by contrast, worked
+exactly as intended.
+
+**Signage is the main failure mode for PHOTO scenes.** Image models produce garbled lettering, and
+these settings are full of shopfronts. Every PHOTO prompt below already asks for signs as
+unreadable colour; keep that, and weight the negative prompt heavily. A sign that is legibly
+nonsense is worse than no sign.
 
 ---
 
@@ -350,6 +390,225 @@ reading convenience — the groups mean nothing to the app.
 #### 60. `overgrown-city-ruins` — Overgrown Ruins
 
 > A ruined city street reclaimed by nature under soft overcast light. Cracked tarmac split by grass and saplings in the near ground, a rusted railing, vines swallowing concrete facades on both sides, empty window openings dark, young trees closing the street further back. Weathered concrete grey, rust and aggressive green. Facades frame both sides with greenery running up the middle; light is flat and diffuse with no sky gap glaring.
+
+---
+
+## The third fifty scenes
+
+Weighted toward modern and non-Western settings, which the first sixty barely covered.
+Each is tagged with the style track to use.
+
+### Modern East Asian cities
+
+#### 61. `tokyo-backstreet-night` — Tokyo Backstreet  **[PHOTO]**
+
+> A narrow Tokyo backstreet after midnight, photographed at eye level. Wet asphalt holding smeared coloured reflections in the near ground, a lit vending machine and red paper lanterns outside a shuttered izakaya, tangled overhead cables, bicycles against a railing, the lane narrowing into darkness. Warm red and amber against cold blue-black night. Light comes from many small sources rather than one, and every sign is an unreadable coloured glow; the upper frame stays dark and cabled.
+
+#### 62. `konbini-night` — Convenience Store at Night  **[PHOTO]**
+
+> A Japanese convenience store glowing on a dark residential street, photographed from across the road. Damp pavement and a painted kerb in the near ground, the shopfront a flat wall of fluorescent white behind glass with stocked shelving visible, a parked bicycle, low dark buildings either side. Clinical white and pale green against near-black surroundings. The lit facade sits low and off-centre with all signage reduced to unreadable colour bands; the sky above is empty and black.
+
+#### 63. `shinkansen-window-ricefields` — Bullet Train Window  **[PHOTO]**
+
+> The interior window of a modern Japanese bullet train, photographed from the seat. A clean grey tray table and window frame sharp in the near field, beyond the glass flooded rice paddies and distant hills pulled into horizontal streaks by speed, an overcast sky. Muted grey interior against green and silver-water motion blur. The window fills one side; the blurred exterior stays soft and low in contrast with no bright sky patch.
+
+#### 64. `japanese-apartment-small` — Small Tokyo Apartment  **[PHOTO]**
+
+> A small single-room Japanese apartment photographed from the doorway in flat afternoon light. A low table and floor cushion on pale tatami in the near ground, a folded futon against one wall, a compact kitchenette, sliding glass doors onto a narrow balcony with hanging laundry beyond. Straw, off-white and grey with one muted colour accent. Balcony light enters from one side through net curtain; the room stays evenly lit and uncluttered.
+
+#### 65. `shotengai-arcade` — Covered Shopping Street  **[PHOTO]**
+
+> A covered Japanese shopping arcade photographed down its length in late afternoon. Tiled floor and a rolled-down steel shutter in the near ground, fabric banners and paper lanterns strung beneath a translucent vaulted roof, a few shops still lit further down, bicycles parked along one side. Faded red, cream and green under milky skylight. Strong perspective down the arcade; roof light is even and diffused with no hot spot, and all lettering is illegible.
+
+#### 66. `hongkong-highrise-canyon` — Hong Kong High-Rises  **[PHOTO]**
+
+> A narrow canyon between dense Hong Kong residential towers, photographed looking steeply upward. Weathered concrete and tiled facades rising on both sides, hundreds of air-conditioning units and bamboo drying poles hung with laundry projecting out, caged windows, a bright slot of overcast sky far above. Grey-green concrete, rust and faded laundry colour. Towers fill both sides; the sky slot is small and kept near the top so the mass of the frame stays mid-toned.
+
+#### 67. `shanghai-bund-dusk` — Shanghai Riverfront  **[PHOTO]**
+
+> The Shanghai riverfront at dusk photographed from the promenade. A stone balustrade and damp granite paving in the near ground, the dark river with a ferry wake crossing it, a skyline of lit glass towers on the far bank with haze softening their tops. Deep blue-grey water, warm tower light, smog-pink sky band. The skyline sits as a mid-frame band with dim sky above; tower lights read as many small points, none blown out.
+
+#### 68. `shanghai-longtang-lane` — Shanghai Lane House  **[PHOTO]**
+
+> A narrow Shanghai longtang lane between brick shikumen terraces, photographed down its length in soft morning light. Cracked concrete underfoot, a shared tap and stacked plastic stools in the near ground, bamboo poles of laundry projecting overhead across the lane, carved stone door frames, potted plants on the sills. Warm grey brick, faded laundry colour and muted green. Walls press in on both sides; the overhead laundry breaks the light into soft patches.
+
+#### 69. `beijing-hutong-winter` — Beijing Hutong in Winter  **[PHOTO]**
+
+> A Beijing hutong alley in winter, photographed at eye level under flat grey light. Frozen rutted ground and a parked bicycle in the near field, low grey brick courtyard walls running along both sides, a red-painted timber gate with faded paper couplets, bare trees showing above the roofline, cabbages stacked by a step. Cold grey brick, oxidised red and bare-branch brown. The low walls keep the frame horizontal and the pale sky is a thin strip above.
+
+#### 70. `seoul-rooftop-night` — Seoul Rooftop  **[PHOTO]**
+
+> A residential rooftop in Seoul at night, photographed across the parapet. Rough waterproofed decking, a steel water tank and satellite dishes in the near ground, a low parapet, then rank upon rank of lit apartment towers receding toward dark hills, small red neon crosses scattered among them. Cold blue-grey with warm window points and restrained red accents. The parapet anchors the lower frame; window lights read as fine texture rather than glare.
+
+### Modern everyday and domestic
+
+#### 71. `modern-kitchen-morning` — Kitchen in the Morning  **[PHOTO]**
+
+> A contemporary kitchen photographed in soft early morning light. A stone worktop with a single mug and a folded cloth in the near ground, flat-fronted cabinets, a stainless hob and kettle, a window above the sink showing pale garden green. Cool white, pale timber and grey with one small warm accent. Light enters horizontally from the window and is diffused; surfaces stay matte with no specular glare.
+
+#### 72. `bedroom-morning-light` — Bedroom, Morning  **[PHOTO]**
+
+> A modern bedroom photographed in soft morning light with the bed unmade. Rumpled white linen filling the near ground, a wooden chair with draped clothing, a bedside table holding a glass of water, half-drawn linen curtains admitting diffused light from one side. Warm white, oatmeal and pale grey. Light falls across the bed from the side with soft edges; the window itself stays out of frame so nothing blows out.
+
+#### 73. `living-room-tv-glow` — Living Room at Night  **[PHOTO]**
+
+> A dark living room at night lit only by an off-frame television, photographed from behind the sofa. The sofa back and a cushion in the near ground, a low table with a mug and a remote, flickering cool light washing one wall and the ceiling edge, the rest of the room in deep shadow. Cold blue-white against near-black with one small warm lamp deep in the background. The screen stays out of shot so its light arrives indirectly and soft.
+
+#### 74. `apartment-balcony-city` — Balcony Above the City  **[PHOTO]**
+
+> A small apartment balcony at night photographed from just inside the sliding door. A metal railing and a single folding chair in the near ground, a potted plant, then the city spread below as a field of small warm window lights and street lamps with low cloud catching the glow. Deep blue-black with scattered amber points. Railing and chair anchor the lower frame; city lights stay fine and even with no bright sign among them.
+
+#### 75. `coffee-shop-afternoon` — Café in the Afternoon  **[PHOTO]**
+
+> The interior of a contemporary café photographed in mid-afternoon. A worn timber table with a cup, saucer and a closed laptop in the near ground, mismatched chairs, a tiled counter with an espresso machine and shelves of cups behind it, a large street window at one side admitting diffused daylight. Warm timber, matte black and cream. The counter sits in the midground; window light is soft and indirect and the frame is evenly lit.
+
+#### 76. `supermarket-aisle-night` — Supermarket Aisle  **[PHOTO]**
+
+> A supermarket aisle photographed down its length under hard fluorescent ceiling light, no shoppers. Polished vinyl floor reflecting the strip lights in the near ground, shelves stacked with plain unbranded packaging rising on both sides, a chilled cabinet glowing faintly at the far end. Cold white and pale green with desaturated packaging colour and no readable labels. Strong one-point perspective; lighting is flat and even throughout.
+
+#### 77. `suburban-street-dusk` — Suburban Street  **[PHOTO]**
+
+> A quiet suburban residential street photographed along the pavement at dusk. A kerb, a strip of mown grass and a parked car in the near ground, similar low houses with lit front windows receding on both sides, a street lamp just coming on, mature trees between them. Blue-grey dusk with small warm window rectangles. Perspective runs down the street; the sky is a dim strip and the window lights stay small and scattered.
+
+#### 78. `motel-room-night` — Motel Room  **[PHOTO]**
+
+> A cheap motel room at night photographed from the doorway. A patterned bedspread and a bedside table with a lamp in the near ground, a second bed beyond it, a dated wall unit and mirror, thin curtains with coloured neon glowing through from outside. Dull brown, mustard and a cold neon wash at the window. The neon arrives diffused through the curtain, the lamp is small and warm, and the ceiling stays dark.
+
+#### 79. `night-highway-from-car` — Highway at Night  **[PHOTO]**
+
+> A night highway photographed from the driver's viewpoint over a dim dashboard. The dashboard edge and a sliver of steering wheel dark in the near ground, wet asphalt and painted lane markings lit by headlights just ahead, reflective posts trailing away, small red tail lights in the distance, everything beyond swallowed black. Near-black with cold headlight white and small red points. Light falls only on the road surface; the upper two thirds stay dark.
+
+#### 80. `airport-gate-late` — Departure Gate  **[PHOTO]**
+
+> An airport departure gate late at night, photographed along the seating. Rows of empty moulded seats and carpet tile in the near ground, a bank of floor-to-ceiling glass, beyond it a dark apron with a parked aircraft and blue taxiway lights, ceiling downlights reflected softly in the glass. Cold grey and blue with small amber ground lights. Seats lead into the frame; the apron beyond stays dark and the reflections are gentle.
+
+### Modern institutional and working
+
+#### 81. `open-plan-office-night` — Office After Hours  **[PHOTO]**
+
+> A large open-plan office photographed after hours with the main lights off. Rows of empty desks with dark monitors and task chairs receding, one desk lamp burning at the far side, floor-to-ceiling windows showing a lit city beyond, carpet tile underfoot. Cold grey and blue-black with one warm lamp and distant city points. Desk rows recede in perspective; the lamp is small and off-centre and the windows stay dim.
+
+#### 82. `police-interview-room` — Interview Room  **[PHOTO]**
+
+> A bare police interview room photographed from one corner under hard ceiling light. A scuffed table fixed to the floor in the near ground with a recording unit on it, two moulded chairs facing across it, acoustic wall panelling, a small high window of obscured glass, a door with a viewing panel. Institutional grey-green, beige and cold white. The table anchors the foreground; lighting is flat, even and almost shadowless.
+
+#### 83. `hospital-corridor-modern` — Hospital Corridor  **[PHOTO]**
+
+> A modern hospital corridor photographed down its length in the small hours. Polished vinyl flooring reflecting the overhead lights in the near ground, handrails along both walls, closed doors and a wall-mounted dispenser, a nurses' station lit further down, the corridor bending out of sight. Pale green, white and grey with one warmer lit station. Strong perspective; floor reflections are soft and the lighting is even with no hot spot.
+
+#### 84. `server-room` — Server Room  **[PHOTO]**
+
+> A data centre aisle photographed down its length. A perforated raised floor in the near ground, black equipment racks rising on both sides carrying hundreds of small green and amber indicators, bundled cabling overhead, a glass door at the far end. Near-black and cold blue with fine green-amber points. Racks recede in strong perspective; the indicators read as fine texture rather than glare and the aisle stays dark.
+
+#### 85. `newsroom-evening` — Newsroom  **[PHOTO]**
+
+> A working newsroom photographed across the desks in the evening. Cluttered desks with monitors, stacked paper and cold coffee in the near ground, a bank of muted wall screens showing indistinct footage, whiteboards covered in illegible scrawl, strip lighting overhead, glass-partitioned offices behind. Grey-blue with warm desk lamps and faint screen glow. Desks fill the foreground; screens are dim and their content unreadable.
+
+#### 86. `container-yard-dawn` — Container Yard  **[PHOTO]**
+
+> A shipping container yard photographed at first light. Wet concrete with painted markings in the near ground, stacks of weathered containers in rows three and four high, a gantry crane silhouetted behind them, floodlight masts still burning against a pale dawn sky. Rust red, faded blue and green against grey concrete. Container stacks form strong horizontal bands; floodlights are small and haloed and the sky stays pale and flat.
+
+#### 87. `multistorey-carpark` — Parking Deck  **[PHOTO]**
+
+> An almost empty multistorey car park deck photographed down the bays. Oil-stained concrete with faded painted bay lines in the near ground, squat columns marching away, two parked cars, sodium fittings on the low ceiling, open sides showing dark sky between the parapets. Concrete grey with spaced sodium amber pools. The low ceiling compresses the frame; light pools are uneven with long dim stretches between them.
+
+#### 88. `indoor-pool-empty` — Empty Swimming Pool  **[PHOTO]**
+
+> An empty indoor public swimming pool photographed from the poolside. Wet non-slip tiling and a lane rope reel in the near ground, perfectly still water holding rippled reflections with lane markings beneath, tiled walls and a high window band, a diving block at one end. Cold aqua, white tile and pale grey. Water fills the midground; reflected caustics play softly across wall and ceiling with no bright window in frame.
+
+#### 89. `hotel-corridor` — Hotel Corridor  **[PHOTO]**
+
+> A hotel corridor photographed down its length under low wall lighting. Patterned carpet running away in the near ground, identical numbered doors receding on both sides, wall sconces at regular intervals, a mirror and side table at the far end, a fire door part way along. Muted gold, burgundy and brown with warm pooled sconce light. Strong repeating perspective; the sconces make regular small pools and the far end falls into shadow.
+
+#### 90. `university-lecture-hall` — Lecture Theatre  **[PHOTO]**
+
+> An empty raked university lecture theatre photographed from the lowest tier looking up. A lectern and a long whiteboard carrying faint illegible writing in the near ground, tiered rows of fixed timber seats and desks rising steeply away, downlights over the aisles, acoustic panelling. Warm timber, grey-green upholstery and cold ceiling light. Seat tiers sweep upward filling the frame; lighting is even with no bright window.
+
+### Traditional East Asia
+
+#### 91. `japanese-temple-garden` — Temple Garden  **[PAINT]**
+
+> A Japanese temple garden in soft overcast light. Deep green moss and a stone water basin in the near ground, raked gravel beyond it, clipped shrubs and the twisted trunks of old maples, a timber veranda with shoji screens running along one side. Moss green, wet grey stone and dark timber. The veranda edges one side of the frame; light is flat and diffuse with no sun patch and the detail sits low.
+
+#### 92. `torii-path-forest` — Path of Torii Gates  **[PAINT]**
+
+> A path of vermilion torii gates climbing through dense cedar forest. Worn stone steps in the near ground, the gates standing close enough to form a receding tunnel, their posts weathered, tall dark cedar trunks pressing in on both sides, green light filtering from far above. Saturated vermilion against deep green-black and grey stone. The gate tunnel drives strong repeating perspective; light enters only as soft patches from overhead.
+
+#### 93. `ryokan-tatami-room` — Ryokan Room  **[PAINT]**
+
+> A traditional ryokan tatami room in soft afternoon light. A low lacquered table with a tea set on pale tatami in the near ground, a folded cushion, a tokonoma alcove holding a hanging scroll and a single stem, shoji screens slid partly open onto green garden. Pale straw, off-white paper and dark timber framing. The shoji diffuse the light to an even glow and the garden beyond stays soft and unresolved.
+
+#### 94. `onsen-town-snow` — Hot Spring Town  **[PAINT]**
+
+> A Japanese hot spring town under heavy snow at dusk. A stone-lined river steaming in the near ground with snow banked along it, three-storey timber inns crowding both banks with lit paper lanterns and glowing windows, a small arched bridge, steep snowy hills behind. Warm lantern amber against blue snow shadow and dark timber. Steam softens the midground; lantern lights are many and small rather than one bright source.
+
+#### 95. `suzhou-garden-moongate` — Scholar's Garden  **[PAINT]**
+
+> A classical Chinese scholar's garden in soft light. A whitewashed wall with a circular moon gate in the near ground framing a further courtyard, weathered limestone rockery and a still pond with lotus pads to one side, a latticed pavilion window, banana leaf and bamboo. Whitewash, grey tile, pond green and dark timber. The moon gate frames a second depth; light is diffuse and the whitewashed wall is held to a soft mid-grey rather than bright.
+
+#### 96. `siheyuan-courtyard` — Courtyard House  **[PAINT]**
+
+> A traditional Chinese siheyuan courtyard in late afternoon. Grey flagstones and a large glazed water vat in the near ground, single-storey wings with timber lattice windows and faded red-painted doors enclosing all four sides, a bare jujube tree at the centre, grey tiled roofs against a pale sky. Grey brick and tile, oxidised red and dull green lattice. Roofs frame the top, the open sky is a modest square and the light stays flat.
+
+#### 97. `rice-terraces-morning` — Rice Terraces  **[PAINT]**
+
+> Flooded rice terraces stepping down a steep hillside at dawn. Curved mud bunds and shallow water holding a mirrored sky in the near terraces, the terraces repeating in nested curves down and away, mist lying along the valley, a small thatched shelter among them. Silver water, mud brown and new-shoot green under a pale sky. Terrace curves lead the eye down and back; the mirrored sky stays soft and mid-toned rather than bright.
+
+#### 98. `tibetan-monastery-cliff` — Cliff Monastery  **[PAINT]**
+
+> A Tibetan monastery built into a high cliff face under a deep blue sky. Rough stone steps and a line of weathered prayer flags strung across the near ground, whitewashed walls with dark trapezoid windows and crimson and ochre bands stacked up the rock, bare brown mountains beyond. Whitewash, deep crimson and ochre against brown rock and saturated blue. The buildings climb one side; the sky is deep and dark-toned rather than bright.
+
+### South Asia and the Middle East
+
+#### 99. `indian-street-monsoon` — Monsoon Street  **[PHOTO]**
+
+> A crowded Indian city street in heavy monsoon rain, photographed at street level. Ankle-deep water running over broken tarmac in the near ground with rain rings across it, open shopfronts under tarpaulin awnings on both sides, an auto-rickshaw at the kerb, tangled overhead cables, grey sheeting rain flattening the distance. Saturated awning colour against grey rain and dark wet road, signage illegible. Rain softens everything past the near ground and no bright sky shows.
+
+#### 100. `varanasi-ghats-dawn` — River Ghats  **[PAINT]**
+
+> Wide stone ghat steps descending to a slow brown river at first light. Worn uneven steps and a moored wooden boat in the near ground, tiered palaces and shrines rising behind in faded ochre and rose, thin smoke drifting along the bank, mist dissolving the far shore. Ochre, rose, river brown and pale gold. Steps lead down and across the frame; the sun stays off-frame and the far bank fades to nothing.
+
+#### 101. `stepwell-geometric` — Stepwell  **[PAINT]**
+
+> A vast Indian stepwell seen from the upper edge looking down. Symmetrical flights of sandstone steps crossing and recrossing as they descend in tiers, deep shadow gathering between them, still dark green water at the bottom, carved pillared niches in the side walls. Warm sandstone ochre against deep shadow and black-green water. Repeating geometry fills the frame; sunlight catches only the upper tiers and the depths stay dark.
+
+#### 102. `caravanserai-night` — Caravanserai  **[PAINT]**
+
+> A desert caravanserai courtyard at night. Sand-dusted flagstones and stacked bundles in the near ground, couched camels in shadow, a double tier of arched brick arcades enclosing the court with small fires and oil lamps burning beneath them, a star-filled sky over the open centre. Warm firelight amber against cold blue night and mud-brick brown. Fires read as many small pools around the arcade and the open sky stays dark.
+
+#### 103. `mughal-palace-courtyard` — Palace Courtyard  **[PAINT]**
+
+> A Mughal palace courtyard in the heat of the afternoon. A narrow marble water channel running away down the centre of the near ground, red sandstone arcades with scalloped arches on both sides, inlaid marble panels, a domed pavilion closing the far end, a bleached hazy sky. Red sandstone, cream marble and washed-out blue. Strong central symmetry; the water channel is kept dull rather than mirror-bright and the sky is hazed down.
+
+### Africa, Latin America, Central Asia
+
+#### 104. `savanna-acacia-dusk` — Savanna at Dusk  **[PAINT]**
+
+> Open African savanna at dusk. Dry tussock grass and a termite mound in the near ground, scattered flat-topped acacias in silhouette across the middle distance, a herd reduced to small dark shapes far off, a low escarpment on the horizon under a dust-thickened sky. Straw gold, burnt orange and deep violet shadow. Acacia silhouettes break the horizon; the sun stays off-frame with its glow spread across the sky band.
+
+#### 105. `mudbrick-town-sahel` — Mud-Brick Town  **[PAINT]**
+
+> A Sahelian mud-brick town in hard late afternoon light. A sculpted earthen wall with projecting timber beams in the near ground, narrow shaded lanes between rounded buildings, a stepped mosque tower rising behind, flat roofs stacked up the slope, dust haze over everything. A near-uniform earth ochre with deep blue-brown shadow. Wall texture carries the foreground; shadows are strong but the sky is small and hazed.
+
+#### 106. `rift-valley-lake` — Soda Lake  **[PAINT]**
+
+> A shallow East African soda lake seen from the shore. Cracked white alkaline flats and a rim of crusted salt in the near ground, pale green shallow water beyond, a distant pink band of flamingos, a hazy volcanic escarpment across the far side under a high sky. Bone white, alkaline green and dusty violet. Horizontal banding dominates; the pink band is a thin accent and the sky is hazed to a flat pale tone.
+
+#### 107. `colonial-plaza-siesta` — Colonial Plaza  **[PAINT]**
+
+> A Spanish colonial plaza in the dead heat of afternoon. Worn paving and the base of a stone fountain in the near ground, a deep shaded arcade running along one side, pastel stucco facades with closed timber shutters and wrought-iron balconies, a twin-towered church closing the far end, palms and hard shadow. Faded ochre, rose and cream against deep shade. Arcade shadow anchors one side and the sunlit facades stay warm rather than glaring.
+
+#### 108. `andes-altiplano` — Altiplano  **[PAINT]**
+
+> A high Andean altiplano under an intense sky. Coarse tussock grass and scattered volcanic stone in the near ground, a flat pale plain running far back, a llama herd tiny in the middle distance, snow-capped volcanic cones along the horizon, a thin dirt track. Straw gold, mineral grey and deep saturated blue. The plain occupies the middle band and the sky is deep and dark-toned at the top rather than bright.
+
+#### 109. `amazon-river-town` — River Town  **[PAINT]**
+
+> A small Amazonian river town of stilt houses seen from the water. Brown river surface and a moored wooden boat in the near ground, timber houses raised on tall stilts with corrugated roofs and plank walkways strung between them, a dense green forest wall behind, a grey rain squall advancing from one side. River brown, weathered timber and saturated forest green under heavy cloud. Houses run as a band across the midground and the sky stays dim.
+
+#### 110. `steppe-yurt-mongolia` — Steppe  **[PAINT]**
+
+> A single white felt ger on open Mongolian steppe under an enormous sky. Cropped wind-flattened grass in the near ground, the ger with its orange-painted door and a tethered horse in the middle distance, a wisp of smoke from the crown, endless rolling grassland to a low horizon, towering cloud building far off. Felt white, grass ochre-green and slate cloud. The ger is small and off-centre; cloud fills the upper frame but stays grey rather than bright.
 
 ## When the images are ready
 
