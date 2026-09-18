@@ -25,6 +25,15 @@ to point at the new tag, which defeats the point of a remote catalog. jsDelivr c
 for roughly 12 hours, so a push goes live within that; `raw.githubusercontent` is uncached, which
 makes it the fast path when checking a manifest you just pushed.
 
+## Handing the scenes to an image agent
+
+`HANDOFF.md` is the file to give it: the brief plus all 100 prompts, and nothing else. It is
+generated, so edit `IMAGE-AGENT-BRIEF.md` or `PROMPTS.md` and regenerate rather than editing it
+directly.
+
+`PROMPTS.md` keeps the project history — why the style changed, what previous batches got wrong.
+That is for us, not for the agent, and sending it just costs tokens.
+
 ## Adding a scene
 
 1. Generate the art (see `PROMPTS.md`) at full resolution, named `<id>.<jpg|png>`.

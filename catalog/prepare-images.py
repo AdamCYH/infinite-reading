@@ -13,6 +13,9 @@ and never blurred (the app blurs at 8dp itself; blurring twice would just destro
 Renaming a .jpg to .webp does NOT convert it — the bytes stay JPEG and the size benefit is lost.
 This does a real re-encode.
 
+The overlay is a legibility guarantee, not a darkening effect, so it is searched from a floor
+rather than from a fixed default and only rises when the text needs it.
+
 It does compute one piece of metadata. Scenes render blurred under a dark overlay behind body
 text, and a bright sky can leave that text below WCAG AA. Each scene is simulated exactly as the
 reader sees it, and the minimum overlay opacity that keeps text legible is written into the
@@ -43,6 +46,20 @@ PHONE_W, PHONE_H = 1080, 2340
 
 MIN_CONTRAST = 4.5      # WCAG AA for body text
 MAX_OVERLAY_ALPHA = 0.88  # past this the scene is more overlay than art; warn instead
+
+# The overlay exists to guarantee text contrast, not to darken for its own sake. Searching upward
+# from 0.65 meant a scene that already cleared 4.5:1 at 0.45 still got 0.65 dropped on it, so dark
+# art was pushed into mud for no legibility gain. The search now starts here and only climbs if
+# the text needs it.
+MIN_OVERLAY_ALPHA = 0.45
+
+# Below this the art is too dark to read as a place and showing a background stops being worth
+# it. Measured on the *rendered* result - blurred, with this scene's own overlay applied - because
+# that is what the reader sees. An earlier version measured the source instead and was wrong about
+# which scenes were in trouble: a 0.05 source that earns a 0.45 overlay renders brighter than a
+# 0.09 source pushed to 0.72, so the source alone cannot tell you. For reference the rendered
+# median across the catalog sits near 0.038.
+MIN_FINAL_LUMINANCE = 0.020
 
 
 def _linear(c: float) -> float:
@@ -87,12 +104,29 @@ def worst_region_contrast(blurred: Image.Image, alpha: float) -> float:
 def required_overlay_alpha(im: Image.Image):
     """Minimum overlay opacity keeping text at MIN_CONTRAST. Returns (alpha, achieved)."""
     blurred = _blurred_for_measurement(im)
-    alpha = OVERLAY_ALPHA
+    alpha = MIN_OVERLAY_ALPHA
     achieved = worst_region_contrast(blurred, alpha)
     while achieved < MIN_CONTRAST and alpha < MAX_OVERLAY_ALPHA:
         alpha = round(alpha + 0.01, 2)
         achieved = worst_region_contrast(blurred, alpha)
     return alpha, achieved
+
+
+def scene_luminance(im: Image.Image) -> float:
+    """Mean relative luminance of the blurred scene, before any overlay.
+
+    This is the ceiling on how visible the art can ever be: the overlay only subtracts.
+    """
+    px = list(_blurred_for_measurement(im).resize((48, 104)).getdata())
+    return sum(luminance(p) for p in px) / len(px)
+
+
+def rendered_luminance(im: Image.Image, alpha: float) -> float:
+    """Mean luminance of the scene exactly as the reader sees it: blurred, then overlaid."""
+    blurred = _blurred_for_measurement(im)
+    final = Image.blend(blurred, Image.new("RGB", blurred.size, OVERLAY_RGB), alpha)
+    px = list(final.resize((48, 104)).getdata())
+    return sum(luminance(p) for p in px) / len(px)
 
 
 def main() -> int:
@@ -155,6 +189,14 @@ def main() -> int:
             warnings.append(
                 f"{scene_id}: only {achieved:.1f}:1 even at overlay {alpha:.2f} — the source is too "
                 f"bright. Regenerate it darker or with less open sky."
+            )
+        rendered = rendered_luminance(im, alpha)
+        if rendered < MIN_FINAL_LUMINANCE:
+            warnings.append(
+                f"{scene_id}: renders at {rendered:.3f} once blurred and overlaid, below "
+                f"{MIN_FINAL_LUMINANCE:.3f} — too dark to read as a place. Regenerate with light "
+                f"spread over larger areas (wet surfaces, sky glow, lit facades), not more small "
+                f"bright points."
             )
 
         out_path = os.path.join(out_dir, f"{scene_id}.webp")
