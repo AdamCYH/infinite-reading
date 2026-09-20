@@ -46,8 +46,13 @@
       },
       "keywords": [
         "city",
+        "glass",
+        "neon",
+        "pane",
         "rain",
-        "window"
+        "street",
+        "window",
+        "windowsill"
       ]
     },
     {
@@ -67,8 +72,11 @@
       },
       "keywords": [
         "desert",
-        "dunes",
-        "sky"
+        "dune",
+        "horizon",
+        "sand",
+        "sandstorm",
+        "wasteland"
       ]
     },
     {
@@ -86,10 +94,15 @@
         }
       },
       "keywords": [
+        "deck",
+        "gale",
+        "mast",
         "ocean",
         "sea",
-        "sky",
+        "ship",
+        "spray",
         "storm",
+        "swell",
         "wave"
       ]
     },
@@ -108,9 +121,13 @@
         }
       },
       "keywords": [
-        "candlelit",
-        "study",
-        "wood"
+        "bookshelf",
+        "candle",
+        "desk",
+        "ledger",
+        "quill",
+        "shutter",
+        "study"
       ]
     },
     {
@@ -128,9 +145,13 @@
         }
       },
       "keywords": [
-        "dusk",
+        "chimney",
+        "cottage",
+        "drift",
+        "hamlet",
+        "lane",
+        "smoke",
         "snow",
-        "snowbound",
         "village"
       ]
     },
@@ -150,7 +171,12 @@
       },
       "keywords": [
         "ballroom",
-        "grand"
+        "chandelier",
+        "dance",
+        "gilding",
+        "hall",
+        "mirror",
+        "staircase"
       ]
     },
     {
@@ -170,7 +196,12 @@
       },
       "keywords": [
         "abbey",
-        "ruined"
+        "arch",
+        "cloister",
+        "ivy",
+        "nave",
+        "rubble",
+        "ruin"
       ]
     },
     {
@@ -189,9 +220,11 @@
       },
       "keywords": [
         "carriage",
-        "steam",
-        "train",
-        "window"
+        "compartment",
+        "luggage",
+        "platform",
+        "railway",
+        "train"
       ]
     },
     {
@@ -210,8 +243,12 @@
         }
       },
       "keywords": [
+        "banner",
         "battlefield",
-        "field"
+        "camp",
+        "smoke",
+        "spear",
+        "trench"
       ]
     },
     {
@@ -229,11 +266,14 @@
         }
       },
       "keywords": [
+        "crate",
+        "dock",
+        "harbor",
         "harbour",
-        "island",
+        "palm",
+        "port",
         "quay",
-        "sea",
-        "tropical"
+        "wharf"
       ]
     },
     {
@@ -254,7 +294,10 @@
       "keywords": [
         "bamboo",
         "grove",
-        "mist"
+        "mist",
+        "path",
+        "stem",
+        "thicket"
       ]
     },
     {
@@ -272,9 +315,12 @@
         }
       },
       "keywords": [
-        "autumn",
         "birch",
-        "forest"
+        "canopy",
+        "clearing",
+        "forest",
+        "leaf",
+        "wood"
       ]
     },
     {
@@ -292,8 +338,11 @@
       },
       "overlayAlpha": 0.65,
       "keywords": [
-        "dusk",
+        "creek",
         "mangrove",
+        "marsh",
+        "mud",
+        "root",
         "swamp"
       ]
     },
@@ -313,8 +362,11 @@
       },
       "keywords": [
         "canyon",
-        "river",
-        "rock"
+        "cliff",
+        "gorge",
+        "mesa",
+        "ravine",
+        "sandstone"
       ]
     },
     {
@@ -332,9 +384,13 @@
         }
       },
       "keywords": [
+        "cave",
         "cavern",
         "chamber",
-        "limestone"
+        "limestone",
+        "pool",
+        "stalactite",
+        "underground"
       ]
     },
     {
@@ -353,8 +409,13 @@
         }
       },
       "keywords": [
+        "ash",
         "badlands",
-        "volcanic"
+        "crater",
+        "fissure",
+        "lava",
+        "sulphur",
+        "volcano"
       ]
     },
     {
@@ -373,7 +434,8 @@
       },
       "keywords": [
         "aurora",
-        "sky",
+        "horizon",
+        "ice",
         "tundra"
       ]
     },
@@ -394,8 +456,11 @@
       },
       "keywords": [
         "fog",
+        "heather",
         "highland",
-        "moor"
+        "moor",
+        "moorland",
+        "peat"
       ]
     },
     {
@@ -413,7 +478,11 @@
         }
       },
       "keywords": [
+        "basin",
         "jungle",
+        "pool",
+        "rainforest",
+        "vine",
         "waterfall"
       ]
     },
@@ -432,9 +501,12 @@
         }
       },
       "keywords": [
+        "cicada",
         "grove",
+        "hillside",
         "olive",
-        "sun",
+        "orchard",
+        "terrace",
         "valley"
       ]
     },
@@ -454,9 +526,12 @@
         }
       },
       "keywords": [
+        "bank",
         "frozen",
+        "ice",
         "lake",
-        "snow"
+        "shore",
+        "thaw"
       ]
     },
     {
@@ -475,8 +550,11 @@
         }
       },
       "keywords": [
-        "standing",
-        "stones"
+        "circle",
+        "grassland",
+        "henge",
+        "monolith",
+        "stone"
       ]
     },
     {
@@ -496,8 +574,11 @@
       },
       "keywords": [
         "cliff",
+        "coast",
+        "gull",
+        "headland",
         "path",
-        "sea"
+        "turf"
       ]
     },
     {
@@ -516,8 +597,11 @@
         }
       },
       "keywords": [
-        "fishing",
-        "northern",
+        "boat",
+        "cottage",
+        "harbour",
+        "jetty",
+        "net",
         "quay",
         "village"
       ]
@@ -537,10 +621,12 @@
         }
       },
       "keywords": [
+        "beam",
+        "cliff",
+        "coast",
         "headland",
         "lighthouse",
-        "rain",
-        "sea"
+        "rock"
       ]
     },
     {
@@ -558,8 +644,11 @@
         }
       },
       "keywords": [
-        "field",
+        "barn",
+        "crop",
+        "farm",
         "harvest",
+        "meadow",
         "wheat"
       ]
     },
@@ -578,9 +667,12 @@
         }
       },
       "keywords": [
-        "autumn",
-        "mist",
+        "grape",
+        "harvest",
+        "hillside",
+        "slope",
         "valley",
+        "vine",
         "vineyard"
       ]
     },
@@ -599,8 +691,11 @@
         }
       },
       "keywords": [
+        "abbey",
+        "arcade",
         "cloister",
-        "garden",
+        "colonnade",
+        "courtyard",
         "monastery"
       ]
     },
@@ -621,7 +716,10 @@
       "overlayAlpha": 0.65,
       "keywords": [
         "blossom",
-        "orchard"
+        "branch",
+        "grass",
+        "orchard",
+        "petal"
       ]
     },
     {
@@ -639,7 +737,12 @@
         }
       },
       "keywords": [
-        "shepherd"
+        "grazing",
+        "hillside",
+        "hut",
+        "moor",
+        "pasture",
+        "upland"
       ]
     },
     {
@@ -657,10 +760,11 @@
         }
       },
       "keywords": [
+        "cemetery",
         "churchyard",
-        "country",
-        "mist",
-        "village"
+        "grave",
+        "headstone",
+        "yew"
       ]
     },
     {
@@ -679,10 +783,12 @@
         }
       },
       "keywords": [
+        "awning",
+        "cobble",
         "market",
-        "medieval",
+        "marketplace",
         "square",
-        "town"
+        "stall"
       ]
     },
     {
@@ -701,10 +807,11 @@
       },
       "keywords": [
         "alley",
-        "city",
+        "backstreet",
+        "cobble",
         "lamp",
-        "narrow",
-        "street"
+        "lane",
+        "passage"
       ]
     },
     {
@@ -723,10 +830,9 @@
       },
       "keywords": [
         "chimney",
-        "city",
-        "dusk",
-        "rooftops",
-        "sea"
+        "rooftop",
+        "skyline",
+        "tile"
       ]
     },
     {
@@ -745,9 +851,11 @@
       },
       "overlayAlpha": 0.65,
       "keywords": [
-        "grand",
+        "concourse",
+        "platform",
         "railway",
-        "station"
+        "station",
+        "terminus"
       ]
     },
     {
@@ -765,9 +873,11 @@
         }
       },
       "keywords": [
-        "floor",
+        "factory",
+        "loom",
         "mill",
-        "textile"
+        "shaft",
+        "workshop"
       ]
     },
     {
@@ -786,10 +896,11 @@
         }
       },
       "keywords": [
-        "dockside",
-        "fog",
-        "river",
-        "warehouses",
+        "crane",
+        "crate",
+        "dock",
+        "quay",
+        "warehouse",
         "wharf"
       ]
     },
@@ -808,9 +919,12 @@
         }
       },
       "keywords": [
-        "city",
         "metro",
-        "platform"
+        "platform",
+        "station",
+        "subway",
+        "tunnel",
+        "underground"
       ]
     },
     {
@@ -828,7 +942,13 @@
         }
       },
       "keywords": [
-        "bazaar"
+        "arcade",
+        "bazaar",
+        "carpet",
+        "lantern",
+        "market",
+        "souk",
+        "stall"
       ]
     },
     {
@@ -847,10 +967,11 @@
         }
       },
       "keywords": [
+        "alley",
         "courtyard",
-        "sky",
-        "square",
-        "tenement"
+        "tenement",
+        "washing",
+        "yard"
       ]
     },
     {
@@ -868,10 +989,12 @@
         }
       },
       "keywords": [
+        "booth",
+        "counter",
         "diner",
-        "road",
-        "roadside",
-        "town"
+        "highway",
+        "neon",
+        "restaurant"
       ]
     },
     {
@@ -890,10 +1013,14 @@
         }
       },
       "keywords": [
+        "aisle",
+        "altar",
         "cathedral",
-        "floor",
+        "church",
+        "column",
         "nave",
-        "shadow"
+        "pew",
+        "transept"
       ]
     },
     {
@@ -911,7 +1038,11 @@
         }
       },
       "keywords": [
-        "courtroom"
+        "bench",
+        "court",
+        "courtroom",
+        "dock",
+        "gallery"
       ]
     },
     {
@@ -929,9 +1060,10 @@
         }
       },
       "keywords": [
+        "clinic",
         "hospital",
-        "lamp",
-        "shadow",
+        "infirmary",
+        "nurse",
         "ward"
       ]
     },
@@ -950,7 +1082,11 @@
         }
       },
       "keywords": [
-        "house",
+        "auditorium",
+        "balcony",
+        "curtain",
+        "stage",
+        "theater",
         "theatre"
       ]
     },
@@ -970,8 +1106,10 @@
       },
       "keywords": [
         "farmhouse",
-        "house",
-        "kitchen"
+        "flagstone",
+        "hearth",
+        "kitchen",
+        "pantry"
       ]
     },
     {
@@ -991,7 +1129,8 @@
       },
       "keywords": [
         "attic",
-        "window"
+        "loft",
+        "rafter"
       ]
     },
     {
@@ -1010,9 +1149,10 @@
         }
       },
       "keywords": [
-        "floor",
-        "hall",
-        "room",
+        "banner",
+        "court",
+        "dais",
+        "palace",
         "throne"
       ]
     },
@@ -1033,9 +1173,10 @@
       },
       "keywords": [
         "cell",
-        "floor",
-        "prison",
-        "wall"
+        "dungeon",
+        "gaol",
+        "jail",
+        "prison"
       ]
     },
     {
@@ -1053,8 +1194,11 @@
         }
       },
       "keywords": [
+        "glassware",
+        "instrument",
         "laboratory",
-        "victorian"
+        "specimen",
+        "workshop"
       ]
     },
     {
@@ -1072,7 +1216,12 @@
         }
       },
       "keywords": [
-        "glasshouse"
+        "conservatory",
+        "fern",
+        "glasshouse",
+        "greenhouse",
+        "palm",
+        "pane"
       ]
     },
     {
@@ -1090,9 +1239,10 @@
         }
       },
       "keywords": [
-        "room",
+        "chamber",
+        "orrery",
+        "sigil",
         "tower",
-        "wizard",
         "workroom"
       ]
     },
@@ -1112,7 +1262,10 @@
       },
       "keywords": [
         "corridor",
-        "dungeon"
+        "dungeon",
+        "passage",
+        "torch",
+        "vault"
       ]
     },
     {
@@ -1133,9 +1286,8 @@
         "airship",
         "cabin",
         "cloud",
-        "floor",
-        "gondola",
-        "window"
+        "deck",
+        "gondola"
       ]
     },
     {
@@ -1153,10 +1305,11 @@
         }
       },
       "keywords": [
-        "city",
-        "overgrown",
-        "ruins",
-        "street"
+        "facade",
+        "rubble",
+        "ruin",
+        "sapling",
+        "vine"
       ]
     },
     {
@@ -1174,9 +1327,12 @@
         }
       },
       "keywords": [
+        "alley",
         "backstreet",
-        "city",
-        "tokyo"
+        "izakaya",
+        "lantern",
+        "tokyo",
+        "vending"
       ]
     },
     {
@@ -1194,9 +1350,13 @@
         }
       },
       "keywords": [
+        "aisle",
         "convenience",
-        "store",
-        "street"
+        "counter",
+        "fluorescent",
+        "shelf",
+        "shop",
+        "store"
       ]
     },
     {
@@ -1215,9 +1375,11 @@
         }
       },
       "keywords": [
-        "bullet",
-        "train",
-        "window"
+        "carriage",
+        "paddy",
+        "railway",
+        "rice",
+        "train"
       ]
     },
     {
@@ -1238,9 +1400,9 @@
       "keywords": [
         "apartment",
         "balcony",
-        "city",
-        "room",
-        "tokyo"
+        "flat",
+        "futon",
+        "tatami"
       ]
     },
     {
@@ -1258,10 +1420,12 @@
         }
       },
       "keywords": [
-        "roof",
+        "arcade",
+        "lantern",
+        "mall",
+        "shop",
         "shopping",
-        "street",
-        "town"
+        "shutter"
       ]
     },
     {
@@ -1280,13 +1444,11 @@
         }
       },
       "keywords": [
-        "city",
-        "high",
-        "hong",
-        "kong",
-        "rises",
-        "sky",
-        "street"
+        "apartment",
+        "balcony",
+        "flat",
+        "highrise",
+        "tower"
       ]
     },
     {
@@ -1304,12 +1466,11 @@
         }
       },
       "keywords": [
-        "bank",
-        "city",
-        "dusk",
-        "river",
+        "embankment",
+        "quay",
         "riverfront",
-        "shanghai"
+        "tower",
+        "waterfront"
       ]
     },
     {
@@ -1328,11 +1489,11 @@
         }
       },
       "keywords": [
-        "city",
-        "house",
+        "alley",
+        "courtyard",
         "lane",
-        "shanghai",
-        "wall"
+        "terrace",
+        "washing"
       ]
     },
     {
@@ -1352,11 +1513,11 @@
       },
       "keywords": [
         "alley",
-        "beijing",
+        "bicycle",
+        "brick",
         "courtyard",
-        "doorway",
         "hutong",
-        "winter"
+        "lane"
       ]
     },
     {
@@ -1374,9 +1535,10 @@
         }
       },
       "keywords": [
+        "apartment",
         "city",
         "rooftop",
-        "seoul"
+        "tank"
       ]
     },
     {
@@ -1395,7 +1557,11 @@
         }
       },
       "keywords": [
-        "kitchen"
+        "counter",
+        "kitchen",
+        "mug",
+        "sink",
+        "worktop"
       ]
     },
     {
@@ -1415,7 +1581,8 @@
       },
       "keywords": [
         "bedroom",
-        "room"
+        "curtain",
+        "wardrobe"
       ]
     },
     {
@@ -1433,9 +1600,11 @@
         }
       },
       "keywords": [
-        "house",
-        "living",
-        "room"
+        "cushion",
+        "lounge",
+        "screen",
+        "sofa",
+        "television"
       ]
     },
     {
@@ -1453,8 +1622,10 @@
         }
       },
       "keywords": [
+        "apartment",
         "balcony",
-        "city"
+        "railing",
+        "terrace"
       ]
     },
     {
@@ -1471,7 +1642,15 @@
           "scrim": 0.66
         }
       },
-      "keywords": []
+      "keywords": [
+        "barista",
+        "bistro",
+        "cafe",
+        "café",
+        "coffee",
+        "counter",
+        "terrace"
+      ]
     },
     {
       "id": "supermarket-aisle-night",
@@ -1490,8 +1669,13 @@
       },
       "keywords": [
         "aisle",
+        "checkout",
+        "grocery",
+        "shelf",
         "shop",
-        "supermarket"
+        "store",
+        "supermarket",
+        "trolley"
       ]
     },
     {
@@ -1509,9 +1693,11 @@
         }
       },
       "keywords": [
-        "dusk",
+        "driveway",
+        "house",
+        "lawn",
         "street",
-        "suburban"
+        "suburb"
       ]
     },
     {
@@ -1529,9 +1715,9 @@
         }
       },
       "keywords": [
-        "motel",
-        "road",
-        "room"
+        "curtain",
+        "hotel",
+        "motel"
       ]
     },
     {
@@ -1549,7 +1735,11 @@
         }
       },
       "keywords": [
+        "dashboard",
+        "headlight",
         "highway",
+        "lane",
+        "motorway",
         "road"
       ]
     },
@@ -1569,8 +1759,12 @@
         }
       },
       "keywords": [
+        "airport",
+        "apron",
+        "concourse",
         "departure",
-        "gate"
+        "gate",
+        "terminal"
       ]
     },
     {
@@ -1588,8 +1782,11 @@
         }
       },
       "keywords": [
-        "lamp",
-        "office"
+        "cubicle",
+        "desk",
+        "monitor",
+        "office",
+        "workplace"
       ]
     },
     {
@@ -1609,7 +1806,9 @@
       },
       "keywords": [
         "interview",
-        "room"
+        "precinct",
+        "recorder",
+        "station"
       ]
     },
     {
@@ -1628,8 +1827,12 @@
         }
       },
       "keywords": [
+        "clinic",
         "corridor",
-        "hospital"
+        "hallway",
+        "handrail",
+        "hospital",
+        "ward"
       ]
     },
     {
@@ -1647,7 +1850,10 @@
         }
       },
       "keywords": [
-        "room",
+        "datacenter",
+        "datacentre",
+        "machine",
+        "rack",
         "server"
       ]
     },
@@ -1666,8 +1872,11 @@
         }
       },
       "keywords": [
+        "carpet",
         "corridor",
-        "hotel"
+        "hallway",
+        "hotel",
+        "landing"
       ]
     },
     {
@@ -1685,8 +1894,12 @@
         }
       },
       "keywords": [
-        "city",
+        "basin",
         "garden",
+        "gravel",
+        "maple",
+        "moss",
+        "shrine",
         "temple"
       ]
     },
@@ -1705,9 +1918,11 @@
         }
       },
       "keywords": [
+        "cedar",
         "forest",
-        "gates",
+        "gate",
         "path",
+        "shrine",
         "torii"
       ]
     },
@@ -1726,9 +1941,11 @@
         }
       },
       "keywords": [
-        "garden",
-        "room",
-        "ryokan"
+        "alcove",
+        "inn",
+        "ryokan",
+        "screen",
+        "tatami"
       ]
     },
     {
@@ -1746,9 +1963,12 @@
         }
       },
       "keywords": [
-        "river",
-        "snow",
+        "bathhouse",
+        "inn",
+        "lantern",
+        "onsen",
         "spring",
+        "steam",
         "town"
       ]
     },
@@ -1770,9 +1990,10 @@
       "keywords": [
         "courtyard",
         "garden",
-        "gate",
-        "moon",
-        "scholar"
+        "moongate",
+        "pavilion",
+        "pond",
+        "rockery"
       ]
     },
     {
@@ -1791,10 +2012,10 @@
         }
       },
       "keywords": [
+        "compound",
         "courtyard",
-        "house",
-        "roof",
-        "tree"
+        "gate",
+        "siheyuan"
       ]
     },
     {
@@ -1813,10 +2034,10 @@
         }
       },
       "keywords": [
-        "dawn",
+        "hillside",
+        "paddy",
         "rice",
-        "sky",
-        "terraces"
+        "terrace"
       ]
     },
     {
@@ -1834,8 +2055,12 @@
         }
       },
       "keywords": [
+        "altitude",
         "cliff",
-        "monastery"
+        "monastery",
+        "mountain",
+        "prayer",
+        "temple"
       ]
     },
     {
@@ -1854,8 +2079,10 @@
         }
       },
       "keywords": [
+        "bazaar",
         "monsoon",
         "rain",
+        "shopfront",
         "street"
       ]
     },
@@ -1875,8 +2102,11 @@
       },
       "keywords": [
         "bank",
-        "ghats",
-        "river"
+        "boat",
+        "ghat",
+        "river",
+        "step",
+        "temple"
       ]
     },
     {
@@ -1894,6 +2124,8 @@
         }
       },
       "keywords": [
+        "cistern",
+        "stair",
         "stepwell"
       ]
     },
@@ -1912,11 +2144,12 @@
         }
       },
       "keywords": [
+        "arcade",
+        "camel",
         "caravanserai",
         "courtyard",
         "desert",
-        "inn",
-        "road"
+        "inn"
       ]
     },
     {
@@ -1935,10 +2168,12 @@
         }
       },
       "keywords": [
+        "arcade",
         "courtyard",
+        "marble",
         "palace",
-        "sky",
-        "sun"
+        "pavilion",
+        "sandstone"
       ]
     },
     {
@@ -1956,6 +2191,9 @@
         }
       },
       "keywords": [
+        "acacia",
+        "bush",
+        "grassland",
         "savanna"
       ]
     },
@@ -1974,10 +2212,12 @@
         }
       },
       "keywords": [
+        "beam",
         "brick",
-        "desert",
-        "sun",
-        "town"
+        "mudbrick",
+        "street",
+        "town",
+        "wall"
       ]
     },
     {
@@ -1996,8 +2236,11 @@
         }
       },
       "keywords": [
+        "escarpment",
+        "flamingo",
         "lake",
-        "soda"
+        "shore",
+        "valley"
       ]
     },
     {
@@ -2016,9 +2259,11 @@
         }
       },
       "keywords": [
-        "colonial",
+        "arcade",
+        "colonnade",
         "plaza",
-        "shadow"
+        "shutter",
+        "square"
       ]
     },
     {
@@ -2037,7 +2282,9 @@
       },
       "keywords": [
         "altiplano",
-        "snow",
+        "mountain",
+        "peak",
+        "plateau",
         "track"
       ]
     },
@@ -2057,9 +2304,11 @@
         }
       },
       "keywords": [
+        "bank",
+        "boat",
         "forest",
-        "rain",
         "river",
+        "stilt",
         "town"
       ]
     },
@@ -2078,7 +2327,11 @@
         }
       },
       "keywords": [
-        "steppe"
+        "grassland",
+        "horse",
+        "steppe",
+        "tent",
+        "yurt"
       ]
     }
   ]
