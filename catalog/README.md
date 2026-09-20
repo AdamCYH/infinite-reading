@@ -46,6 +46,15 @@ That is for us, not for the agent, and sending it just costs tokens.
    It exits non-zero on a mismatch, which is the common mistake.
 4. Add an entry to `manifest.json` with a matching `id` and `imageUrl`.
 5. Bump `version` and push to `main`.
+6. **Purge the CDN**, or readers keep the old catalog for up to twelve hours:
+
+       curl https://purge.jsdelivr.net/gh/AdamCYH/infinite-reading@main/catalog/manifest.json
+
+   jsDelivr caches a branch at the edge for twelve hours (`s-maxage=43200`), and different edges
+   expire independently, so "I can see the new file" does not mean a phone can. The app refuses a
+   mirror that offers an older `version` than it already holds, so a stale edge can no longer undo
+   a publish - but until the purge lands, a reader who has never fetched the new one still gets
+   the old.
 
 A scene with a good image and no naming words is close to invisible: it can only be reached by
 the slow route, and only when several pages happen to agree on it.
