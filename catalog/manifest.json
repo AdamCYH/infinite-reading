@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "version": 6,
+  "version": 7,
   "embeddingModel": null,
   "profiles": {
     "scrim-lerp-1": {
@@ -54,6 +54,11 @@
         "window",
         "windowsill"
       ],
+      "cues": [
+        "downpour",
+        "drizzle",
+        "traffic"
+      ],
       "examples": [
         "She stood at the window with the lights off, watching the rain run down the glass and the traffic smear red and white below.",
         "He pressed his forehead to the cold pane. Outside, the neon across the street bled into the wet, and nobody on the pavement looked up."
@@ -81,6 +86,11 @@
         "sand",
         "sandstorm",
         "wasteland"
+      ],
+      "cues": [
+        "camel",
+        "caravan",
+        "heat"
       ],
       "examples": [
         "By noon the sand was too hot to touch. They walked the ridge of the dune with their heads down and the horizon shaking in the heat.",
@@ -113,6 +123,11 @@
         "swell",
         "wave"
       ],
+      "cues": [
+        "hull",
+        "rigging",
+        "sailor"
+      ],
       "examples": [
         "The deck dropped away under him and came back up hard. Spray came over the rail in sheets and the mast groaned against the wind.",
         "They lashed everything down that could be lashed and watched the next wave build, black and higher than the last."
@@ -140,6 +155,11 @@
         "quill",
         "shutter",
         "study"
+      ],
+      "cues": [
+        "letter",
+        "manuscript",
+        "pen"
       ],
       "examples": [
         "He worked on by the light of one candle, the ledger open in front of him and the shutters closed against the street.",
@@ -170,6 +190,11 @@
         "snow",
         "village"
       ],
+      "cues": [
+        "blizzard",
+        "frost",
+        "sledge"
+      ],
       "examples": [
         "The snow had come up to the sills overnight. Smoke went straight up from every chimney and the lane was a single set of tracks.",
         "They stamped their boots in the doorway. Through the window the village was quiet under the snow, a few windows lit."
@@ -197,6 +222,11 @@
         "hall",
         "mirror",
         "staircase"
+      ],
+      "cues": [
+        "gown",
+        "orchestra",
+        "waltz"
       ],
       "examples": [
         "The chandeliers were lit and the floor was full. She took his arm and they went in under the mirrors.",
@@ -227,6 +257,11 @@
         "rubble",
         "ruin"
       ],
+      "cues": [
+        "column",
+        "grave",
+        "stone"
+      ],
       "examples": [
         "They climbed through the broken arch into what had been the nave. Ivy had the walls, and the sky was where the roof should be.",
         "He sat on a fallen block of stone among the rubble. Weak light came through the empty windows of the abbey."
@@ -253,6 +288,12 @@
         "platform",
         "railway",
         "train"
+      ],
+      "cues": [
+        "rail",
+        "seat",
+        "whistle",
+        "window"
       ],
       "examples": [
         "The carriage swayed and the fields went past the window, green and then gold. He set his case on the rack and sat down.",
@@ -281,6 +322,12 @@
         "smoke",
         "spear",
         "trench"
+      ],
+      "cues": [
+        "army",
+        "cannon",
+        "corpse",
+        "soldier"
       ],
       "examples": [
         "At first light the field was grey and quiet. Smoke drifted low over the grass and the banners on the far ridge did not move.",
@@ -311,6 +358,11 @@
         "quay",
         "wharf"
       ],
+      "cues": [
+        "cargo",
+        "fisherman",
+        "schooner"
+      ],
       "examples": [
         "The quay was loud with heat and men and crates. Ships rode at anchor beyond the palms, their sails furled.",
         "He came down the gangway into the smell of tar and fruit. The harbour water was green and full of small boats."
@@ -339,6 +391,11 @@
         "stem",
         "thicket"
       ],
+      "cues": [
+        "cane",
+        "rustle",
+        "stalk"
+      ],
       "examples": [
         "The path went in between the bamboo and the mist closed behind them. The stems creaked overhead in a wind they could not feel.",
         "She stopped in the grove and listened. Nothing but the bamboo knocking together and water dripping off the leaves."
@@ -366,6 +423,11 @@
         "leaf",
         "wood"
       ],
+      "cues": [
+        "bark",
+        "trunk",
+        "undergrowth"
+      ],
       "examples": [
         "The birches were white against the gold, and the leaves came down whenever the wind moved. They walked without talking.",
         "He went in under the trees. The ground was deep in leaves and the light came through the canopy the colour of honey."
@@ -376,6 +438,7 @@
       "name": "Mangrove Swamp at Dusk",
       "description": "Brackish water threading between tangled mangrove roots at dusk, still and thick with insects, no firm ground anywhere. Humid, claustrophobic, uneasy. Suits escapes through wetland, fevers, smuggling, and places where a body would never be found.",
       "imageUrl": "scenes/mangrove-swamp-dusk.webp",
+      "overlayAlpha": 0.65,
       "render": {
         "scrim-lerp-1": {
           "scrim": 0.65
@@ -384,7 +447,6 @@
           "scrim": 0.58
         }
       },
-      "overlayAlpha": 0.65,
       "keywords": [
         "creek",
         "mangrove",
@@ -392,6 +454,11 @@
         "mud",
         "root",
         "swamp"
+      ],
+      "cues": [
+        "insect",
+        "mosquito",
+        "tide"
       ],
       "examples": [
         "The boat pushed in among the mangrove roots. The water was brown and still and the insects started as the light went.",
@@ -420,6 +487,11 @@
         "ravine",
         "sandstone"
       ],
+      "cues": [
+        "butte",
+        "dust",
+        "rim"
+      ],
       "examples": [
         "The canyon walls went up on either side, red and striped, and the river was a thread far below.",
         "She stood at the edge of the gorge. The sandstone was warm under her hand and the drop went down for ever."
@@ -447,6 +519,11 @@
         "pool",
         "stalactite",
         "underground"
+      ],
+      "cues": [
+        "echo",
+        "stalagmite",
+        "torch"
       ],
       "examples": [
         "The torch showed a chamber so large the roof was lost. Still water lay across the floor, holding the stalactites upside down.",
@@ -477,6 +554,13 @@
         "sulphur",
         "volcano"
       ],
+      "cues": [
+        "basalt",
+        "crust",
+        "smoke",
+        "steam",
+        "vent"
+      ],
       "examples": [
         "The ground was black rock and yellow crust, and steam came up out of cracks in it. Nothing grew anywhere.",
         "They picked their way across the lava field. The air stank of sulphur and the heat came up through their boots."
@@ -501,6 +585,12 @@
         "horizon",
         "ice",
         "tundra"
+      ],
+      "cues": [
+        "frost",
+        "night sky",
+        "polar",
+        "snow"
       ],
       "examples": [
         "The green light moved across the whole sky and the frozen plain ran out under it to the horizon, silent.",
@@ -530,6 +620,11 @@
         "moorland",
         "peat"
       ],
+      "cues": [
+        "bracken",
+        "gorse",
+        "sheep"
+      ],
       "examples": [
         "The fog had the moor. Drystone walls appeared and vanished as they walked, and the heather was wet to the knee.",
         "He lost the path in the peat and stood still, listening. Somewhere in the fog a sheep coughed."
@@ -556,6 +651,11 @@
         "rainforest",
         "vine",
         "waterfall"
+      ],
+      "cues": [
+        "cascade",
+        "humidity",
+        "spray"
       ],
       "examples": [
         "The waterfall came down into the pool with a noise that filled the whole basin. Spray hung in the air and the vines dripped.",
@@ -585,6 +685,10 @@
         "terrace",
         "valley"
       ],
+      "cues": [
+        "shade",
+        "stone wall"
+      ],
       "examples": [
         "The olives were silver in the heat and the cicadas never stopped. She sat on the terrace wall and looked down into the valley.",
         "He walked between the gnarled trunks on the dry terraces. The ground was hard and the grove smelled of dust and thyme."
@@ -613,6 +717,11 @@
         "shore",
         "thaw"
       ],
+      "cues": [
+        "skate",
+        "snow",
+        "surface"
+      ],
       "examples": [
         "The lake was frozen right across, and the bare trees stood around it. The ice creaked under her boots.",
         "They crossed the ice in single file. Tracks went ahead of them in the snow toward the far shore."
@@ -639,6 +748,11 @@
         "henge",
         "monolith",
         "stone"
+      ],
+      "cues": [
+        "megalith",
+        "moss",
+        "ring"
       ],
       "examples": [
         "The stones stood in their ring on the open grass, leaning, crusted with lichen. Light came up behind them.",
@@ -667,6 +781,11 @@
         "headland",
         "path",
         "turf"
+      ],
+      "cues": [
+        "ledge",
+        "seabird",
+        "wind"
       ],
       "examples": [
         "The path ran along the top of the cliff with the sea a long way below. Gulls wheeled under them, crying.",
@@ -697,6 +816,11 @@
         "quay",
         "village"
       ],
+      "cues": [
+        "fisherman",
+        "gull",
+        "trawler"
+      ],
       "examples": [
         "The boats were in and the nets were drying on the quay. Painted houses climbed the hill behind the harbour.",
         "She walked down to the stone quay in the cold. Gulls sat on the boats and the whole village smelled of fish."
@@ -724,6 +848,11 @@
         "lighthouse",
         "rock"
       ],
+      "cues": [
+        "keeper",
+        "lamp",
+        "lantern"
+      ],
       "examples": [
         "The lighthouse stood white on the headland with the sea heaving below it. Its beam went out through the rain.",
         "They climbed the headland in the wind. The light swept over them and out to sea and back."
@@ -750,6 +879,12 @@
         "harvest",
         "meadow",
         "wheat"
+      ],
+      "cues": [
+        "field",
+        "scythe",
+        "sheaf",
+        "stubble"
       ],
       "examples": [
         "The wheat moved in the wind all the way to the barn, ripe and gold and not yet cut.",
@@ -779,6 +914,11 @@
         "vine",
         "vineyard"
       ],
+      "cues": [
+        "barrel",
+        "row",
+        "vintage"
+      ],
       "examples": [
         "The vines had turned red and gold on the slope and the grapes were in. Mist lay in the valley below.",
         "She walked the rows of the vineyard in the early cold, the leaves crisp and the hills fading into haze."
@@ -806,6 +946,11 @@
         "courtyard",
         "monastery"
       ],
+      "cues": [
+        "bell",
+        "monk",
+        "prayer"
+      ],
       "examples": [
         "The cloister enclosed a square of plain garden. Their footsteps were the only sound under the arcade.",
         "He walked the four sides of the cloister slowly, past the columns, and came back to where he had begun."
@@ -816,6 +961,7 @@
       "name": "Orchard in Blossom",
       "description": "An old orchard in full blossom, petals coming down in the wind and long grass between the trunks. Tender, transient, hopeful. Suits courtship, new beginnings, spring festivals, and happiness that will not last.",
       "imageUrl": "scenes/orchard-blossom-spring.webp",
+      "overlayAlpha": 0.65,
       "render": {
         "scrim-lerp-1": {
           "scrim": 0.65
@@ -825,13 +971,17 @@
           "scrim": 0.58
         }
       },
-      "overlayAlpha": 0.65,
       "keywords": [
         "blossom",
         "branch",
         "grass",
         "orchard",
         "petal"
+      ],
+      "cues": [
+        "apple",
+        "bee",
+        "bough"
       ],
       "examples": [
         "The orchard was in full blossom and petals came down in the wind onto the long grass between the trunks.",
@@ -860,6 +1010,13 @@
         "pasture",
         "upland"
       ],
+      "cues": [
+        "bothy",
+        "fire",
+        "flock",
+        "sheep",
+        "shepherd"
+      ],
       "examples": [
         "The hut was low and made of drystone, and the smoke from its peat fire was pulled flat by the wind.",
         "He ducked in through the door out of the weather. Inside, the fire and a bench and nothing else."
@@ -885,6 +1042,11 @@
         "grave",
         "headstone",
         "yew"
+      ],
+      "cues": [
+        "epitaph",
+        "gravestone",
+        "tomb"
       ],
       "examples": [
         "The headstones leaned under the yews and the mist was settling between them. It was nearly dark.",
@@ -914,6 +1076,11 @@
         "square",
         "stall"
       ],
+      "cues": [
+        "merchant",
+        "pillory",
+        "trader"
+      ],
       "examples": [
         "The square was full of stalls and shouting. Awnings flapped and livestock pushed through the crowd over the cobbles.",
         "He shouldered through the market with the timbered houses leaning in overhead and the smell of bread and dung."
@@ -941,6 +1108,11 @@
         "lane",
         "passage"
       ],
+      "cues": [
+        "bin",
+        "gutter",
+        "puddle"
+      ],
       "examples": [
         "The alley was wet and narrow between high walls, and the one lamp threw his shadow far ahead of him.",
         "She stepped into the alley and the noise of the street cut off. Cobbles, a lamp, a door somewhere ahead."
@@ -966,6 +1138,12 @@
         "skyline",
         "tile"
       ],
+      "cues": [
+        "aerial",
+        "parapet",
+        "roof",
+        "slate"
+      ],
       "examples": [
         "From the roof the city was a sea of tiles and chimneys with smoke going straight up into the dusk.",
         "He sat on the ridge of the roof with the whole town spread below him and the lamps coming on one by one."
@@ -976,6 +1154,7 @@
       "name": "Grand Railway Station",
       "description": "A great iron-and-glass train shed full of steam and echo, departure boards and a clock high above the crowd. Cavernous, transitional, urgent. Suits departures and reunions, pursuit through crowds, wartime partings, and the beginning of a journey.",
       "imageUrl": "scenes/grand-railway-station.webp",
+      "overlayAlpha": 0.65,
       "render": {
         "scrim-lerp-1": {
           "scrim": 0.65
@@ -985,13 +1164,18 @@
           "scrim": 0.59
         }
       },
-      "overlayAlpha": 0.65,
       "keywords": [
         "concourse",
         "platform",
         "railway",
         "station",
         "terminus"
+      ],
+      "cues": [
+        "announcement",
+        "ticket",
+        "timetable",
+        "train"
       ],
       "examples": [
         "The station roared with steam and echo. Departure boards clattered and the clock hung high above the crowd.",
@@ -1018,6 +1202,13 @@
         "mill",
         "shaft",
         "workshop"
+      ],
+      "cues": [
+        "cotton",
+        "machine",
+        "machinery",
+        "spindle",
+        "weaver"
       ],
       "examples": [
         "The looms clattered the whole length of the mill floor. Lint hung in the light and nobody could hear anybody.",
@@ -1047,6 +1238,11 @@
         "warehouse",
         "wharf"
       ],
+      "cues": [
+        "cargo",
+        "stevedore",
+        "timber"
+      ],
       "examples": [
         "The warehouses stood along the black water in the fog. Cranes were shapes overhead and the wharf was wet.",
         "They waited among the crates on the dock. Somewhere a ship's bell rang and the fog swallowed it."
@@ -1073,6 +1269,11 @@
         "subway",
         "tunnel",
         "underground"
+      ],
+      "cues": [
+        "carriage",
+        "escalator",
+        "turnstile"
       ],
       "examples": [
         "The platform was empty at that hour. Tiled walls, fluorescent light, and warm air pushed ahead of a train that had not come.",
@@ -1102,6 +1303,11 @@
         "souk",
         "stall"
       ],
+      "cues": [
+        "merchant",
+        "spice",
+        "trader"
+      ],
       "examples": [
         "Lanterns hung under the vault of the bazaar and carpets were piled everywhere. Spice sacks stood open in the aisles.",
         "He lost her in the crowd of the bazaar. Light came down in dusty shafts and a hundred stalls shouted at once."
@@ -1129,6 +1335,11 @@
         "washing",
         "yard"
       ],
+      "cues": [
+        "clothesline",
+        "stair",
+        "window"
+      ],
       "examples": [
         "Washing was strung across the courtyard between the tenements and only a square of sky showed above.",
         "She came out into the yard with the buildings going up on all sides and somebody's radio playing above."
@@ -1155,6 +1366,11 @@
         "highway",
         "neon",
         "restaurant"
+      ],
+      "cues": [
+        "coffee",
+        "menu",
+        "waitress"
       ],
       "examples": [
         "The diner was lit up alone beside the highway with nothing else for miles. The neon hummed.",
@@ -1186,6 +1402,11 @@
         "pew",
         "transept"
       ],
+      "cues": [
+        "choir",
+        "organ",
+        "sermon"
+      ],
       "examples": [
         "The columns went up into shadow and coloured light lay across the stone floor of the nave.",
         "She walked slowly up the aisle of the cathedral between the pews. Her steps came back off the vault."
@@ -1212,6 +1433,14 @@
         "dock",
         "gallery"
       ],
+      "cues": [
+        "defendant",
+        "judge",
+        "jury",
+        "trial",
+        "verdict",
+        "witness"
+      ],
       "examples": [
         "The courtroom was panelled in oak and the rail was worn smooth. The bench was raised and empty.",
         "He stood in the dock while the jury filed in and the judge took the bench above him."
@@ -1237,6 +1466,11 @@
         "infirmary",
         "nurse",
         "ward"
+      ],
+      "cues": [
+        "bed",
+        "bedside",
+        "patient"
       ],
       "examples": [
         "One lamp burned at the nurse's desk and the rest of the ward was in shadow, a row of iron beds breathing.",
@@ -1265,6 +1499,12 @@
         "theater",
         "theatre"
       ],
+      "cues": [
+        "applause",
+        "rehearsal",
+        "row",
+        "seat"
+      ],
       "examples": [
         "The theatre was empty, the house lights low and the red seats folded. The safety curtain was down.",
         "He stood on the stage and looked out at the rows of empty stalls going up into the dark."
@@ -1291,6 +1531,12 @@
         "kitchen",
         "pantry"
       ],
+      "cues": [
+        "bread",
+        "range",
+        "stove",
+        "table"
+      ],
       "examples": [
         "The fire was in the range and the table was scrubbed. Things hung from the beams to dry over the flagstones.",
         "She came into the farmhouse kitchen out of the cold and put her hands to the hearth."
@@ -1315,6 +1561,12 @@
         "attic",
         "loft",
         "rafter"
+      ],
+      "cues": [
+        "box",
+        "crate",
+        "dust",
+        "trunk"
       ],
       "examples": [
         "The attic was bare rafters and dust, trunks and sheeted furniture and one small window thick with grime.",
@@ -1343,6 +1595,12 @@
         "palace",
         "throne"
       ],
+      "cues": [
+        "audience",
+        "crown",
+        "king",
+        "queen"
+      ],
       "examples": [
         "Banners hung the length of the hall and the throne stood on its dais at the far end. The floor was made for approaching.",
         "She walked the length of the throne room under the banners with every eye on her."
@@ -1370,6 +1628,12 @@
         "jail",
         "prison"
       ],
+      "cues": [
+        "bars",
+        "bunk",
+        "inmate",
+        "warder"
+      ],
       "examples": [
         "The cell was stone, with straw on the floor and a barred slit high in the wall. Marks were scratched into the stone.",
         "He lay on the straw in the cell and counted the scratches. The slit showed a piece of grey sky."
@@ -1395,6 +1659,14 @@
         "laboratory",
         "specimen",
         "workshop"
+      ],
+      "cues": [
+        "apparatus",
+        "burner",
+        "experiment",
+        "flask",
+        "jar",
+        "microscope"
       ],
       "examples": [
         "Brass instruments and glassware crowded the laboratory bench. Specimen jars lined the shelves in the gaslight.",
@@ -1423,6 +1695,11 @@
         "palm",
         "pane"
       ],
+      "cues": [
+        "humidity",
+        "orchid",
+        "plant"
+      ],
       "examples": [
         "The glasshouse was thick with palms and ferns. Condensation ran down the panes and the iron ribs dripped.",
         "He pushed in among the plants of the conservatory. The air was warm and wet and smelled of earth."
@@ -1448,6 +1725,11 @@
         "sigil",
         "tower",
         "workroom"
+      ],
+      "cues": [
+        "grimoire",
+        "scroll",
+        "spell"
       ],
       "examples": [
         "The tower room was crowded with an orrery, chalked sigils on the floor and jars of things best not looked at.",
@@ -1475,6 +1757,11 @@
         "torch",
         "vault"
       ],
+      "cues": [
+        "chain",
+        "flagstone",
+        "guard"
+      ],
       "examples": [
         "The corridor was low and damp and the torches were too far apart. Iron doors ran along one side.",
         "They went down into the dungeon with one torch between them and the stone sweating on either side."
@@ -1500,6 +1787,11 @@
         "cloud",
         "deck",
         "gondola"
+      ],
+      "cues": [
+        "propeller",
+        "rail",
+        "rope"
       ],
       "examples": [
         "The gondola hung above a floor of cloud. Brass fittings, a wide window, and the engines droning behind.",
@@ -1527,6 +1819,11 @@
         "sapling",
         "vine"
       ],
+      "cues": [
+        "creeper",
+        "moss",
+        "stone"
+      ],
       "examples": [
         "Trees had come up through the tarmac and vines covered the facades. The street was silent.",
         "He walked down the middle of the ruined avenue with saplings growing out of the cars."
@@ -1553,6 +1850,11 @@
         "lantern",
         "tokyo",
         "vending"
+      ],
+      "cues": [
+        "bar",
+        "noodle",
+        "sign"
       ],
       "examples": [
         "The backstreet was narrow after midnight, izakaya lanterns lit and a vending machine throwing colour on the wet.",
@@ -1582,6 +1884,11 @@
         "shop",
         "store"
       ],
+      "cues": [
+        "clerk",
+        "register",
+        "till"
+      ],
       "examples": [
         "The convenience store was lit white on a dark street. He went in for a coffee and stood at the counter reading a magazine.",
         "She walked the aisles of the store at two in the morning under the fluorescent light, the shelves full and nobody else there."
@@ -1608,6 +1915,11 @@
         "railway",
         "rice",
         "train"
+      ],
+      "cues": [
+        "seat",
+        "shinkansen",
+        "window"
       ],
       "examples": [
         "The train crossed the flooded rice fields at speed and the landscape smeared past the window.",
@@ -1636,6 +1948,11 @@
         "futon",
         "tatami"
       ],
+      "cues": [
+        "bed",
+        "kitchenette",
+        "room"
+      ],
       "examples": [
         "The apartment was one room with the futon folded away and a low table. The sliding door gave onto a small balcony.",
         "She sat at the low table in the flat with the door open to the balcony and the city noise coming in."
@@ -1662,6 +1979,11 @@
         "shop",
         "shopping",
         "shutter"
+      ],
+      "cues": [
+        "shopfront",
+        "stall",
+        "storefront"
       ],
       "examples": [
         "Half the shutters were down in the covered shopping street. Banners and lanterns hung under the roof.",
@@ -1690,6 +2012,11 @@
         "highrise",
         "tower"
       ],
+      "cues": [
+        "lift",
+        "neon",
+        "window"
+      ],
       "examples": [
         "The towers went up forty floors on either side with air-conditioners and drying poles stacked all the way.",
         "She looked up from the street at the slot of sky between the high-rises and the washing hanging out of every window."
@@ -1715,6 +2042,11 @@
         "riverfront",
         "tower",
         "waterfront"
+      ],
+      "cues": [
+        "barge",
+        "bund",
+        "skyline"
       ],
       "examples": [
         "The glass towers were lit across the river and the old stone stood heavy behind them on the waterfront.",
@@ -1742,6 +2074,11 @@
         "lane",
         "terrace",
         "washing"
+      ],
+      "cues": [
+        "laundry",
+        "shikumen",
+        "stair"
       ],
       "examples": [
         "The lane ran between brick terraces with bamboo poles of washing overhead and a shared tap against the wall.",
@@ -1771,6 +2108,11 @@
         "hutong",
         "lane"
       ],
+      "cues": [
+        "coal",
+        "gate",
+        "stove"
+      ],
       "examples": [
         "The alley was grey brick and single-storey courtyard houses, bicycles frozen in place and coal smoke in the cold.",
         "He walked the hutong in the winter dusk past the red doors with his breath in front of him."
@@ -1795,6 +2137,11 @@
         "city",
         "rooftop",
         "tank"
+      ],
+      "cues": [
+        "laundry",
+        "neon",
+        "stair"
       ],
       "examples": [
         "The rooftop was water tanks and dishes underfoot and apartment blocks stacked away into the night.",
@@ -1823,6 +2170,13 @@
         "sink",
         "worktop"
       ],
+      "cues": [
+        "cooking",
+        "fridge",
+        "kettle",
+        "pan",
+        "stove"
+      ],
       "examples": [
         "The kitchen was clean and the light was early. A mug stood on the counter and nothing had started yet.",
         "He rinsed the rice and set the pot on the ring. Outside the kitchen window the street was still quiet."
@@ -1847,6 +2201,14 @@
         "bedroom",
         "curtain",
         "wardrobe"
+      ],
+      "cues": [
+        "bed",
+        "blanket",
+        "duvet",
+        "mattress",
+        "pillow",
+        "sheet"
       ],
       "examples": [
         "Light came through the half-drawn curtains onto the unmade bed. Clothes lay over the chair.",
@@ -1874,6 +2236,12 @@
         "sofa",
         "television"
       ],
+      "cues": [
+        "armchair",
+        "living room",
+        "rug",
+        "settee"
+      ],
       "examples": [
         "The living room was dark except for the screen. The cushions were dented and the rest of the house was asleep.",
         "He sat on the sofa with the sound down and the television flickering over the walls."
@@ -1898,6 +2266,11 @@
         "balcony",
         "railing",
         "terrace"
+      ],
+      "cues": [
+        "cigarette",
+        "rail",
+        "view"
       ],
       "examples": [
         "The balcony was small, a chair and a railing, and the city was lit below with the traffic a long way down.",
@@ -1926,6 +2299,12 @@
         "coffee",
         "counter",
         "terrace"
+      ],
+      "cues": [
+        "cup",
+        "espresso",
+        "table",
+        "waitress"
       ],
       "examples": [
         "The café was half full on a weekday afternoon, cups and laptops on the tables and low talk under the music.",
@@ -1957,6 +2336,12 @@
         "supermarket",
         "trolley"
       ],
+      "cues": [
+        "basket",
+        "cart",
+        "cashier",
+        "groceries"
+      ],
       "examples": [
         "The supermarket aisle was bright and empty under the fluorescent light, the shelves full and the shop all but closed.",
         "She pushed the trolley down the aisle past the cereals and stopped, unable to remember what she had come in for."
@@ -1983,6 +2368,12 @@
         "street",
         "suburb"
       ],
+      "cues": [
+        "fence",
+        "garden",
+        "gate",
+        "porch"
+      ],
       "examples": [
         "The street was quiet at dusk, lawns and parked cars, and lights were coming on behind the curtains.",
         "He walked home along the suburban road past the driveways with the sprinklers going."
@@ -2006,6 +2397,12 @@
         "curtain",
         "hotel",
         "motel"
+      ],
+      "cues": [
+        "bed",
+        "bedspread",
+        "room",
+        "vacancy"
       ],
       "examples": [
         "The motel room had two beds and a sign glowing through the thin curtains and nothing personal in it.",
@@ -2033,6 +2430,12 @@
         "lane",
         "motorway",
         "road"
+      ],
+      "cues": [
+        "car",
+        "driving",
+        "truck",
+        "wheel"
       ],
       "examples": [
         "The road went ahead over the dashboard as far as the headlights reached and then it was black.",
@@ -2062,6 +2465,14 @@
         "gate",
         "terminal"
       ],
+      "cues": [
+        "boarding",
+        "flight",
+        "luggage",
+        "passport",
+        "plane",
+        "suitcase"
+      ],
       "examples": [
         "The departure gate was rows of empty seats late in the evening with the dark apron beyond the glass.",
         "She sat at the gate with her bag between her feet and watched a plane taxi past the window."
@@ -2088,6 +2499,12 @@
         "office",
         "workplace"
       ],
+      "cues": [
+        "computer",
+        "keyboard",
+        "meeting",
+        "overtime"
+      ],
       "examples": [
         "The office was empty after hours, monitors asleep and one desk lamp still burning.",
         "He stayed at his desk long after the others had gone, the open-plan floor dark around him."
@@ -2113,6 +2530,12 @@
         "precinct",
         "recorder",
         "station"
+      ],
+      "cues": [
+        "detective",
+        "interrogation",
+        "suspect",
+        "tape"
       ],
       "examples": [
         "The interview room was bare, the table bolted down, a recorder and two chairs facing each other.",
@@ -2142,6 +2565,11 @@
         "hospital",
         "ward"
       ],
+      "cues": [
+        "doctor",
+        "gurney",
+        "nurse"
+      ],
       "examples": [
         "The hospital corridor ran on under the lights with vinyl underfoot and handrails along both walls.",
         "He walked the corridor in the small hours past the closed doors, looking for the ward."
@@ -2168,6 +2596,13 @@
         "rack",
         "server"
       ],
+      "cues": [
+        "cable",
+        "computer",
+        "data centre",
+        "fan",
+        "terminal"
+      ],
       "examples": [
         "The server room was cold and full of racked machines behind glass, indicators blinking, the noise never stopping.",
         "She badged into the data centre and the noise of the fans hit her along with the cold."
@@ -2193,6 +2628,11 @@
         "hallway",
         "hotel",
         "landing"
+      ],
+      "cues": [
+        "door",
+        "lift",
+        "room"
       ],
       "examples": [
         "The hotel corridor ran away under low light, identical doors and patterned carpet the whole length.",
@@ -2222,6 +2662,11 @@
         "shrine",
         "temple"
       ],
+      "cues": [
+        "bell",
+        "lantern",
+        "raked gravel"
+      ],
       "examples": [
         "The temple garden was moss and raked gravel under old maples. A stone basin dripped and nobody was about.",
         "She sat on the veranda and looked at the garden, the gravel combed into lines and the maples just turning."
@@ -2249,6 +2694,11 @@
         "shrine",
         "torii"
       ],
+      "cues": [
+        "pilgrim",
+        "step",
+        "vermilion"
+      ],
       "examples": [
         "The vermilion gates climbed through the cedars one after another until the tunnel of them closed overhead.",
         "He walked up through the torii with the forest dark on either side and the gates going on and on."
@@ -2274,6 +2724,11 @@
         "ryokan",
         "screen",
         "tatami"
+      ],
+      "cues": [
+        "bed",
+        "futon",
+        "room"
       ],
       "examples": [
         "The tatami room had a low table and a scroll in the alcove, and the paper screens were slid open onto the garden.",
@@ -2303,6 +2758,11 @@
         "steam",
         "town"
       ],
+      "cues": [
+        "bath",
+        "clog",
+        "yukata"
+      ],
       "examples": [
         "Steam came off the river between the wooden inns and the hot spring town was deep in snow, lanterns lit.",
         "He walked back to the inn through the snow with his hair wet from the bath and the lanterns glowing."
@@ -2331,6 +2791,11 @@
         "pond",
         "rockery"
       ],
+      "cues": [
+        "carp",
+        "lattice",
+        "willow"
+      ],
       "examples": [
         "The garden was rockery and still water, and the moon gate framed the next courtyard like a picture.",
         "She went through the round gate into the garden and the noise of the street was gone."
@@ -2357,6 +2822,11 @@
         "gate",
         "siheyuan"
       ],
+      "cues": [
+        "hall",
+        "screen",
+        "wing"
+      ],
       "examples": [
         "The courtyard house had rooms on all four sides and a bare tree in the middle and red doors.",
         "He crossed the courtyard under the bare tree to the room on the north side."
@@ -2382,6 +2852,11 @@
         "paddy",
         "rice",
         "terrace"
+      ],
+      "cues": [
+        "farmer",
+        "irrigation",
+        "planting"
       ],
       "examples": [
         "The terraces stepped down the hillside at dawn, each one flooded and holding the sky.",
@@ -2410,6 +2885,11 @@
         "prayer",
         "temple"
       ],
+      "cues": [
+        "chant",
+        "ladder",
+        "monk"
+      ],
       "examples": [
         "The monastery was whitewashed and built into the cliff at altitude, prayer flags snapping in the thin air.",
         "He climbed the last steps to the monastery with his lungs burning and the flags cracking overhead."
@@ -2436,6 +2916,11 @@
         "rain",
         "shopfront",
         "street"
+      ],
+      "cues": [
+        "awning",
+        "gutter",
+        "puddle"
       ],
       "examples": [
         "The street was packed and the monsoon rain came down in sheets, shopfronts open to it and water running ankle-deep.",
@@ -2464,6 +2949,11 @@
         "step",
         "temple"
       ],
+      "cues": [
+        "pilgrim",
+        "ritual",
+        "washing"
+      ],
       "examples": [
         "The stone steps went down to the slow river at first light. Boats were moored and smoke rose off the water.",
         "He sat on the ghat and watched the boats and the bathers as the sun came up over the far bank."
@@ -2487,6 +2977,11 @@
         "cistern",
         "stair",
         "stepwell"
+      ],
+      "cues": [
+        "descent",
+        "step",
+        "water"
       ],
       "examples": [
         "The stepwell went down flight after flight of stone to dark water, the stairs crossing each other all the way.",
@@ -2514,6 +3009,11 @@
         "courtyard",
         "desert",
         "inn"
+      ],
+      "cues": [
+        "merchant",
+        "saddle",
+        "trader"
       ],
       "examples": [
         "The caravanserai was walled against the desert. Camels knelt in the courtyard and fires burned under the arcade.",
@@ -2543,6 +3043,11 @@
         "pavilion",
         "sandstone"
       ],
+      "cues": [
+        "fountain",
+        "guard",
+        "mosaic"
+      ],
       "examples": [
         "The palace courtyard was red sandstone and white marble with a channel of water running down the centre.",
         "She walked beside the water channel through the palace court with the pavilions on either side."
@@ -2567,6 +3072,11 @@
         "bush",
         "grassland",
         "savanna"
+      ],
+      "cues": [
+        "elephant",
+        "herd",
+        "lion"
       ],
       "examples": [
         "The grassland ran to the horizon and the flat-topped acacias stood black against the dusk with dust hanging in the air.",
@@ -2595,6 +3105,11 @@
         "town",
         "wall"
       ],
+      "cues": [
+        "alley",
+        "date palm",
+        "roof"
+      ],
       "examples": [
         "The town was all mud brick, walls shaped by hand with timber beams sticking out, everything the colour of the ground.",
         "She walked between the mud walls of the town in the heat with the beams throwing short shadows."
@@ -2621,6 +3136,11 @@
         "lake",
         "shore",
         "valley"
+      ],
+      "cues": [
+        "crust",
+        "salt",
+        "soda"
       ],
       "examples": [
         "The lake was shallow and white with salt under the escarpments, flamingos a pink line across it.",
@@ -2649,6 +3169,11 @@
         "shutter",
         "square"
       ],
+      "cues": [
+        "balcony",
+        "cathedral",
+        "fountain"
+      ],
       "examples": [
         "The plaza was dead in the afternoon heat, the arcades deep in shadow and every shutter closed.",
         "She crossed the empty square at siesta with the church bell striking and nothing else moving."
@@ -2674,6 +3199,11 @@
         "peak",
         "plateau",
         "track"
+      ],
+      "cues": [
+        "llama",
+        "thin air",
+        "wind"
       ],
       "examples": [
         "The plain was high and treeless between the snow peaks, tough grass and a thin track going nowhere.",
@@ -2703,6 +3233,11 @@
         "stilt",
         "town"
       ],
+      "cues": [
+        "ferry",
+        "jetty",
+        "market"
+      ],
       "examples": [
         "The houses stood on stilts along the brown river with boats tied beneath them and rain coming over the forest.",
         "She sat on the porch above the water and watched the boats go up the river into the rain."
@@ -2728,6 +3263,11 @@
         "steppe",
         "tent",
         "yurt"
+      ],
+      "cues": [
+        "herd",
+        "nomad",
+        "rider"
       ],
       "examples": [
         "The felt tent stood alone on the grassland with horses tethered outside and weather visible an hour away.",

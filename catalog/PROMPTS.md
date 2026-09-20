@@ -12,9 +12,32 @@ masters, brightness, no people, no legible text, and the filename convention.
 The section groupings below are historical, recording when each scene was added. They mean nothing
 to the app and the numbering has gaps where scenes were retired.
 
+## Writing a new prompt? Write its keywords, cues and examples too
+
+A prompt makes the scene *exist*. Three fields in `manifest.json` are what make it get *chosen*,
+and the moment to write them is while you still have the picture in your head.
+
+- **`keywords`** — nouns naming the **place or part of one**: `bedroom`, `wardrobe`, `aisle`.
+  These are also pooled across every scene into the vocabulary that decides whether a page
+  describes anywhere at all, so they must name somewhere.
+- **`cues`** — everything else a page set here would say: people, things, actions. `bed`,
+  `pillow`, `duvet` for a bedroom; `judge`, `verdict` for a courtroom. Not pooled, so ordinary
+  words are safe and wanted here.
+- **`examples`** — two short passages written as a novel would read, not as a caption. A page
+  finds the scene through these more than through the description.
+
+A page whose text contains a keyword or cue, for a scene the matcher already ranks highly,
+switches the background **on that page**. Nothing else in the system is that fast or that
+reliable, so a scene with thin lists is close to invisible.
+
+The check that catches a weak list: **each example should contain at least one keyword or cue.**
+If a passage you wrote to be typical of the scene names none of them, a real page will not either.
+
+Full rules and the reasoning behind them are in `README.md`.
+
 ## What these images are actually for
 
-They are **full-screen backgrounds behind body text**, rendered with an 8dp blur and a 65% dark
+They are **full-screen backgrounds behind body text**, rendered with a 2.5dp blur and a ~65% dark
 overlay on top. That changes what "good" means:
 
 - **Fine detail is wasted.** Composition, tonal balance and colour carry everything. Do not chase
@@ -40,9 +63,10 @@ overlay on top. That changes what "good" means:
   Both batches so far came out 3:4 (896×1200 and 3584×4800), which is fine; prefer 2:3 if you
   can get it.
 - **Resolution barely matters, so do not fight for it.** `prepare-images.py` downscales to
-  1600px on the short edge and never upscales, and the app blurs the result at 5dp behind the
+  1600px on the short edge and never upscales, and the app blurs the result at 2.5dp behind the
   text. A 896px master is visually indistinguishable from a 3584px one by the time a reader sees
-  it — it just encodes smaller. Take whatever the generator gives.
+  it — measured at RMS 0.38/255 through the full render — so it just encodes smaller. Take
+  whatever the generator gives.
 - Encode is **WebP q82**, which lands between 16 KB and 280 KB depending on how busy the scene is.
 - Keep the **style suffix identical** across every scene. Switching backgrounds mid-chapter
   should feel like a change of place, not a change of medium.
