@@ -27,26 +27,57 @@ makes it the fast path when checking a manifest you just pushed.
 
 ## Handing the scenes to an image agent
 
-`HANDOFF.md` is the file to give it: the brief plus all 100 prompts, and nothing else. It is
-generated, so edit `IMAGE-AGENT-BRIEF.md` or `PROMPTS.md` and regenerate rather than editing it
-directly.
+Give it a handoff file: the brief plus one prompt per scene, and nothing else.
+
+- `HANDOFF.md` — every published scene, for regenerating any of them.
+- `HANDOFF-TEST.md` — the five-scene test that settled the style of the first hundred.
+- `HANDOFF-WAVE-N.md` — built when a new wave is staged, from `staged/wave-N.json`. Send a handful
+  of its hardest scenes first (`--only`) and look at what comes back before sending the rest.
+
+They are generated, so edit `IMAGE-AGENT-BRIEF.md` or `PROMPTS.md` and rebuild rather than editing
+them directly:
+
+    ./build-handoff.py                  # HANDOFF.md, from the ids in manifest.json
+    ./build-handoff.py --wave 4         # HANDOFF-WAVE-4.md, from the ids in staged/wave-4.json
+    ./build-handoff.py --wave 4 --only <id>,<id> --out HANDOFF-WAVE-4-TEST.md
 
 `PROMPTS.md` keeps the project history — why the style changed, what previous batches got wrong.
 That is for us, not for the agent, and sending it just costs tokens.
 
 ## Adding a scene
 
-1. Write the prompt in `PROMPTS.md`, and write its `keywords`, `cues` and `examples` at the same
-   time. The person who decides what is in the picture is the only one who knows what a page set
-   there would say, and those three fields are what make the scene findable. See the two sections
-   below.
-2. Generate the art at full resolution, named `<id>.<jpg|png>`.
-3. Run `./prepare-images.py <folder-of-generated-images>` — re-encodes to WebP q82 at 1600px short
-   edge, writes `scenes/<id>.webp`, and cross-checks every filename against `manifest.json`.
-   It exits non-zero on a mismatch, which is the common mistake.
-4. Add an entry to `manifest.json` with a matching `id` and `imageUrl`.
-5. Bump `version` and push to `main`.
-6. **Purge the CDN**, or readers keep the old catalog for up to twelve hours:
+Scenes are written and checked before any art exists, wait in `staged/`, and go live with their
+art.
+
+1. **Write the prompt and the text together.** Start from `CATALOG-MAP.md`, which shows the holes.
+   The prompt goes in `PROMPTS.md`. The entry — `id`, `name`, `world`, `kind`, `description`,
+   `keywords`, `cues`, `examples` — goes in a wave file in `staged/`, with `world` and `kind` taken
+   from `taxonomy.json`. The person who decides what is in the picture is the only one who knows
+   what a page set there would say, and those fields are what make the scene findable. See the
+   sections below.
+2. **Check it before making art.** Add at least one passage a page set there would contain to
+   `tools/embedder-bench/queries_coverage.json`, with the new id as its `proposed` scene, then:
+
+       cd tools/embedder-bench && . venv/bin/activate
+       python catalog_coverage.py --gate ../../catalog/staged/wave-1.json
+
+   A scene passes when it finds its own passages (third place at worst, and still from each of
+   its examples with that example held out), sits no closer than 0.77 to any other scene, meets
+   the rules `CatalogManifestContentTest` enforces, and pushes no existing scene out of a passage
+   it used to find. Rewriting the examples fixes most failures: name the place and the things in
+   it plainly, with the nouns of its world.
+3. **Generate the art** from the wave's handoff file (above), named `<id>.png`.
+4. **Review the art, then merge the scenes that have it:** `./merge-staged.py 1
+   <folder-of-generated-images>`. It moves only those scenes into `manifest.json`, with `imageUrl`
+   set, leaves the rest staged, and rebuilds `CATALOG-MAP.md`. Image agents do not always follow
+   the filename rule, so rename any file named from its prompt to `<id>.<ext>` first.
+5. **Run `./prepare-images.py <folder-of-generated-images>`** — re-encodes to WebP q82 at 1600px
+   short edge, writes `scenes/<id>.webp`, measures each scene's overlay into the manifest, and
+   cross-checks every filename against `manifest.json`. It exits non-zero on a mismatch, which is
+   the common mistake. Run it after the merge: it records measurements only for scenes already in
+   the manifest.
+6. Bump `version` and push to `main`.
+7. **Purge the CDN**, or readers keep the old catalog for up to twelve hours:
 
        curl https://purge.jsdelivr.net/gh/AdamCYH/infinite-reading@main/catalog/manifest.json
 
@@ -263,21 +294,31 @@ Writing them:
 These are not seeded. `prepare-images.py` leaves `examples` alone entirely; there is no sensible
 way to generate a novel's prose from a catalogue entry.
 
+## Worlds and kinds
+
+Every scene carries two tags. **`world`** is the time and culture a book lives in: imperial China,
+modern East Asia, the classical Mediterranean. **`kind`** is what the reader sees: a home, a
+street, somewhere to eat, a hall of power. Both vocabularies live in `taxonomy.json`, which also
+tags the 14 scenes bundled with the app, since those are not in the manifest.
+
+`CATALOG-MAP.md` lays every scene out as a grid of worlds by kinds. A hole is a kind of place that a
+world's books visit and the catalog cannot show, which makes it the place to start when planning
+new scenes. `catalog-map.py` builds it, and `merge-staged.py` runs that after every merge.
+
+`CatalogManifestContentTest` fails on a scene without both tags, or with one `taxonomy.json` does
+not define. To add a world or a kind, add it to `taxonomy.json` first. The app does not read the
+tags yet; they are there for planning, and for grouping the scene picker by world when it needs it.
+
 ## Gaps worth filling
 
-Settings common in fiction with no scene in the catalog, most conspicuous first:
+The three waves added in September 2026 filled most of what this section used to list — school,
+library and bookshop, restaurant, bar and izakaya, city park, gym and stadium, airplane cabin, a
+space station — and added imperial China, old Japan, the Odyssey's Greece, Rome and more cities.
+Why each was chosen is in `docs/catalog-expansion-plan.md`; what is still missing, world by world,
+is in `CATALOG-MAP.md`.
 
-| | |
-|---|---|
-| school / classroom | modern library / bookshop |
-| restaurant (sit-down) | bar / pub / izakaya |
-| urban park | beach / open coast |
-| forest at night | sci-fi interior / spacecraft |
-| gym / stadium | airplane cabin |
-| car interior at night | |
-
-School is the most glaring: coming-of-age and campus fiction is enormous, and the catalog cannot
-show any of it.
+Also still missing: a forest at night, and a car interior at night. The bundled Beach is matched
+poorly until the bundled scenes get examples and keywords (see the plan).
 
 ## Writing descriptions
 

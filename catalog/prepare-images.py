@@ -333,6 +333,18 @@ def rendered_luminance(graded: Image.Image) -> float:
     return sum(luminance(p) for p in px) / len(px)
 
 
+SCENE_KEY_ORDER = (
+    "id", "name", "world", "kind", "description", "imageUrl", "overlayAlpha", "render",
+    "keywords", "cues", "examples",
+)
+
+
+def in_published_order(scene: dict) -> dict:
+    ordered = {k: scene[k] for k in SCENE_KEY_ORDER if k in scene}
+    ordered.update((k, v) for k, v in scene.items() if k not in ordered)
+    return ordered
+
+
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     measure_only = "--measure-only" in sys.argv[1:]
@@ -494,6 +506,13 @@ def main() -> int:
         # `saturation` was briefly published at the top level before profiles existed. It only
         # ever meant the multiply profile's value, and no released client reads it, so it goes.
         scene.pop("saturation", None)
+    # A scene merged from staged/ arrives without overlayAlpha or render, so both would land at the
+    # end of the entry. Put every measured scene's keys in the published order; the scenes already
+    # published are in it, so they do not move.
+    manifest["scenes"] = [
+        in_published_order(scene) if scene["id"] in render else scene
+        for scene in manifest["scenes"]
+    ]
     with open(manifest_path, "w") as fh:
         json.dump(manifest, fh, indent=2, ensure_ascii=False)
         fh.write("\n")

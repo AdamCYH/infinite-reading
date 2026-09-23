@@ -1,13 +1,16 @@
 # Scene generation prompts
 
-One prompt per scene in `manifest.json` — **100 scenes**, all in a single style. The
+One prompt per scene — **182, all published in `manifest.json`** — in a single style. The
 filename is the only link between an image and its manifest entry, so getting it exactly
-right is all the matching needs. Four scenes are marked **[FANTASTIC]**; everything else
-depicts somewhere that really exists.
+right is all the matching needs. **[FANTASTIC]** marks a scene whose subject does not exist (four
+published, five more in the waves). **[PERIOD SET]** marks a real place that survives only as a ruin
+or a reconstruction, shown as it stood. Everything else depicts somewhere that really exists.
 
-**Handing this to an image agent?** Give it `IMAGE-AGENT-BRIEF.md` first, then the scene list
-below. The brief carries the rules that matter most — the single cinematic look, sharp
-masters, brightness, no people, no legible text, and the filename convention.
+**Handing this to an image agent?** Give it a handoff file, not this one: `HANDOFF.md`, or
+`HANDOFF-WAVE-N.md` for a staged wave, holds the brief and the prompts and nothing else, built by
+`build-handoff.py`.
+The brief carries the rules that matter most — the single cinematic look, sharp masters,
+brightness, no people, no legible text, period and culture, and the filename convention.
 
 The section groupings below are historical, recording when each scene was added. They mean nothing
 to the app and the numbering has gaps where scenes were retired.
@@ -614,6 +617,399 @@ Each is tagged with the style track to use.
 
 > A single white felt ger on open Mongolian steppe under an enormous sky. Cropped wind-flattened grass in the near ground, the ger with its orange-painted door and a tethered horse in the middle distance, a wisp of smoke from the crown, endless rolling grassland to a low horizon, towering cloud building far off. Felt white, grass ochre-green and slate cloud. The ger is small and off-centre; cloud fills the upper frame but stays grey rather than bright.
 
+---
+
+## Wave one — 30 scenes
+
+Places from the three books that prompted this expansion — 白夜行, 庆余年 and The Odyssey — and
+everyday places that almost any modern novel visits. Why each scene is here is in
+[`docs/catalog-expansion-plan.md`](../docs/catalog-expansion-plan.md). Each scene's description,
+keywords, cues and examples were written and checked against sample passages before any art was
+made, and waited in `staged/` until the art existed. All three waves were published in catalog
+version 8.
+
+Two markers appear in the waves. **[FANTASTIC]** is as before: the subject does not exist.
+**[PERIOD SET]** is new: the place was real but survives only as a ruin or a reconstruction, so it
+is shown intact and in use, the way a period film would build it. The brief explains both.
+
+### Imperial China
+
+#### 111. `chinese-imperial-hall` — Imperial Audience Hall
+
+> The great audience hall of a Chinese imperial palace, empty, photographed low along the central axis toward the throne. Polished dark stone floor in the near ground reflecting the columns, rows of massive vermilion lacquered pillars with gilded dragon ornament marching away on both sides, a gilded coffered ceiling overhead, and at the far end a raised platform with a carved golden dragon throne under a canopy, bronze incense burners and cranes flanking its steps. Deep vermilion, burnished gold and dark stone. Daylight from tall lattice doors along one side lays broad warm light across the floor and up the pillars so the whole hall reads, with the throne mid-toned and slightly off-centre rather than a bright focal point. Ming and Qing palace architecture only; no Japanese or Korean forms, no tourist barriers, and any plaque is a blank lacquered board.
+
+#### 112. `ancient-chinese-street` — Ancient Capital Street  **[PERIOD SET]**
+
+> A long street in an old imperial Chinese capital in soft morning light, deserted before the shops open. Worn stone flagstones and a wooden handcart in the near ground, two-storey timber shopfronts with carved lattice, upturned grey-tiled eaves and hanging cloth banners lining both sides and receding in strong perspective, red paper lanterns under the eaves, and a tall drum tower on a stone base closing the far end of the street. Weathered timber brown, grey tile, faded red and indigo cloth. Soft overcast light fills the street evenly and the far tower sits in gentle haze. Every banner, board and plaque is plain cloth or blank wood with no characters at all. No modern wires, lamps or tourists.
+
+#### 113. `chinese-teahouse` — Teahouse Upstairs
+
+> The empty upper floor of an old Chinese teahouse in the afternoon. A square table of dark lacquered wood with a clay teapot and cups in the near ground, more tables and benches receding across worn floorboards, a small raised storyteller's table with a folded fan at the far end, and a long run of carved lattice windows thrown open onto the grey tiled roofs of the street below. Dark timber, warm tea brown and soft jade green through the windows. Daylight pours in sideways through the open lattices and spreads across the floor and tables, so the room reads warm and even with no single bright window at centre. No characters on any plaque, menu board or banner.
+
+#### 114. `wayside-inn` — Wayside Inn  **[PERIOD SET]**
+
+> The common room of a roadside inn in old China at dusk, empty. A rough square wooden table with a pottery wine jar and bowls in the near ground, benches and more tables across a packed-earth floor, big glazed wine jars along the back wall, a counter with a cloth hung over it, and an open doorway onto a dusty yard where two horses stand tethered under a lantern. Smoke-darkened timber, clay ochre and the amber of oil lamps. Lamplight from several lamps and the last blue daylight from the doorway spread across the tables and walls so the room reads lived-in and warm rather than dark; the doorway sits to one side. The wine flag outside is plain cloth with no characters.
+
+#### 115. `jiangnan-water-town` — Jiangnan Water Town
+
+> A Jiangnan water town in soft grey morning light, photographed down a canal. Stone steps descending into still green water in the near ground, whitewashed houses with black tile roofs and dark timber windows rising straight from the water on both sides, a humped stone arch bridge crossing the canal in the middle distance, two black-awninged wooden boats moored below it and willows trailing over the water. Whitewash, ink-black tile, jade-green water and pale mist. Diffuse overcast light reflects evenly off the canal so the water carries the brightness low in the frame, and the sky is a narrow pale strip above the roofs. No signage, no modern fittings.
+
+#### 116. `lantern-river-boats` — Lantern Boats on the River
+
+> A river in an old southern Chinese city at night, photographed from the bank at water level. A stone quay edge and a mooring post in the near ground, a line of painted wooden pleasure boats with carved rails and gauze curtains moored along the river, strings of red lanterns hanging from their eaves and doubling in the black water, and lit two-storey waterfront pavilions with upturned eaves behind. Lantern red and warm amber against blue-black water and dark timber. The many lanterns and lit windows spread warm reflected light across the whole river surface, so the water glows as a broad band rather than points in darkness, and faint haze above the roofs carries the glow. No characters on lanterns or boats.
+
+#### 117. `chinese-mountain-temple` — Mountain Temple in Mist
+
+> A Chinese Buddhist temple on a steep forested mountainside in morning mist. Worn stone steps with moss at their edges climbing away from the near ground, a bronze incense burner with a thin thread of smoke to one side, grey-tiled temple halls with sweeping upturned eaves and red-painted timber stacked up the slope above, old pines and cypress around them, and further ridges fading into white mist. Moss green, vermilion, grey tile and pearl-white mist. The mist diffuses the light so the whole slope is softly and evenly lit, the halls reading in layers of decreasing contrast, with no bright sky patch. Chinese temple architecture only: no Japanese torii or pagodas.
+
+#### 118. `yamen-archive-hall` — Imperial Archive Hall  **[PERIOD SET]**
+
+> The archive hall of a secret imperial Chinese bureau, photographed down a long central aisle. A dark wooden desk with a brush, an inkstone and an oil lamp in the near ground, tall black-lacquered shelves packed with scroll cases, bound files and sealed boxes running away on both sides in deep perspective, heavy timber beams overhead and a small high lattice window far down the hall. Black lacquer, aged paper cream and the warm amber of lamplight. Oil lamps set along the desks at intervals spread warm light down the whole aisle and across the shelf faces, so the hall recedes in warm layers rather than black; the window is small and far off. Labels, tags and spines are blank.
+
+#### 119. `southern-fishing-town` — Southern Fishing Town
+
+> A small fishing town on a warm southern Chinese coast in soft overcast light, photographed from the beach. Grey sand, coiled rope and a tilted wooden fishing boat in the near ground, more boats pulled up along the shore, nets drying on tall bamboo poles, and a row of low stone houses with grey tile roofs and strings of salted fish hanging under their eaves, green hills behind. Wet grey sand, weathered timber, sea green and warm grey stone. Humid haze softens the light evenly, and the sea at one side carries a broad pale sheen low in the frame rather than glare. Traditional village only, no modern boats or signage.
+
+### The classical Mediterranean
+
+#### 120. `bronze-age-megaron` — Hall of a Bronze-Age King  **[PERIOD SET]**
+
+> The great hall of a Bronze Age Greek palace, empty. Fleeces and a low wooden stool on a painted plaster floor in the near ground, a large round clay hearth in the centre with a low fire burning, four thick wooden columns painted deep red and tapering downward around it, plastered walls with painted friezes of spirals and hunting scenes, bronze shields and spears hanging on them, and smoke drifting up to an opening in the roof beams. Oxblood red, ochre, soot black and warm firelight. Firelight from the hearth and daylight falling through the roof opening together light the whole hall so the columns and walls read, with the hearth low and off-centre. Mycenaean architecture: timber, plaster and paint, not white marble classical temples.
+
+#### 121. `ancient-ship-open-sea` — Ancient Ship on a Calm Sea  **[PERIOD SET]**
+
+> An ancient Greek oared ship running on a calm open sea, photographed from its own deck near the stern. The worn timber of the steering oar and rowing benches, with the oars drawn in along the rail, in the near ground; the long black-painted hull stretching forward to a curved prow, a single large square linen sail bellied out on the mast, and a calm sea running to an empty horizon with no land in sight. Tarred black timber, sun-bleached linen, deep violet-blue sea and a hazy sky. Soft high haze spreads the light evenly across sail and sea; the sun is off-frame and the sky mid-toned rather than bright. No modern fittings.
+
+#### 122. `aegean-island-cove` — Aegean Cove
+
+> A small sheltered cove on a rocky Aegean island in clear afternoon light. Pale sand and smooth stones at the water's edge in the near ground, clear turquoise shallows over sand and dark weed, a black ancient wooden ship drawn up on the beach with its mast lowered, and low cliffs of pale rock with scrub and wild olive climbing above, a goat path up the slope. Pale sand, turquoise, sun-bleached rock and dusty green. The cliffs throw part of the beach into soft shade and the water reads as clear colour rather than glare; the sky is a modest strip at the top. No buildings, no modern boats.
+
+#### 123. `greek-sanctuary` — Greek Sanctuary  **[PERIOD SET]**
+
+> An ancient Greek sanctuary on a headland above the sea, intact. A stone altar blackened by fire with a thin rise of smoke in the near ground, a small temple of weathered limestone columns with traces of painted colour on its pediment beyond, twisted olive trees along the terrace, and the sea glittering far below under a hazy sky. Warm limestone, soot black, olive green and deep blue sea. Soft late light rakes across the stone and trees; the sea is a mid-toned band rather than a bright field and the sun stays off-frame. Not a ruin, not gleaming white marble, no fences or signs.
+
+#### 124. `grotto-island-garden` — Island Grotto
+
+> The mouth of a great cave on a lush Mediterranean island, photographed from the meadow outside. Clear spring water running between stones and wild flowers in the near ground, meadows of violets and wild herbs, the dark mouth of the grotto in a green hillside hung with a trailing vine heavy with grapes, dark cypress and alder crowding the slope above, and a glimpse of the sea to one side. Deep green, violet, grape purple and warm stone. Soft afternoon light fills the meadow and the vine so the cave mouth reads as dim shade rather than black, with light reaching a little way inside. No buildings.
+
+#### 125. `underworld-shore` — Shore of the Dead  **[FANTASTIC]**
+
+> A grey shore at the edge of the world where no sun reaches. Cold wet stones and a shallow pit dug at the water's edge in the near ground, a slow dark river sliding past, black poplars and willows standing along the far bank, mist crawling low over the water, and a pale sourceless twilight spread across everything. Ash grey, slate blue, black-green and bone white. The light is an even, overcast pewter glow with no visible source, lighting the stones, water and trees in soft layers rather than leaving the frame dark. No ghosts rendered, no skulls, nothing gory.
+
+### 白夜行 and modern East Asia
+
+#### 126. `school-classroom` — School Classroom
+
+> An ordinary school classroom after lessons, empty, photographed from the back corner. Rows of plain wooden desks and chairs in the near ground, one chair pushed back, the rows receding toward a dark green chalkboard with faint smudged chalk marks, a teacher's desk at the front, and a wall of tall windows along one side with afternoon light falling in long shapes across the floor. Warm wood, chalkboard green, pale walls and golden afternoon light. The window light spreads across the floor and desks so the room is evenly lit; the windows sit along one side, not at centre, and the chalkboard carries no legible writing. Timeless enough to be Japanese, Chinese or Western.
+
+#### 127. `abandoned-building` — Abandoned Building
+
+> The inside of an abandoned concrete building, photographed from a stair landing. A broken stairwell choked with rubble, splintered boards and dust in the near ground, bare concrete walls with spreading water stains and peeling paint, empty window frames letting in grey daylight, and a dark doorway leading deeper in. Concrete grey, rust, damp brown and cold daylight. Diffuse daylight through several empty windows falls across the rubble and walls so the whole space reads in soft greys rather than black, with no single blinding window. No graffiti lettering.
+
+#### 128. `cocktail-lounge` — Hostess Lounge
+
+> A dim, expensive hostess lounge in a city nightlife district, empty before opening. A low glass table with a whisky bottle, an ice bucket and glasses in the near ground, curved deep velvet sofas in plum and midnight blue around low tables, a small bar with softly backlit bottles along one wall, a black grand piano in the corner, and low amber lamps on the side tables. Plum, midnight blue, brass and amber. The many low lamps and the backlit bar spread warm light across the velvet and the tables, so the room reads intimate but clearly visible rather than black, with no bright light at centre. No legible labels or signage.
+
+#### 129. `izakaya-interior` — Izakaya
+
+> The inside of a small Japanese izakaya in the evening, empty of customers, photographed from a stool at the counter. A worn wooden counter with a sake flask, small plates and chopsticks in the near ground, the cook's station behind it with skewers resting over a charcoal grill and a thin rise of smoke, strips of paper menu hung along the wall above, paper lanterns, and a noren curtain across the entrance. Honey wood, charcoal glow, off-white paper and smoky amber. Lantern light and the glow of the grill spread warm, even light across the counter and the wall. Menu strips and noren show no writing.
+
+#### 130. `department-store` — Department Store
+
+> The ground floor of a large department store before opening, empty. A glass cosmetics counter with neatly arranged bottles in the near ground, more glass counters receding across a polished pale floor, a tall central atrium rising floor above floor with a pair of escalators crossing it, and soft even lighting throughout. Ivory, champagne gold, glass and pale marble. The light is bright, soft and even across the whole floor and up the atrium, with no hotspot at centre and gentle reflections in the floor. No brand names or legible signs.
+
+#### 131. `golf-driving-range` — Golf Driving Range
+
+> A covered multi-storey golf driving range at dusk, empty, photographed from inside a hitting bay. A green hitting mat with a small pile of white golf balls and a club leaning against the partition in the near ground, a long row of identical bays stretching away under a tiered structure with floodlights along its roof edge, and beyond them a wide green field enclosed by very tall green netting on poles, distance marker flags scattered across the grass, under a dusky blue sky. Grass green, netting green, white balls and floodlight white against blue dusk. The floodlights wash evenly across the field and netting, so the outfield glows as a broad green plane rather than a black void. No legible signage.
+
+#### 132. `tokyo-scramble-crossing` — Tokyo Crossing
+
+> A huge scramble crossing in central Tokyo at night in light rain, deserted in the moment between signals, photographed from street level at one corner. Wet asphalt with white zebra stripes running in several directions in the near ground, the crossings meeting in the middle, and tall buildings on every side covered in giant video screens and lit facades. Electric blue, magenta, white and warm amber on wet black asphalt. The screens and facades throw broad coloured light across the entire wet road surface, so the whole frame glows rather than showing points in darkness, and the brightest screens sit high and to the sides. Every screen and sign is unreadable colour, with no letters and no pictures of people.
+
+#### 133. `night-market` — Night Market
+
+> A crowded East Asian night market lane just before it opens, empty of people, photographed down the aisle. A food stall counter with steel trays and skewers in the near ground, rows of stalls under canvas awnings stretching away on both sides, strings of bare bulbs and hanging lamps overhead, and woks and grills sending a haze of steam and smoke up into the lamplight. Warm tungsten orange, red awnings, steel and smoky haze against a deep blue night sky. The many bulbs spread warm light along the whole lane and across the awnings, so the market glows as a continuous corridor, and the haze catches the light above. Every sign and banner is unreadable colour with no characters.
+
+### Any modern book
+
+#### 134. `restaurant-dining-room` — Restaurant
+
+> The dining room of a good restaurant in the evening before guests arrive. A table with a white cloth, a lit candle, polished glasses and folded napkins in the near ground, more tables set well apart receding into the room, warm wall lamps and a large mirror, and a kitchen door with a round window at the back. White linen, warm amber, deep burgundy and dark wood. Wall lamps and candles spread warm light across the tablecloths and walls so the room reads intimate and visible, with no single bright point at centre. No legible menus or signage.
+
+#### 135. `bar-counter` — Bar
+
+> A long wooden bar in a city pub late in the evening, empty, photographed along the bar from one end. The polished bar top with a half-finished pint on a beer mat in the near ground, a row of stools, brass taps, and shelves of bottles in front of a long mirror behind the bar, with low pendant lamps along its length. Dark mahogany, brass, amber beer and warm shadow. The pendant lamps and backlit shelves spread warm light down the whole length of the bar so it recedes as a glowing line, and the rest of the room is soft shadow, not black. No legible labels.
+
+#### 136. `city-park` — City Park
+
+> A large park in the middle of a city on a soft spring afternoon, photographed from a path. A gravel path, a park bench and an iron lamp post in the near ground, the path winding under tall old elms past a lawn sloping down to a pond, and the tops of city towers showing above the trees in the distance. Fresh green, gravel beige, soft grey water and a pale sky. Light filtered through the canopy lays soft dappled light across the lawn and path; the sky is a small band above the trees and the pond reflects it gently. No dogs or vehicles.
+
+#### 137. `manhattan-avenue` — Manhattan Avenue
+
+> A Manhattan avenue on a grey morning, photographed from the sidewalk looking up the avenue. A curb, a steaming street grate and the railing of a subway entrance in the near ground, the avenue running straight into the distance between towers of glass and old stone that form a deep canyon, a few yellow taxis in the traffic lanes, and a narrow strip of sky above. Stone grey, glass blue, taxi yellow and soft steam white. Overcast light reflects off the glass towers and the damp street so the canyon reads evenly from top to bottom, and the sky strip is pale but not bright. No legible signs, plates or advertising.
+
+#### 138. `lecture-hall` — Lecture Hall
+
+> A steep university lecture hall, empty, photographed from the top row. Curved rows of tiered wooden benches with fold-down desks in the near ground, descending toward a podium and a large blank projection screen at the bottom, high windows along one side letting in afternoon light, and a projector beam faintly visible in the dusty air. Honey wood, grey and warm afternoon light. Daylight from the high windows spreads across the tiers so the whole hall reads; the screen is blank and mid-toned, not bright, and sits below centre. No text on the screen or boards.
+
+#### 139. `gym` — Gym
+
+> A large modern gym early in the morning, empty, photographed from the free-weights area. A rack of dumbbells and a weight bench in the near ground, rubber floor mats, a long mirrored wall, and rows of treadmills further back facing tall windows with pale morning light coming in. Charcoal rubber, brushed steel, soft white light and one accent colour. The windows and ceiling lights fill the space with even light that reflects softly in the mirrors, with no hotspot at centre. No logos or legible signs.
+
+#### 140. `airplane-cabin` — Airplane Cabin
+
+> The cabin of a passenger airliner on a night flight, empty, photographed down the aisle. The edge of a seat and a folded blanket in the near ground, rows of seats receding under dim blue cabin lighting, most window blinds down, and one oval window open onto a sea of cloud lit by moonlight. Deep blue, grey upholstery and soft silver moonlight. The cabin's blue mood lighting fills the whole aisle evenly so the seats and ceiling read clearly; the moonlit window sits to one side and stays soft. No signage or screens with text.
+
+---
+
+## Wave two — 28 scenes
+
+Places to play, public life, more cities, and the rest of the three books.
+
+### Play
+
+#### 141. `golf-course` — Golf Course
+
+> A golf course on a still, misty morning, photographed from the edge of the fairway. Close-mown grass and a small white ball in the near ground, a smooth fairway curving between stands of tall pines toward a flag on a putting green, a pond and a white sand bunker beside it, and a low clubhouse just visible far behind in the haze. Deep green, sand white, soft grey water and misty blue. Morning mist diffuses the light so the whole course is evenly lit with gentle depth and no bright sky patch. No legible signs.
+
+#### 142. `amusement-park` — Amusement Park
+
+> An amusement park at dusk just after closing, empty, as the lights come on. A painted railing and a shuttered ticket booth in the near ground, a carousel with carved horses glowing under warm bulbs to one side, the midway lined with game stalls strung with lights, a large Ferris wheel lit up against the sky and the steel frame of a roller coaster crossing the background. Carnival red, warm bulb gold, teal and violet dusk. Thousands of small bulbs spread warm light across the midway and the rides so the whole park glows, and the dusk sky is deep but not black. No legible signage.
+
+#### 143. `stadium` — Stadium
+
+> A great sports stadium under floodlights before the gates open, empty, photographed from high in the upper tier. Rows of empty seats in the near ground falling away steeply, tier upon tier of seating wrapping around a brilliant green pitch with crisp white lines, banks of floodlights along the roof edge, and a dark evening sky above. Pitch green, seat red, floodlight white and deep blue sky. The floodlights pour even light across the whole bowl and pitch so the stadium reads completely; the lights themselves sit at the top edge, not at centre. No scoreboard text or legible signage.
+
+#### 144. `swimming-pool` — Swimming Pool
+
+> An indoor swimming pool early in the morning, empty, photographed from the end of a lane. Pale tiles and a starting block in the near ground, long lanes of still blue water divided by floating rope lines, wavering light thrown up across pale tiled walls, and a high glazed roof letting in soft daylight. Aqua blue, pale tile white and cool grey. Daylight from the glazed roof reflects evenly off the water so the whole hall glows softly, with no glare at centre. No lane numbers or legible signs.
+
+#### 145. `tennis-court` — Tennis Court
+
+> An outdoor clay tennis court at a private club on a summer afternoon, empty. Red clay with a crisp white baseline and a couple of tennis balls in the near ground, a slightly sagging net across the court, a tall green wire fence behind with a towel hung on it, and old trees throwing shade along one side. Terracotta, white lines, deep green and dappled light. Soft afternoon sun from one side lays long tree shadows across part of the court so the clay does not glare, and the sky is a small band above the trees.
+
+#### 146. `museum-gallery` — Museum Gallery
+
+> A quiet gallery in a great art museum, empty, photographed through a doorway into the room. A polished wooden floor and the edge of a doorframe in the near ground, a low bench in the middle of the room, tall walls hung with old oil landscapes and still lifes in heavy gilt frames, and further doorways opening onto more galleries beyond. Warm grey walls, gilt, dark oils and honey wood. Soft skylight from above spreads even light across the walls and floor, and the paintings read as dark rich tones rather than glare. No portraits with clear faces, no legible labels.
+
+#### 147. `concert-hall` — Concert Hall
+
+> A grand concert hall before the performance, empty, photographed from the stalls. Red velvet seat backs in the near ground, a lit stage with a black grand piano, rows of empty orchestra chairs and music stands, tiers of red seats and gilded balconies rising around it, and a great pipe organ at the back. Crimson, gilt, honey wood and warm stage light. Warm house lights and stage lighting fill the hall evenly so the balconies read all the way up; the stage is warm and mid-toned, not a bright hotspot. No legible text.
+
+#### 148. `karaoke-room` — Karaoke Room
+
+> A private karaoke room at night in an East Asian city, empty. A low table crowded with bottles, glasses, snacks and two microphones in the near ground, a U-shaped sofa around it, a large screen on the far wall showing only soft abstract colour, and coloured lights sweeping across the walls and ceiling. Magenta, violet, teal and warm amber. Coloured ambient light and the screen's glow fill the small room with saturated but even light so the furniture reads clearly; the screen sits off-centre and is not the brightest element. No lyrics, logos or legible text.
+
+#### 149. `game-arcade` — Game Arcade
+
+> A game arcade at night in a Japanese or Chinese city, empty of people. A claw crane machine full of plush toys glowing in the near ground, rows of arcade cabinets and rhythm-game machines stretching away, patterned carpet, and a low ceiling of lights. Neon pink, electric blue, lime and warm white. The many glowing machines spread colourful light across the floor and aisles so the whole room glows, and no single machine blows out. Every screen shows abstract colour; no legible text, logos or characters.
+
+### Learning and institutions
+
+#### 150. `school-library` — School Library
+
+> A school library in the afternoon, empty, photographed between the shelves. Long wooden reading tables with a few books left on them in the near ground, rows of wooden shelves of coloured spines, curtains half drawn across tall windows letting in golden afternoon light, dust drifting in the beams, and a librarian's counter by the door. Honey wood, faded book colours, cream curtains and golden light. The half-drawn curtains diffuse the light into broad soft bands across the tables and shelves so the room reads evenly, with no bright window at centre. No legible spines or signs.
+
+#### 151. `school-rooftop` — School Rooftop
+
+> The flat concrete rooftop of an East Asian school building on a clear afternoon, empty. Weathered concrete and a painted line in the near ground, a tall green wire fence around the edge, a steel water tank on legs and the small stairwell hut with its door to one side, and a small town spread out below under a wide pale sky with distant hills. Concrete grey, fence green and pale blue sky. The sky is soft and hazy rather than bright; the fence and water tank break the frame vertically and the town below gives depth. No legible text.
+
+#### 152. `police-squad-room` — Police Squad Room
+
+> A crowded police squad room at night, empty of people. Steel desks pushed together in the near ground with phones, overflowing files and an ashtray, more desks receding under fluorescent tubes, and a large whiteboard on the far wall covered in pinned photographs, maps and marker arrows. Steel grey, fluorescent green-white and paper cream. Overhead fluorescent light fills the room evenly; the whiteboard is mid-toned and to one side. Nothing on the board or the files is legible, and no faces show in the photographs.
+
+#### 153. `magistrate-court` — Magistrate's Court
+
+> The hall of a county magistrate in old China, empty, photographed from the floor where the accused would kneel. Worn stone flags in the near ground, red-and-black wooden staves in racks along both sides, a raised platform at the far end with the magistrate's table draped in red cloth, a gavel block and a pot of tallies on it, a large hanging plaque above and a painted screen behind. Vermilion, black lacquer, grey stone and dusty daylight. Daylight from open doors behind the viewer spreads across the floor and up the platform so the hall reads evenly. The plaque is a blank lacquered board with no characters.
+
+### Shops
+
+#### 154. `bookshop` — Bookshop
+
+> A narrow second-hand bookshop on a rainy afternoon, empty, photographed from the doorway. Stacks of books on the floor in the near ground, shelves climbing to the ceiling on both sides with a wooden ladder leaning against them, a counter at the back with a green-shaded lamp, and a rain-streaked shop window to one side. Warm book browns, green lamp glow and cool grey rain light. The lamp and the window spread warm and cool light along the shelves so the narrow shop reads end to end, with no hotspot at centre. No legible spines or signs.
+
+#### 155. `boutique` — Boutique
+
+> An expensive fashion boutique in the afternoon, empty, photographed from inside. A pale carpet and the corner of a glass counter in the near ground, only a few garments hung far apart on slim metal rails, a mirrored fitting room with its curtain drawn back, and a window display of three outfits facing a quiet street. Ivory, blush, soft black and brushed brass. Soft even lighting and diffused window light fill the room gently; the window is to one side and does not glare. No brand names or legible text, no mannequin faces.
+
+#### 156. `pawnshop-counter` — Pawnshop
+
+> A small pawnshop at dusk, empty, photographed from the customer's side. A high wooden counter with a steel grille in the near ground, a glass display case of watches and rings below it, shelves behind the grille crowded with pawned objects, tickets on a spike and a desk lamp over an open ledger. Dark wood, steel grey, brass and warm lamplight. The desk lamp and a bare ceiling bulb spread warm light across the grille and shelves so the shop reads and nothing goes black; the grille lines break the frame. No legible writing on tickets or ledger.
+
+#### 157. `pharmacy` — Pharmacy
+
+> A small neighbourhood pharmacy in the evening, empty. A counter with a small bell and a few paper bags in the near ground, white shelves of medicine boxes behind it, glass cabinets of old apothecary jars along one side, and the shop window showing a dark street and a softly glowing green cross outside. Clinical white, pale green, glass and warm counter light. Even overhead light fills the shop; the green cross outside is small and soft, not a bright point. No legible labels or signs.
+
+### Homes
+
+#### 158. `showa-wooden-apartment` — Old Wooden Apartment
+
+> An old two-storey wooden apartment building in a Japanese city in the late afternoon, photographed along the open upper corridor. Worn floorboards with a pair of shoes and a folded umbrella outside a door in the near ground, a narrow open-air corridor of identical wooden doors running away, an iron staircase on the outside, laundry hanging over the rail and a jumble of low roofs and utility poles beyond. Weathered brown timber, rust, faded laundry colours and soft golden light. Low sun from the side washes the corridor and doors evenly and the sky is a pale strip. Nineteen-seventies and eighties details, no modern signage, no legible nameplates.
+
+#### 159. `chinese-apartment` — Chinese Apartment Block
+
+> The living room of a flat in an ageing Chinese apartment block in the afternoon, empty. A red-painted concrete floor and a thermos beside an enamel basin on a low table in the near ground, a sofa with a lace cover, a framed landscape print on the wall above it, a television on a wooden cabinet, and an open door onto a concrete stairwell with bicycles and boxes. Faded red, cream walls, wood brown and soft afternoon light. Daylight from a side window spreads across the floor and wall so the room reads warm and even. No legible calendars or characters.
+
+### Cities
+
+#### 160. `brooklyn-brownstone-street` — Brownstone Street
+
+> A tree-lined Brooklyn street of brownstone townhouses on an autumn afternoon, empty. A stone stoop with fallen leaves on its steps and an iron railing in the near ground, a row of brownstones with high stoops and bay windows receding down the block, plane trees in yellow leaf, and parked cars along the curb. Brownstone red-brown, autumn gold, black iron and soft grey sky. Soft overcast light fills the street evenly and the sky is a small band above the trees. No legible house numbers or signs.
+
+#### 161. `paris-cafe-terrace` — Paris Café Terrace
+
+> The terrace of a Paris café on a grey afternoon, empty, photographed from among the tables. A small round marble table with an espresso cup and a folded newspaper in the near ground, rows of wicker chairs facing the boulevard under a dark red awning, the zinc bar glimpsed through the window, and cream stone apartment buildings with iron balconies across the street. Cream stone, oxblood awning, wicker gold and soft grey sky. Overcast light spreads evenly across the terrace and the facades, and the awning shades the foreground so nothing glares. No legible text on the awning, cup or newspaper.
+
+#### 162. `pudong-skyline-night` — Shanghai Skyline at Night
+
+> The skyline of Pudong in Shanghai at night, seen from a high observation deck. The edge of a window frame and a railing in the near ground, a dense forest of glass skyscrapers lit in blue and gold filling the middle of the frame, the Huangpu river curving below with boat lights on it, and the lit city running out to a hazy horizon. Electric blue, gold, deep violet sky and river black. The countless lit windows form a continuous field of light that fills the frame, and haze above the towers carries their glow, so nothing is a point in darkness. No legible signs, logos or text.
+
+### The rest of the three books
+
+#### 163. `palace-red-walls` — Red Palace Walls
+
+> A long lane between high red walls inside an imperial Chinese palace, empty, after snowfall. Snow on grey stone flags in the near ground, tall vermilion walls on both sides running away in strong perspective, golden-yellow glazed roof tiles just showing along their tops, a narrow strip of pale grey sky, and a single gateway far down the lane. Vermilion, snow white, imperial yellow and cold grey. Soft overcast light and the snow's reflection fill the lane evenly, and the sky strip is pale and narrow. Forbidden City architecture only, no tourists or modern fittings.
+
+#### 164. `examination-cells` — Examination Hall  **[PERIOD SET]**
+
+> The imperial examination compound of old China, photographed down one narrow lane. Worn grey brick paving in the near ground, a long row of tiny open-fronted brick cells running away on one side, each with two wooden planks for desk and seat, an inkstone and brush left in the nearest, and a tall wooden watchtower rising at the end of the lane. Grey brick, weathered wood and a pale sky. Soft overcast light fills the lane evenly and reaches into the cells, and the sky is a narrow strip above. No numbers or characters on the cells.
+
+#### 165. `city-gate-and-walls` — City Gate and Walls
+
+> The great gate of a walled Chinese city in winter, photographed from the road outside. A snowy road with cart tracks in the near ground, massive grey brick walls running away on either side, a deep arched gate passage left of centre, and a tall gatehouse tower with upturned tiled eaves above it, banners on the battlements. Grey brick, snow white, dark timber and faded red banners. Soft overcast light and the snow's reflection fill the scene evenly; the arched passage is shadowed but reads. Ming-style city walls; banners and plaques carry no characters.
+
+#### 166. `herders-cave` — Herder's Cave
+
+> A vast cave in a rocky hillside used by a herdsman, photographed from inside toward the mouth. Rough rock floor, a low fire and wicker racks of round cheeses in the near ground, stone-walled pens for sheep and goats along the cave walls, and the wide cave mouth partly blocked by a huge boulder, with pale daylight beyond. Warm firelight orange, rough rock ochre and soft daylight. Firelight and the daylight from the mouth together light the whole interior so the walls and pens read; the mouth sits to one side and does not glare. At most a few sheep as dim shapes in the pens.
+
+#### 167. `ancient-walled-city` — Bronze-Age Walled City  **[PERIOD SET]**
+
+> The high stone walls of a Bronze Age city on a hill above a windy plain, intact. Dry grass and a rutted chariot track in the near ground, the massive sloping walls of fitted stone with towers and a great gate rising above the plain, and far off on the shore the dark hulls of a fleet drawn up in lines under a hazy sky. Warm stone, dry-grass gold, dark hulls and dusty blue. Soft late afternoon light rakes across the walls; the sky is mid-toned and hazy with the sun off-frame.
+
+### Medieval Europe
+
+#### 168. `medieval-tavern` — Medieval Tavern  **[PERIOD SET]**
+
+> A low smoky tavern in a medieval town at night, empty of people. A rough wooden table with a tankard and a trencher in the near ground, benches and more tables across a floor strewn with rushes, a fire roaring in a wide stone hearth, casks stacked along the wall, and a wooden staircase climbing to rooms above. Firelight orange, smoky timber brown and tallow gold. The hearth and several candles spread warm light across the whole room and up the beams so it reads warm and full rather than dark, with the fire low and off-centre.
+
+---
+
+## Wave three — 24 scenes
+
+The other worlds: old Japan, xianxia, Rome, medieval Europe, the imagined, and modern cities
+beyond East Asia and the West.
+
+### Old Japan
+
+#### 169. `edo-street` — Edo Street  **[PERIOD SET]**
+
+> A street in old Edo, Japan, in soft morning light, empty. Packed earth and a stone-lined drainage channel in the near ground, rows of two-storey wooden townhouses with lattice fronts and dark tiled roofs on both sides, indigo noren curtains hanging over the shop doorways, and a wooden fire watchtower rising above the roofs further down the street. Dark timber, indigo, grey tile and pale sky. Soft overcast light fills the street evenly and the tower sits in gentle haze. Edo-period architecture only: every noren and sign is plain cloth with no characters, and there are no modern wires.
+
+#### 170. `castle-keep` — Japanese Castle
+
+> A Japanese castle keep in the late afternoon, photographed across its moat. Still moat water and a stone embankment in the near ground, massive curving stone ramparts rising from the water, and the white plaster keep stacked in tiers above with dark wooden gables and upturned roofs at every level, old pines leaning over the moat. White plaster, dark timber, grey stone and deep green. Soft low sun lights the white walls warmly without glare, and the sky is hazy and mid-toned. No tourists or modern fittings.
+
+#### 171. `samurai-residence` — Samurai Residence
+
+> The inside of a samurai's house in old Japan on a rainy afternoon, empty. Dark polished floorboards at the edge of the tatami in the near ground, a tatami room under dark beams, a suit of samurai armour on its stand in one corner, a rack of two swords in the alcove beneath a hanging scroll, and shoji screens slid open onto a veranda and a raked gravel garden in the rain. Dark timber, straw tatami, lacquered armour and grey rain light. Soft grey daylight from the garden side spreads evenly into the room, with the open shoji to one side. The scroll shows abstract ink only, no characters.
+
+#### 172. `tea-ceremony-room` — Tea Ceremony Room
+
+> A tiny Japanese tea-ceremony room, empty, photographed from the host's place. An iron kettle steaming over a sunken hearth and a tea bowl with a bamboo whisk in the near ground, four and a half tatami mats, rough earthen clay walls, a small alcove holding a single flower in a vase and a plain hanging scroll, and a low crawl-through door with light through its paper. Straw, earth brown, charcoal and soft paper light. Diffused light through paper windows fills the tiny room evenly, with no dark corner and no bright window. The scroll carries no characters.
+
+#### 173. `post-town-inn` — Post Town Inn
+
+> A post town on an old Japanese highway at dusk, photographed down its stone-paved road. Worn flagstones and a wooden bench with a pair of straw sandals in the near ground, wooden two-storey inns lining both sides with lanterns lit under the eaves and straw travellers' hats hung by the entrances, and the road running on between tall cedars into dark mountains. Dark timber, lantern amber and cool blue dusk. The lanterns and lit paper windows spread warm light along the whole street and the dusk sky still holds light, so nothing is black. Lanterns and signs carry no characters.
+
+### Xianxia
+
+#### 174. `cloud-sea-peaks` — Cloud-Sea Peaks
+
+> Sheer granite peaks rising out of a sea of cloud at sunrise, photographed from a ledge. A twisted pine clinging to rock in the near ground, jagged granite pinnacles rising out of a white rolling cloud sea in the middle distance, and on the highest summit a small pavilion with upturned eaves, a pair of cranes flying far off between the peaks. Warm granite, deep pine green, pearl-white cloud and pale gold light. Soft sunrise light from the side warms the rock and the tops of the clouds; the sun is off-frame and the sky above is gentle. No railings, cable cars or modern paths.
+
+#### 175. `sect-hall` — Sect Hall  **[PERIOD SET]**
+
+> The great hall of a martial arts sect on a mountaintop in early morning, empty. A wide stone training ground with a weapons rack in the near ground, a flight of steps up to a hall of dark timber and grey tiles with sweeping upturned eaves and a large hanging plaque over the doors, bronze censers smoking on either side, and mountains fading into mist behind. Dark timber, grey stone, bronze and pearl mist. Soft even morning light and the mist fill the scene with gentle depth and no bright sky. The plaque is a blank lacquered board with no characters.
+
+#### 176. `cultivation-cave` — Cultivation Cave
+
+> A hermit's meditation cave high in the Chinese mountains, photographed from inside. A smooth stone platform with a cushion in the near ground, a few scrolls and an oil lamp on a rock ledge, a trickle of spring water falling into a small rock pool, and the wide cave mouth opening onto mist and distant peaks. Pale grey stone, moss green, lamp amber and soft white mist. Soft daylight through the mist and the lamp's glow fill the cave evenly; the mouth is to one side and hazy rather than bright.
+
+### Rome
+
+#### 177. `roman-forum` — Roman Forum  **[PERIOD SET]**
+
+> The forum of ancient Rome in its glory, intact and empty on a hot afternoon. Worn paving stones and the base of a bronze statue on a tall pedestal in the near ground, marble temples and colonnades framing a long paved square, a triumphal arch, and steps rising to a basilica, with painted details on the stone. Warm marble, travertine gold, bronze green and a hazy blue sky. Warm afternoon light rakes across the columns and the colonnades cast long shade over part of the square, with the sun off-frame. No ruins.
+
+#### 178. `villa-atrium` — Roman Villa Atrium  **[PERIOD SET]**
+
+> The atrium of a wealthy Roman villa in the afternoon, empty. A mosaic floor and the edge of a shallow rectangular pool open to the sky in the near ground, walls painted deep red and ochre with frescoes of gardens and birds, columns and doorways leading to further rooms, and a green garden court glimpsed beyond. Pompeian red, ochre, mosaic cream and soft green. Daylight falls through the opening in the roof onto the pool and spreads across the floor and walls; that opening's brightness sits at the top edge, not at centre.
+
+#### 179. `amphitheatre` — Amphitheatre  **[PERIOD SET]**
+
+> The arena of a great Roman amphitheatre, intact and empty, photographed from the arena floor. Raked sand in the near ground, the arena wall with barred gates, tier upon tier of stone seating rising all round in rows of arches, and coloured awnings stretched over the upper rim. Warm travertine, sand gold, awning red and a hazy sky. The awnings shade part of the seating so the bowl reads in soft light and shade, and the sky is a small hazy oval at the top. No ruins.
+
+### Medieval Europe
+
+#### 180. `castle-courtyard` — Castle Courtyard
+
+> The inner courtyard of a medieval castle on a cold morning, empty. Worn cobbles and a stone well in the near ground, high curtain walls and towers of grey stone on every side, a smithy lean-to against one wall with a faint glow, wooden stairs up to the keep door, and a gatehouse with its portcullis raised. Cold grey stone, dark timber, muted banner colours and a pale sky. Soft overcast light fills the courtyard evenly and the sky is a pale square above the walls. Banners are plain fields of colour with no heraldic lettering.
+
+#### 181. `great-hall-feast` — Great Hall Feast  **[PERIOD SET]**
+
+> The great hall of a medieval castle laid for a feast, empty of people. The end of a long trestle table laden with roasts, bread, candles and goblets in the near ground, more tables stretching down the hall, a high table on a dais under hanging heraldic banners and tapestries, a fire roaring in a huge stone fireplace in the side wall, and a minstrels' gallery above. Candle gold, firelight orange, rich tapestry reds and stone grey. Hundreds of candles and the fire spread warm light down the whole hall and up the walls, with the fire to one side.
+
+#### 182. `blacksmith-forge` — Blacksmith's Forge
+
+> A village blacksmith's forge, empty, photographed from inside. An anvil on a tree stump with a hammer resting on it in the near ground, a stone forge hearth under a hood with coals glowing orange, tongs and hammers hanging from the beams, a quenching trough, and an open door with grey daylight beyond. Coal orange, iron black, smoky brown and cool daylight. The forge glow and the daylight from the door together light the smoky room so the tools and walls read; sparks are small accents and the hearth sits to one side.
+
+### The imagined
+
+#### 183. `space-station-corridor` — Space Station Corridor  **[FANTASTIC]**
+
+> A curving corridor aboard an orbiting space station. Handrails and a closed hatch in the near ground, white wall panels lit softly from within curving away ahead, cable runs and small equipment lights, and a wide viewport along one side showing the curve of a blue planet with thin cloud below and black space above. White, soft blue, planet blue and graphite. The corridor's own panel lighting fills the space evenly; the planet is mid-toned and to the side, not a bright field. No text or logos.
+
+#### 184. `alien-landscape` — Alien World  **[FANTASTIC]**
+
+> The surface of an alien planet, staged as a film would stage it on a vast real location. Strange ridged rock and pale sand in the near ground, a plain stretching to towering mineral spires in the middle distance, two large moons low on the horizon, and a violet-and-amber sky. Violet, dusty rose, pale sand and deep indigo. Soft diffuse light from a hazy sky lights the whole plain evenly, and the moons are soft rather than glowing hotspots. No spacecraft.
+
+#### 185. `magic-academy-hall` — Academy of Magic  **[FANTASTIC]**
+
+> The dining hall of an old academy of magic in a mountain fortress, empty. The end of a long wooden table with stacked spellbooks and a pewter jug in the near ground, long tables receding under a high vaulted stone ceiling, tall arched windows full of evening light, and iron lanterns burning with a cold blue flame along the walls. Warm stone, dark oak, dusk gold and cold blue flame. Evening light from the windows and the lanterns spread light down the whole hall, with the windows to the sides. No crests, logos or legible titles; nothing that belongs to a particular book or film.
+
+#### 186. `dragon-lair` — Dragon's Lair  **[FANTASTIC]**
+
+> A vast cavern deep under a mountain. Gold coins, goblets and old armour spilling across the rock floor in the near ground, great heaps of treasure rising in the midground, the coils and folded wing of a sleeping dragon half seen in shadow beyond, and a thin shaft of daylight falling from a crack far above. Gold, bronze, dark scaled green and smoky grey. The shaft of light and the gold's reflected glow light the cavern in warm layers so it reads rather than going black, and the shaft falls to one side.
+
+### Modern cities beyond East Asia and the West
+
+#### 187. `lagos-market` — Lagos Market
+
+> A vast open-air market in Lagos in the early morning before trading starts, empty of people. A stall with heaped red peppers and baskets in the near ground, narrow lanes between stalls under coloured umbrellas and patched tin roofs stretching away, bolts of bright patterned fabric hung on display, and yellow minibuses parked at the edge. Pepper red, fabric colours, tin grey and warm dusty light. Soft morning haze fills the lanes evenly and the umbrellas shade the foreground so nothing glares. No legible signs.
+
+#### 188. `mexico-city-street` — Mexico City Street
+
+> A street in the historic centre of Mexico City on a spring afternoon, empty. Cobbles and a taco stand under a striped awning in the near ground, colonial buildings painted ochre, pink and blue with iron balconies on both sides, jacaranda trees in purple flower, and the dome of a church at the end of the street. Ochre, rose, cobalt, jacaranda purple and warm stone. Soft afternoon light fills the street, and the jacaranda canopy and balconies shade parts of the frame so the sky stays a small band at the top. No legible signs.
+
+#### 189. `istanbul-ferry` — Bosphorus Ferry
+
+> The deck of a ferry crossing the Bosphorus on a grey afternoon, empty. The ferry's wooden rail with a small tulip-shaped tea glass on it in the near ground, a few gulls small in the distance over the wake, the domes and minarets of the old city on the far shore to one side, and wooden waterfront mansions along the other shore. Grey-blue water, tea amber, white gulls and soft stone. Overcast light spreads evenly over the water and the shores, and the sky is soft grey rather than bright.
+
+#### 190. `cairo-rooftops` — Cairo Rooftops
+
+> The rooftops of old Cairo at sunset, photographed from one roof. A flat rooftop with a pigeon coop, a water tank and satellite dishes in the near ground, a jumble of flat roofs, laundry lines and minarets stretching away, and the hazy outline of the pyramids on the horizon. Dusty gold, rose, sand and soft violet haze. The sunset light is warm and diffused by dust across the whole city, with the sun off-frame. No legible signs.
+
+#### 191. `marrakech-riad` — Moroccan Riad
+
+> The courtyard of a Moroccan riad in the late afternoon, empty. A zellige-tiled floor and cushions around a low brass table with a tea glass in the near ground, a tiled fountain left of centre surrounded by potted orange trees, carved plaster arches and painted cedar doors on every side, a gallery above, and a square of blue sky over it all. Terracotta, zellige green and blue, carved cream plaster and orange. Soft reflected daylight fills the courtyard evenly, and the square of sky sits at the top without glaring.
+
+### An English great house
+
+#### 192. `country-house-drawing-room` — Country House Drawing Room
+
+> The drawing room of an English country house in the afternoon, empty. A tea tray with a silver pot and china cups on a low table in the near ground, sofas and armchairs grouped around a marble fireplace, landscapes in gilt frames on the walls, a piano to one side, and tall windows looking out onto a lawn and parkland. Soft green, cream, gilt and warm wood. Daylight from the tall windows spreads across the room; the windows sit to one side so the centre stays mid-toned.
+
+
 ## When the images are ready
 
 Drop them in `scenes/` named exactly by id, then:
@@ -628,6 +1024,14 @@ Drop them in `scenes/` named exactly by id, then:
 `CatalogManifestContentTest` validates the manifest on every build; a mismatch between an id and a
 filename will show up as a scene that never loads, and the app falls back to a bundled scene
 rather than showing nothing.
+
+For a staged wave, merge before measuring, because `prepare-images.py` records its measurements
+only for scenes already in the manifest:
+
+    ./merge-staged.py 1 <folder-of-generated-images>    # moves the scenes that have art
+    ./prepare-images.py <folder-of-generated-images>
+
+A scene whose image did not come back stays in `staged/` and is not published.
 
 ## If you add more scenes later
 

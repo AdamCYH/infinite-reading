@@ -1,0 +1,157 @@
+{
+  "about": "The vocabulary for each scene's world and kind in manifest.json, and the tags for the scenes bundled with the app, which are not in the manifest. A world is the time and culture a book lives in; a kind is what the reader sees. catalog-map.py turns these into CATALOG-MAP.md, and CatalogManifestContentTest requires every published scene to use them.",
+  "worlds": {
+    "nature": {
+      "name": "Nature, any book",
+      "summary": "Landscapes, weather and sea that fit any era."
+    },
+    "modern-any": {
+      "name": "Modern, any city",
+      "summary": "Kitchens, offices, hospitals, cafés and gyms: the same in Osaka or Ohio."
+    },
+    "modern-east-asia": {
+      "name": "Modern East Asia",
+      "summary": "Japan, China, Korea, Hong Kong and Taiwan since about 1950."
+    },
+    "modern-west": {
+      "name": "Modern West",
+      "summary": "Places that are distinctly American or European today: Manhattan, Brooklyn, Paris, roadside America."
+    },
+    "imperial-china": {
+      "name": "Imperial China",
+      "summary": "Dynastic China, including the worlds of wuxia and xianxia."
+    },
+    "old-japan": {
+      "name": "Old Japan",
+      "summary": "Japan before about 1870: Edo streets, castles, samurai houses and temples."
+    },
+    "classical": {
+      "name": "Classical Mediterranean",
+      "summary": "Bronze-Age Greece to imperial Rome: the Odyssey, the forum and the arena."
+    },
+    "medieval-europe": {
+      "name": "Medieval Europe",
+      "summary": "Castles to candlelight, before about 1800."
+    },
+    "industrial": {
+      "name": "Industrial age",
+      "summary": "About 1800 to 1945, mostly European: stations, mills, docks, ballrooms and country houses."
+    },
+    "wider-world": {
+      "name": "Wider world",
+      "summary": "South Asia, the Middle East, Africa and Latin America, past and present."
+    },
+    "imagined": {
+      "name": "Imagined",
+      "summary": "Fantasy and science fiction: places that never existed."
+    }
+  },
+  "kinds": {
+    "home": {
+      "name": "Home",
+      "summary": "Where people live: rooms, apartments, houses and huts."
+    },
+    "street": {
+      "name": "Street",
+      "summary": "Streets, lanes, squares, rooftops and city views."
+    },
+    "shop": {
+      "name": "Market and shop",
+      "summary": "Markets, stalls, shops and stores."
+    },
+    "food": {
+      "name": "Eat and drink",
+      "summary": "Restaurants, bars, cafés, teahouses and taverns."
+    },
+    "lodging": {
+      "name": "Lodging",
+      "summary": "Inns, hotels, motels and caravanserais."
+    },
+    "power": {
+      "name": "Power",
+      "summary": "Throne rooms, courts, police stations, prisons and palaces."
+    },
+    "worship": {
+      "name": "Worship",
+      "summary": "Temples, churches, shrines and sanctuaries."
+    },
+    "work": {
+      "name": "Work and learning",
+      "summary": "Offices, schools, libraries, laboratories, workshops and mills."
+    },
+    "travel": {
+      "name": "Travel",
+      "summary": "Ships, trains, planes, stations and roads."
+    },
+    "play": {
+      "name": "Play",
+      "summary": "Sport, games, entertainment and leisure."
+    },
+    "land": {
+      "name": "Landscape and sea",
+      "summary": "Open country, wild places and water."
+    },
+    "myth": {
+      "name": "Myth and ruin",
+      "summary": "Ruins, battlefields and the supernatural."
+    }
+  },
+  "bundled": {
+    "Green Hills": {
+      "world": "nature",
+      "kind": "land"
+    },
+    "Beach": {
+      "world": "nature",
+      "kind": "land"
+    },
+    "Mountain": {
+      "world": "nature",
+      "kind": "land"
+    },
+    "Yang Shuo": {
+      "world": "nature",
+      "kind": "land"
+    },
+    "Zen": {
+      "world": "old-japan",
+      "kind": "worship"
+    },
+    "Ice": {
+      "world": "nature",
+      "kind": "land"
+    },
+    "Office room": {
+      "world": "modern-any",
+      "kind": "work"
+    },
+    "Tropical Room": {
+      "world": "modern-any",
+      "kind": "home"
+    },
+    "Night": {
+      "world": "nature",
+      "kind": "land"
+    },
+    "Ancient Library": {
+      "world": "imagined",
+      "kind": "myth"
+    },
+    "Cozy Cabin": {
+      "world": "modern-any",
+      "kind": "home"
+    },
+    "Cyberpunk City": {
+      "world": "imagined",
+      "kind": "street"
+    },
+    "Mystical Forest": {
+      "world": "imagined",
+      "kind": "myth"
+    },
+    "Sci-Fi Spaceship": {
+      "world": "imagined",
+      "kind": "travel"
+    }
+  }
+}

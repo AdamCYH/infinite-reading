@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "version": 7,
+  "version": 8,
   "embeddingModel": null,
   "profiles": {
     "scrim-lerp-1": {
@@ -33,6 +33,8 @@
     {
       "id": "rain-window-city-night",
       "name": "Rain on a City Window",
+      "world": "modern-any",
+      "kind": "street",
       "description": "Rain running down a window at night, blurred city lights and neon reflections beyond the glass. Melancholy, urban, contemplative. Suits noir, modern city scenes, loneliness, insomnia and quiet introspection.",
       "imageUrl": "scenes/rain-window-city-night.webp",
       "overlayAlpha": 0.46,
@@ -67,6 +69,8 @@
     {
       "id": "desert-dunes-noon",
       "name": "Desert Dunes",
+      "world": "nature",
+      "kind": "land",
       "description": "Vast sunlit sand dunes under a pale sky, heat haze on the horizon, no shelter in sight. Arid, immense, punishing. Suits desert crossings, caravans, exile, thirst, endurance and desolate journeys.",
       "imageUrl": "scenes/desert-dunes-noon.webp",
       "overlayAlpha": 0.71,
@@ -100,6 +104,8 @@
     {
       "id": "storm-at-sea",
       "name": "Storm at Sea",
+      "world": "nature",
+      "kind": "land",
       "description": "A dark heaving ocean under a bruised sky, spray tearing off the wave crests. Violent, cold, perilous. Suits shipwrecks, whaling voyages, naval battles, sailors in danger and storms at sea.",
       "imageUrl": "scenes/storm-at-sea.webp",
       "overlayAlpha": 0.6,
@@ -136,6 +142,8 @@
     {
       "id": "candlelit-study",
       "name": "Candlelit Study",
+      "world": "medieval-europe",
+      "kind": "work",
       "description": "A cramped wood-panelled study at night, papers and ledgers stacked by candlelight, shutters closed. Secretive, scholarly, close. Suits investigation, correspondence, conspiracies, late-night work and Victorian interiors.",
       "imageUrl": "scenes/candlelit-study.webp",
       "overlayAlpha": 0.61,
@@ -169,6 +177,8 @@
     {
       "id": "snowbound-village",
       "name": "Snowbound Village",
+      "world": "medieval-europe",
+      "kind": "street",
       "description": "A small village under deep snow at dusk, windows glowing faintly, smoke from chimneys, tracks in the drifts. Isolated, hushed, wintry. Suits harsh winters, remote communities, folklore and homecoming.",
       "imageUrl": "scenes/snowbound-village.webp",
       "overlayAlpha": 0.46,
@@ -203,6 +213,8 @@
     {
       "id": "grand-ballroom",
       "name": "Grand Ballroom",
+      "world": "industrial",
+      "kind": "power",
       "description": "A gilded ballroom lit by chandeliers, mirrors and polished floors, crowded and formal. Opulent, social, performative. Suits balls, courtship, high society, intrigue among the wealthy and period drama.",
       "imageUrl": "scenes/grand-ballroom.webp",
       "overlayAlpha": 0.67,
@@ -236,6 +248,8 @@
     {
       "id": "ruined-abbey",
       "name": "Ruined Abbey",
+      "world": "medieval-europe",
+      "kind": "myth",
       "description": "Roofless stone arches overgrown with ivy, weak light through empty windows, rubble underfoot. Ancient, haunted, melancholy. Suits ruins, forgotten history, gothic dread and abandoned sacred places.",
       "imageUrl": "scenes/ruined-abbey.webp",
       "overlayAlpha": 0.72,
@@ -270,6 +284,8 @@
     {
       "id": "steam-train-carriage",
       "name": "Steam Train Carriage",
+      "world": "industrial",
+      "kind": "travel",
       "description": "The interior of an old railway carriage in motion, countryside sliding past the window, brass fittings and worn upholstery. Transitional, enclosed, rhythmic. Suits journeys, chance meetings, pursuit and travel between cities.",
       "imageUrl": "scenes/steam-train-carriage.webp",
       "overlayAlpha": 0.71,
@@ -303,6 +319,8 @@
     {
       "id": "battlefield-dawn",
       "name": "Battlefield at Dawn",
+      "world": "medieval-europe",
+      "kind": "myth",
       "description": "An open field under low grey light, smoke drifting, banners and spears in the distance. Tense, grim, monumental. Suits armies before battle, sieges, epic conflict and the aftermath of war.",
       "imageUrl": "scenes/battlefield-dawn.webp",
       "overlayAlpha": 0.64,
@@ -337,6 +355,8 @@
     {
       "id": "tropical-harbour",
       "name": "Tropical Harbour",
+      "world": "industrial",
+      "kind": "travel",
       "description": "A busy colonial harbour in bright heat, wooden ships at anchor, crates and palms along the quay. Lively, humid, mercantile. Suits ports of call, trade, arrivals by sea and island settlements.",
       "imageUrl": "scenes/tropical-harbour.webp",
       "overlayAlpha": 0.69,
@@ -371,6 +391,8 @@
     {
       "id": "bamboo-grove-mist",
       "name": "Bamboo Grove in Mist",
+      "world": "nature",
+      "kind": "land",
       "description": "A dense grove of tall green bamboo in morning mist, stems creaking overhead, narrow paths of packed earth running between them. Enclosed, hushed, green-lit. Suits martial arts, hermits and sages, ambushes among the stalks, and journeys through southern China or Japan.",
       "imageUrl": "scenes/bamboo-grove-mist.webp",
       "overlayAlpha": 0.67,
@@ -404,6 +426,8 @@
     {
       "id": "autumn-birch-forest",
       "name": "Autumn Birch Forest",
+      "world": "nature",
+      "kind": "land",
       "description": "A stand of white-trunked birches in late autumn, the canopy turned gold and the ground deep in fallen leaves. Bright, brittle, wistful. Suits journeys on foot, partings, the turn of a season, and memories of childhood woods.",
       "imageUrl": "scenes/autumn-birch-forest.webp",
       "overlayAlpha": 0.63,
@@ -436,6 +460,8 @@
     {
       "id": "mangrove-swamp-dusk",
       "name": "Mangrove Swamp at Dusk",
+      "world": "nature",
+      "kind": "land",
       "description": "Brackish water threading between tangled mangrove roots at dusk, still and thick with insects, no firm ground anywhere. Humid, claustrophobic, uneasy. Suits escapes through wetland, fevers, smuggling, and places where a body would never be found.",
       "imageUrl": "scenes/mangrove-swamp-dusk.webp",
       "overlayAlpha": 0.65,
@@ -468,6 +494,8 @@
     {
       "id": "red-rock-canyon",
       "name": "Red Rock Canyon",
+      "world": "nature",
+      "kind": "land",
       "description": "A deep canyon of layered red sandstone with a thin river far below, walls striped by centuries, heat coming off the stone. Immense, ancient, exposed. Suits frontier crossings, pursuit through ravines, prospectors, and vast indifferent country.",
       "imageUrl": "scenes/red-rock-canyon.webp",
       "overlayAlpha": 0.71,
@@ -500,6 +528,8 @@
     {
       "id": "limestone-cavern-pool",
       "name": "Limestone Cavern",
+      "world": "nature",
+      "kind": "land",
       "description": "A vast underground chamber of pale limestone, still water holding a perfect reflection, stalactites overhead and no sound but dripping. Cold, echoing, otherworldly. Suits caves and tunnels, hidden sanctuaries, subterranean journeys, and discoveries made below ground.",
       "imageUrl": "scenes/limestone-cavern-pool.webp",
       "overlayAlpha": 0.63,
@@ -533,6 +563,8 @@
     {
       "id": "volcanic-badlands",
       "name": "Volcanic Badlands",
+      "world": "nature",
+      "kind": "land",
       "description": "A blasted plain of black lava rock and sulphur-yellow crust, steam venting from fissures, nothing growing. Hostile, primordial, sulphurous. Suits forges and underworlds, blighted lands, trials of endurance, and the aftermath of catastrophe.",
       "imageUrl": "scenes/volcanic-badlands.webp",
       "overlayAlpha": 0.58,
@@ -569,6 +601,8 @@
     {
       "id": "aurora-over-tundra",
       "name": "Aurora Over Tundra",
+      "world": "nature",
+      "kind": "land",
       "description": "Green light rippling across a black polar sky above an endless frozen plain, silent and enormous. Awed, solitary, numinous. Suits polar expeditions, long nights, visions and omens, and the feeling of being very small.",
       "imageUrl": "scenes/aurora-over-tundra.webp",
       "overlayAlpha": 0.6,
@@ -600,6 +634,8 @@
     {
       "id": "highland-moor-fog",
       "name": "Highland Moor",
+      "world": "nature",
+      "kind": "land",
       "description": "Rolling heather moorland swallowed in fog, peat underfoot and drystone walls appearing and vanishing. Bleak, lonely, ominous. Suits searches and disappearances, hauntings, walks gone wrong, and country far from help.",
       "imageUrl": "scenes/highland-moor-fog.webp",
       "overlayAlpha": 0.61,
@@ -633,6 +669,8 @@
     {
       "id": "jungle-waterfall-basin",
       "name": "Jungle Waterfall",
+      "world": "nature",
+      "kind": "land",
       "description": "A waterfall dropping into a green pool ringed by rainforest, spray hanging in the air, vines and broad leaves crowding the wet rock. Lush, loud, hidden. Suits expeditions, lost places, bathing and respite, and the deep interior of a jungle.",
       "imageUrl": "scenes/jungle-waterfall-basin.webp",
       "overlayAlpha": 0.63,
@@ -665,6 +703,8 @@
     {
       "id": "olive-grove-terraces",
       "name": "Olive Grove",
+      "world": "nature",
+      "kind": "land",
       "description": "Gnarled olive trees on dry stone terraces above a hot valley, cicadas going, silver leaves turning in the wind. Sun-baked, ancient, unhurried. Suits Mediterranean villages, old feuds and old families, summer heat, and classical antiquity.",
       "imageUrl": "scenes/olive-grove-terraces.webp",
       "overlayAlpha": 0.67,
@@ -697,6 +737,8 @@
     {
       "id": "frozen-lake-bare-trees",
       "name": "Frozen Lake",
+      "world": "nature",
+      "kind": "land",
       "description": "A wide frozen lake ringed by leafless trees, ice creaking underfoot, tracks crossing the snow to nowhere. Cold, quiet, tense. Suits winter journeys, thin ice, isolation, and things hidden under the surface.",
       "imageUrl": "scenes/frozen-lake-bare-trees.webp",
       "overlayAlpha": 0.71,
@@ -730,6 +772,8 @@
     {
       "id": "stone-circle-dawn",
       "name": "Standing Stones",
+      "world": "medieval-europe",
+      "kind": "myth",
       "description": "A ring of weathered standing stones on open grassland at first light, lichen-crusted and leaning, older than any record. Solemn, pagan, watchful. Suits folklore, ritual, deep history, and thresholds between worlds.",
       "imageUrl": "scenes/stone-circle-dawn.webp",
       "overlayAlpha": 0.69,
@@ -762,6 +806,8 @@
     {
       "id": "cliff-path-seabirds",
       "name": "Cliff Path",
+      "world": "nature",
+      "kind": "land",
       "description": "A narrow path along the top of sea cliffs, gulls wheeling below, turf cropped short by the wind and a long drop to white water. Wind-scoured, vertiginous, bracing. Suits coastal walks, confrontations at the edge, watching for ships, and remote headlands.",
       "imageUrl": "scenes/cliff-path-seabirds.webp",
       "overlayAlpha": 0.69,
@@ -795,6 +841,8 @@
     {
       "id": "fishing-village-quay",
       "name": "Northern Fishing Village",
+      "world": "modern-west",
+      "kind": "street",
       "description": "A small cold-water fishing village, painted wooden houses stacked above a stone quay, nets drying and boats knocking together in grey swell. Working, weathered, close-knit. Suits hard coastal lives, weather coming in, returning home, and communities that keep their own counsel.",
       "imageUrl": "scenes/fishing-village-quay.webp",
       "overlayAlpha": 0.69,
@@ -829,6 +877,8 @@
     {
       "id": "lighthouse-headland",
       "name": "Lighthouse on the Headland",
+      "world": "industrial",
+      "kind": "land",
       "description": "A white lighthouse on a bare headland above a heavy sea, its beam sweeping out through rain. Solitary, dutiful, exposed. Suits keepers and watchers, signals in the dark, isolation with a purpose, and nights when ships are in trouble.",
       "imageUrl": "scenes/lighthouse-headland.webp",
       "overlayAlpha": 0.48,
@@ -861,6 +911,8 @@
     {
       "id": "wheat-field-harvest",
       "name": "Wheat Field at Harvest",
+      "world": "nature",
+      "kind": "land",
       "description": "A wide field of ripe wheat moving in the wind, a distant barn, the harvest not yet in. Golden, laborious, fleeting. Suits farming years, summer's end, work that cannot wait, and the countryside just before a change.",
       "imageUrl": "scenes/wheat-field-harvest.webp",
       "overlayAlpha": 0.68,
@@ -894,6 +946,8 @@
     {
       "id": "vineyard-autumn",
       "name": "Vineyard in Autumn",
+      "world": "nature",
+      "kind": "land",
       "description": "Rows of vines on a slope turning red and gold after the grape harvest, mist pooled in the valley below. Ripe, settled, valedictory. Suits estates and inheritance, the end of a season's labour, long meals, and country wealth.",
       "imageUrl": "scenes/vineyard-autumn.webp",
       "overlayAlpha": 0.68,
@@ -927,6 +981,8 @@
     {
       "id": "monastery-cloister",
       "name": "Monastery Cloister",
+      "world": "medieval-europe",
+      "kind": "worship",
       "description": "A stone cloister enclosing a plain garden, arcades on all four sides and no sound but footsteps on flagstones. Austere, ordered, contemplative. Suits scholars and monks, refuge, vows and obligations, and lives lived to a bell.",
       "imageUrl": "scenes/monastery-cloister.webp",
       "overlayAlpha": 0.67,
@@ -959,6 +1015,8 @@
     {
       "id": "orchard-blossom-spring",
       "name": "Orchard in Blossom",
+      "world": "nature",
+      "kind": "land",
       "description": "An old orchard in full blossom, petals coming down in the wind and long grass between the trunks. Tender, transient, hopeful. Suits courtship, new beginnings, spring festivals, and happiness that will not last.",
       "imageUrl": "scenes/orchard-blossom-spring.webp",
       "overlayAlpha": 0.65,
@@ -991,6 +1049,8 @@
     {
       "id": "shepherds-hut-highlands",
       "name": "Shepherd's Hut",
+      "world": "medieval-europe",
+      "kind": "home",
       "description": "A low drystone hut on empty upland grazing, smoke from a peat fire pulled sideways by the wind, sheep scattered on the slope. Rough, sheltering, remote. Suits hard winters, hiding out, hospitality from strangers, and country with no roads.",
       "imageUrl": "scenes/shepherds-hut-highlands.webp",
       "overlayAlpha": 0.7,
@@ -1025,6 +1085,8 @@
     {
       "id": "country-churchyard-mist",
       "name": "Country Churchyard",
+      "world": "medieval-europe",
+      "kind": "worship",
       "description": "A small churchyard of leaning headstones under old yews, mist settling between them at the end of the day. Melancholy, quiet, freighted. Suits burials and remembrance, secrets kept by a village, ghosts, and the weight of the past.",
       "imageUrl": "scenes/country-churchyard-mist.webp",
       "overlayAlpha": 0.7,
@@ -1056,6 +1118,8 @@
     {
       "id": "medieval-market-square",
       "name": "Medieval Market Square",
+      "world": "medieval-europe",
+      "kind": "shop",
       "description": "A cobbled square crowded with stalls and awnings under timber-framed houses, produce and livestock and shouting. Busy, grubby, mercantile. Suits town life, proclamations and public punishment, pickpockets, and the day a stranger rides in.",
       "imageUrl": "scenes/medieval-market-square.webp",
       "overlayAlpha": 0.72,
@@ -1089,6 +1153,8 @@
     {
       "id": "narrow-alley-lamplight",
       "name": "Narrow Alley",
+      "world": "industrial",
+      "kind": "street",
       "description": "A tight alley of wet cobbles between high walls, a single lamp throwing long shadows and washing strung overhead. Furtive, cramped, threatening. Suits pursuit on foot, back-street meetings, cutpurses, and the parts of a city nobody maps.",
       "imageUrl": "scenes/narrow-alley-lamplight.webp",
       "overlayAlpha": 0.45,
@@ -1121,6 +1187,8 @@
     {
       "id": "city-rooftops-dusk",
       "name": "City Rooftops",
+      "world": "industrial",
+      "kind": "street",
       "description": "A sea of tiled roofs and chimney stacks at dusk, smoke going up straight and the streets invisible below. Elevated, secretive, free. Suits escapes over the tiles, thieves and spies, cities seen from above, and stolen privacy.",
       "imageUrl": "scenes/city-rooftops-dusk.webp",
       "overlayAlpha": 0.58,
@@ -1152,6 +1220,8 @@
     {
       "id": "grand-railway-station",
       "name": "Grand Railway Station",
+      "world": "industrial",
+      "kind": "travel",
       "description": "A great iron-and-glass train shed full of steam and echo, departure boards and a clock high above the crowd. Cavernous, transitional, urgent. Suits departures and reunions, pursuit through crowds, wartime partings, and the beginning of a journey.",
       "imageUrl": "scenes/grand-railway-station.webp",
       "overlayAlpha": 0.65,
@@ -1185,6 +1255,8 @@
     {
       "id": "textile-mill-floor",
       "name": "Textile Mill",
+      "world": "industrial",
+      "kind": "work",
       "description": "A long mill floor of clattering looms and belt-driven shafting, lint hanging in the light from high windows. Deafening, relentless, industrial. Suits factory work, strikes and foremen, childhoods cut short, and the machinery of a new century.",
       "imageUrl": "scenes/textile-mill-floor.webp",
       "overlayAlpha": 0.64,
@@ -1218,6 +1290,8 @@
     {
       "id": "dockside-warehouses-fog",
       "name": "Dockside Warehouses",
+      "world": "industrial",
+      "kind": "work",
       "description": "Brick warehouses along a black river in fog, cranes overhead and crates stacked on a wet wharf. Commercial, shadowed, unwatched. Suits smuggling and cargo, meetings after dark, industrial ports, and business best done quietly.",
       "imageUrl": "scenes/dockside-warehouses-fog.webp",
       "overlayAlpha": 0.45,
@@ -1251,6 +1325,8 @@
     {
       "id": "metro-platform-late",
       "name": "Late Metro Platform",
+      "world": "modern-any",
+      "kind": "travel",
       "description": "An empty underground platform late at night, tiled walls and fluorescent light, warm air pushed ahead of a train that has not arrived. Modern, hollow, suspended. Suits city solitude, waiting, near-misses, and journeys home that feel too long.",
       "imageUrl": "scenes/metro-platform-late.webp",
       "overlayAlpha": 0.63,
@@ -1283,6 +1359,8 @@
     {
       "id": "covered-bazaar-lanterns",
       "name": "Covered Bazaar",
+      "world": "wider-world",
+      "kind": "shop",
       "description": "A vaulted bazaar hung with lanterns and carpets, spice sacks open and light coming down in dusty shafts. Crowded, aromatic, labyrinthine. Suits foreign cities, disappearing into a crowd, goods that arrived by long roads, and quarters a stranger gets lost in.",
       "imageUrl": "scenes/covered-bazaar-lanterns.webp",
       "overlayAlpha": 0.45,
@@ -1316,6 +1394,8 @@
     {
       "id": "tenement-courtyard",
       "name": "Tenement Courtyard",
+      "world": "industrial",
+      "kind": "home",
       "description": "A narrow courtyard between tall tenements, washing strung across it and only a square of sky overhead. Poor, overlooked, communal. Suits crowded cities, hard childhoods, neighbours who hear everything, and lives lived close together.",
       "imageUrl": "scenes/tenement-courtyard.webp",
       "overlayAlpha": 0.71,
@@ -1348,6 +1428,8 @@
     {
       "id": "roadside-diner-night",
       "name": "Roadside Diner",
+      "world": "modern-west",
+      "kind": "food",
       "description": "A lone diner lit up at night beside an empty highway, neon humming and nothing else for miles. Modern, transient, lonely. Suits road journeys, drifters and strangers, late-night conversations, and small-town America.",
       "imageUrl": "scenes/roadside-diner-night.webp",
       "overlayAlpha": 0.47,
@@ -1380,6 +1462,8 @@
     {
       "id": "cathedral-nave",
       "name": "Cathedral Nave",
+      "world": "medieval-europe",
+      "kind": "worship",
       "description": "The nave of a great cathedral, columns going up into shadow and coloured light falling across the stone floor. Sublime, cold, hushed. Suits faith and doubt, sanctuary, coronations and funerals, and spaces built to make a person feel small.",
       "imageUrl": "scenes/cathedral-nave.webp",
       "overlayAlpha": 0.56,
@@ -1415,6 +1499,8 @@
     {
       "id": "panelled-courtroom",
       "name": "Courtroom",
+      "world": "modern-any",
+      "kind": "power",
       "description": "An oak-panelled courtroom with a raised bench and a rail worn smooth by hands, benches empty and the air stale. Formal, adversarial, weighty. Suits trials and testimony, reputations at stake, the law as an instrument, and verdicts about to land.",
       "imageUrl": "scenes/panelled-courtroom.webp",
       "overlayAlpha": 0.66,
@@ -1449,6 +1535,8 @@
     {
       "id": "hospital-ward-night",
       "name": "Hospital Ward at Night",
+      "world": "industrial",
+      "kind": "work",
       "description": "A long ward of iron beds at night, one lamp burning at the nurse's desk and the rest in shadow. Vigilant, antiseptic, precarious. Suits illness and recovery, wartime nursing, deathbeds, and the hours when nothing can be done but wait.",
       "imageUrl": "scenes/hospital-ward-night.webp",
       "overlayAlpha": 0.45,
@@ -1480,6 +1568,8 @@
     {
       "id": "empty-theatre-stalls",
       "name": "Empty Theatre",
+      "world": "industrial",
+      "kind": "play",
       "description": "A theatre auditorium with the house lights low, red velvet seats empty and the safety curtain down. Expectant, faded, theatrical. Suits performers and rehearsals, illusions, opening nights, and rooms that feel wrong when nobody is in them.",
       "imageUrl": "scenes/empty-theatre-stalls.webp",
       "overlayAlpha": 0.45,
@@ -1513,6 +1603,8 @@
     {
       "id": "farmhouse-kitchen-hearth",
       "name": "Farmhouse Kitchen",
+      "world": "medieval-europe",
+      "kind": "home",
       "description": "A flagstoned kitchen with a fire in the range, a scrubbed table and things hung to dry from the beams. Warm, domestic, safe. Suits homecomings, family talk, shelter from weather, and the heart of a working house.",
       "imageUrl": "scenes/farmhouse-kitchen-hearth.webp",
       "overlayAlpha": 0.5,
@@ -1545,6 +1637,8 @@
     {
       "id": "dusty-attic-trunks",
       "name": "Attic",
+      "world": "modern-any",
+      "kind": "home",
       "description": "An attic under bare rafters, trunks and sheeted furniture and a single window thick with dust. Forgotten, private, nostalgic. Suits discoveries, old letters and photographs, hiding, and the past kept just out of sight.",
       "imageUrl": "scenes/dusty-attic-trunks.webp",
       "overlayAlpha": 0.66,
@@ -1576,6 +1670,8 @@
     {
       "id": "throne-room-banners",
       "name": "Throne Room",
+      "world": "medieval-europe",
+      "kind": "power",
       "description": "A long stone hall hung with banners, a throne on a dais at the far end and a floor made for approaching slowly. Imposing, political, ceremonial. Suits courts and audiences, oaths, intrigue among the powerful, and the moment before a decision.",
       "imageUrl": "scenes/throne-room-banners.webp",
       "overlayAlpha": 0.62,
@@ -1609,6 +1705,8 @@
     {
       "id": "stone-prison-cell",
       "name": "Prison Cell",
+      "world": "medieval-europe",
+      "kind": "power",
       "description": "A stone cell with a barred slit high in the wall, straw on the floor and marks scratched into the masonry. Confining, cold, interminable. Suits captivity, interrogation, waiting for judgement, and the slow measurement of time.",
       "imageUrl": "scenes/stone-prison-cell.webp",
       "overlayAlpha": 0.6,
@@ -1642,6 +1740,8 @@
     {
       "id": "victorian-laboratory",
       "name": "Victorian Laboratory",
+      "world": "industrial",
+      "kind": "work",
       "description": "A cluttered private laboratory of brass instruments and glassware, specimen jars on the shelves and something still bubbling. Inquisitive, obsessive, faintly unwholesome. Suits experiments, inventors, discoveries that go too far, and the science of a confident century.",
       "imageUrl": "scenes/victorian-laboratory.webp",
       "overlayAlpha": 0.57,
@@ -1676,6 +1776,8 @@
     {
       "id": "glasshouse-conservatory",
       "name": "Glasshouse",
+      "world": "industrial",
+      "kind": "land",
       "description": "A Victorian glasshouse crowded with palms and ferns, condensation on the panes and iron ribs arching overhead. Humid, green, sheltered. Suits botanical obsession, convalescence, private conversations, and gardens kept alive against the climate.",
       "imageUrl": "scenes/glasshouse-conservatory.webp",
       "overlayAlpha": 0.69,
@@ -1708,6 +1810,8 @@
     {
       "id": "wizards-workroom",
       "name": "Wizard's Workroom",
+      "world": "imagined",
+      "kind": "myth",
       "description": "A tower room crowded with an orrery, chalked sigils and jars of things best not identified, lit by a floating glow. Arcane, obsessive, charged. Suits sorcery, apprentices, bargains struck with powers, and magic treated as a craft with a cost.",
       "imageUrl": "scenes/wizards-workroom.webp",
       "overlayAlpha": 0.6,
@@ -1739,6 +1843,8 @@
     {
       "id": "torchlit-dungeon",
       "name": "Dungeon Corridor",
+      "world": "medieval-europe",
+      "kind": "power",
       "description": "A low vaulted corridor of damp stone, torches spaced too far apart and iron doors along one side. Oppressive, echoing, dangerous. Suits descents, imprisonment, delving, and places built so that nobody comes back up.",
       "imageUrl": "scenes/torchlit-dungeon.webp",
       "overlayAlpha": 0.45,
@@ -1770,6 +1876,8 @@
     {
       "id": "airship-gondola-clouds",
       "name": "Airship Gondola",
+      "world": "imagined",
+      "kind": "travel",
       "description": "The cabin of an airship above a floor of cloud, brass fittings and a wide window, engines droning below. Adventurous, precarious, expansive. Suits voyages, mapping unknown country, escapes by air, and confidence in machines.",
       "imageUrl": "scenes/airship-gondola-clouds.webp",
       "overlayAlpha": 0.7,
@@ -1801,6 +1909,8 @@
     {
       "id": "overgrown-city-ruins",
       "name": "Overgrown Ruins",
+      "world": "imagined",
+      "kind": "myth",
       "description": "A city street reclaimed by trees, saplings through the tarmac and vines over the facades, silent of engines. Post-human, green, uncanny. Suits collapse and after, survivors, nature outlasting us, and cities remembered rather than lived in.",
       "imageUrl": "scenes/overgrown-city-ruins.webp",
       "overlayAlpha": 0.72,
@@ -1832,6 +1942,8 @@
     {
       "id": "tokyo-backstreet-night",
       "name": "Tokyo Backstreet",
+      "world": "modern-east-asia",
+      "kind": "street",
       "description": "A narrow Tokyo backstreet after midnight, izakaya lanterns and vending machines throwing colour on wet asphalt, bicycles leaned against the railings. Modern, intimate, quietly alive. Suits contemporary Japanese fiction, drinking and talking late, wandering a city alone, and nights that do not end where they were meant to.",
       "imageUrl": "scenes/tokyo-backstreet-night.webp",
       "overlayAlpha": 0.54,
@@ -1864,6 +1976,8 @@
     {
       "id": "konbini-night",
       "name": "Convenience Store at Night",
+      "world": "modern-east-asia",
+      "kind": "shop",
       "description": "A convenience store lit up on an otherwise dark street, fluorescent white spilling across the pavement, shelves full and nobody inside. Modern, mundane, oddly comforting. Suits late shifts and insomnia, small purchases at strange hours, and contemporary Japanese and Korean fiction.",
       "imageUrl": "scenes/konbini-night.webp",
       "overlayAlpha": 0.66,
@@ -1897,6 +2011,8 @@
     {
       "id": "shinkansen-window-ricefields",
       "name": "Bullet Train Window",
+      "world": "modern-east-asia",
+      "kind": "travel",
       "description": "The window of a fast train crossing flooded rice fields, the landscape smeared by speed and the carriage almost silent. Modern, in transit, meditative. Suits journeys between cities, going back to a family you left, thinking at speed, and contemporary Japan.",
       "imageUrl": "scenes/shinkansen-window-ricefields.webp",
       "overlayAlpha": 0.71,
@@ -1929,6 +2045,8 @@
     {
       "id": "japanese-apartment-small",
       "name": "Small Tokyo Apartment",
+      "world": "modern-east-asia",
+      "kind": "home",
       "description": "A single-room apartment with the futon folded away, a low table and a sliding door onto a balcony of drying laundry. Modern, cramped, private. Suits living alone in a large city, starting again with very little, quiet routine, and contemporary Japanese fiction.",
       "imageUrl": "scenes/japanese-apartment-small.webp",
       "overlayAlpha": 0.7,
@@ -1961,6 +2079,8 @@
     {
       "id": "shotengai-arcade",
       "name": "Covered Shopping Street",
+      "world": "modern-east-asia",
+      "kind": "shop",
       "description": "A covered shopping street with half the shutters down, banners and lanterns strung under a vaulted roof, footsteps carrying. Modern, faded, neighbourly. Suits small-town Japan, businesses closing for the last time, errands and gossip, and places past their best years.",
       "imageUrl": "scenes/shotengai-arcade.webp",
       "overlayAlpha": 0.7,
@@ -1993,6 +2113,8 @@
     {
       "id": "hongkong-highrise-canyon",
       "name": "Hong Kong High-Rises",
+      "world": "modern-east-asia",
+      "kind": "street",
       "description": "A slot of sky between residential towers, air-conditioners and drying poles stacked forty floors up, humid and loud. Modern, vertiginous, packed. Suits dense city living, families in small flats, looking up from the street, and contemporary Chinese fiction.",
       "imageUrl": "scenes/hongkong-highrise-canyon.webp",
       "overlayAlpha": 0.71,
@@ -2025,6 +2147,8 @@
     {
       "id": "shanghai-bund-dusk",
       "name": "Shanghai Riverfront",
+      "world": "modern-east-asia",
+      "kind": "street",
       "description": "A river frontage at dusk with glass towers lit on the far bank and heavy colonial stone behind, ferries crossing. Modern, ascendant, showy. Suits new money and old, ambition in a large city, deals and reunions, and contemporary Shanghai.",
       "imageUrl": "scenes/shanghai-bund-dusk.webp",
       "overlayAlpha": 0.53,
@@ -2056,6 +2180,8 @@
     {
       "id": "shanghai-longtang-lane",
       "name": "Shanghai Lane House",
+      "world": "modern-east-asia",
+      "kind": "street",
       "description": "A narrow lane between brick terraces, bamboo poles of washing overhead and a shared tap against the wall. Old-city, communal, worn. Suits neighbourhood life in urban China, families living close together, a city changing around people, and twentieth-century Shanghai.",
       "imageUrl": "scenes/shanghai-longtang-lane.webp",
       "overlayAlpha": 0.71,
@@ -2088,6 +2214,8 @@
     {
       "id": "beijing-hutong-winter",
       "name": "Beijing Hutong in Winter",
+      "world": "modern-east-asia",
+      "kind": "street",
       "description": "A grey brick alley of single-storey courtyard houses in winter, bicycles frozen in place and cabbages stacked by a doorway. Cold, low-slung, traditional. Suits old Beijing, neighbours who have known each other for decades, hard northern winters, and family history.",
       "imageUrl": "scenes/beijing-hutong-winter.webp",
       "overlayAlpha": 0.69,
@@ -2121,6 +2249,8 @@
     {
       "id": "seoul-rooftop-night",
       "name": "Seoul Rooftop",
+      "world": "modern-east-asia",
+      "kind": "home",
       "description": "A rooftop above the city at night, water tanks and dishes underfoot, apartment blocks stacked away to the hills. Modern, elevated, restless. Suits young people in an unforgiving city, escapes upward, conversations nobody else hears, and contemporary Korean fiction.",
       "imageUrl": "scenes/seoul-rooftop-night.webp",
       "overlayAlpha": 0.45,
@@ -2151,6 +2281,8 @@
     {
       "id": "modern-kitchen-morning",
       "name": "Kitchen in the Morning",
+      "world": "modern-any",
+      "kind": "home",
       "description": "A clean contemporary kitchen in early light, a mug on the counter and the day not yet begun. Modern, ordinary, calm. Suits domestic life, conversations held over breakfast, marriages good and bad, and fiction set squarely in the present.",
       "imageUrl": "scenes/modern-kitchen-morning.webp",
       "overlayAlpha": 0.72,
@@ -2185,6 +2317,8 @@
     {
       "id": "bedroom-morning-light",
       "name": "Bedroom, Morning",
+      "world": "modern-any",
+      "kind": "home",
       "description": "An unmade bed with light coming through half-drawn curtains, clothes over a chair and the room still quiet. Intimate, unguarded, still. Suits waking alone or not alone, mornings after, convalescence, and the private hours of a modern life.",
       "imageUrl": "scenes/bedroom-morning-light.webp",
       "overlayAlpha": 0.69,
@@ -2218,6 +2352,8 @@
     {
       "id": "living-room-tv-glow",
       "name": "Living Room at Night",
+      "world": "modern-any",
+      "kind": "home",
       "description": "A dark living room lit only by a screen, the cushions dented and the rest of the house asleep. Modern, insomniac, insular. Suits nights that will not end, avoidance, families in one room and far apart, and contemporary domestic fiction.",
       "imageUrl": "scenes/living-room-tv-glow.webp",
       "overlayAlpha": 0.56,
@@ -2250,6 +2386,8 @@
     {
       "id": "apartment-balcony-city",
       "name": "Balcony Above the City",
+      "world": "modern-any",
+      "kind": "home",
       "description": "A small balcony above a lit city, a chair and a railing and traffic noise a long way down. Modern, perched, thoughtful. Suits smoking and thinking, calls taken outside, flats shared with people you are avoiding, and cities at night.",
       "imageUrl": "scenes/apartment-balcony-city.webp",
       "overlayAlpha": 0.5,
@@ -2280,6 +2418,8 @@
     {
       "id": "coffee-shop-afternoon",
       "name": "Café in the Afternoon",
+      "world": "modern-any",
+      "kind": "food",
       "description": "A café in the middle of a weekday afternoon, cups and laptops on scattered tables, low talk and the door going. Modern, public, unhurried. Suits working away from home, waiting for someone who is late, overheard conversations, and the ordinary present.",
       "imageUrl": "scenes/coffee-shop-afternoon.webp",
       "overlayAlpha": 0.72,
@@ -2314,6 +2454,8 @@
     {
       "id": "supermarket-aisle-night",
       "name": "Supermarket Aisle",
+      "world": "modern-any",
+      "kind": "shop",
       "description": "A supermarket aisle under hard fluorescent light, shelves full and the shop all but empty. Modern, anonymous, faintly unreal. Suits errands that fill a gap, decisions made badly at the end of a day, chance encounters, and the flat surfaces of ordinary life.",
       "imageUrl": "scenes/supermarket-aisle-night.webp",
       "overlayAlpha": 0.69,
@@ -2350,6 +2492,8 @@
     {
       "id": "suburban-street-dusk",
       "name": "Suburban Street",
+      "world": "modern-west",
+      "kind": "street",
       "description": "A quiet residential street at dusk, lawns and parked cars and lights coming on behind curtains. Modern, uneventful, watchful. Suits the surface of family life, neighbours with secrets, coming home after a long absence, and the present day.",
       "imageUrl": "scenes/suburban-street-dusk.webp",
       "overlayAlpha": 0.45,
@@ -2382,6 +2526,8 @@
     {
       "id": "motel-room-night",
       "name": "Motel Room",
+      "world": "modern-west",
+      "kind": "lodging",
       "description": "A cheap motel room at night, two beds, a sign glowing through thin curtains and nothing personal anywhere. Transient, seedy, tense. Suits running from something, stakeouts, affairs, road journeys gone wrong, and rooms rented by the night.",
       "imageUrl": "scenes/motel-room-night.webp",
       "overlayAlpha": 0.62,
@@ -2412,6 +2558,8 @@
     {
       "id": "night-highway-from-car",
       "name": "Highway at Night",
+      "world": "modern-any",
+      "kind": "travel",
       "description": "A road at night seen over the dashboard, headlights reaching a little way and the rest black. Modern, in motion, suspended. Suits long drives, leaving somewhere, conversations held side by side, and the hours when a journey stops feeling like progress.",
       "imageUrl": "scenes/night-highway-from-car.webp",
       "overlayAlpha": 0.55,
@@ -2445,6 +2593,8 @@
     {
       "id": "airport-gate-late",
       "name": "Departure Gate",
+      "world": "modern-any",
+      "kind": "travel",
       "description": "A departure gate late in the evening, rows of empty seats and a dark apron beyond the glass. Modern, liminal, delayed. Suits waiting, leaving a country, reunions that have not happened yet, and the strange calm of being between places.",
       "imageUrl": "scenes/airport-gate-late.webp",
       "overlayAlpha": 0.64,
@@ -2481,6 +2631,8 @@
     {
       "id": "open-plan-office-night",
       "name": "Office After Hours",
+      "world": "modern-any",
+      "kind": "work",
       "description": "An open-plan office after hours, monitors asleep and a single desk lamp still burning. Corporate, deserted, late. Suits work that has taken over a life, staying behind to find something, ambition and its costs, and the present-day workplace.",
       "imageUrl": "scenes/open-plan-office-night.webp",
       "overlayAlpha": 0.51,
@@ -2513,6 +2665,8 @@
     {
       "id": "police-interview-room",
       "name": "Interview Room",
+      "world": "modern-any",
+      "kind": "power",
       "description": "A bare interview room with the table bolted down, a recorder and two chairs facing each other. Institutional, adversarial, airless. Suits questioning, confessions and denials, the machinery of an investigation, and a person working out how much to say.",
       "imageUrl": "scenes/police-interview-room.webp",
       "overlayAlpha": 0.7,
@@ -2545,6 +2699,8 @@
     {
       "id": "hospital-corridor-modern",
       "name": "Hospital Corridor",
+      "world": "modern-any",
+      "kind": "work",
       "description": "A hospital corridor in the small hours, vinyl underfoot and handrails running further than seems necessary. Clinical, endless, dread-filled. Suits waiting for news, illness in a family, decisions taken out of your hands, and the present-day machinery of care.",
       "imageUrl": "scenes/hospital-corridor-modern.webp",
       "overlayAlpha": 0.63,
@@ -2578,6 +2734,8 @@
     {
       "id": "server-room",
       "name": "Server Room",
+      "world": "modern-any",
+      "kind": "work",
       "description": "A room of racked machines behind glass, cold air and blinking indicators and a noise that never stops. Technical, sealed, indifferent. Suits data and surveillance, systems working without us, break-ins of a modern kind, and near-future fiction.",
       "imageUrl": "scenes/server-room.webp",
       "overlayAlpha": 0.63,
@@ -2611,6 +2769,8 @@
     {
       "id": "hotel-corridor",
       "name": "Hotel Corridor",
+      "world": "modern-any",
+      "kind": "lodging",
       "description": "A hotel corridor of identical doors, patterned carpet running away under low lighting. Anonymous, repetitive, uneasy. Suits arrivals late at night, people who are not where they claim to be, business travel, and not knowing which door is yours.",
       "imageUrl": "scenes/hotel-corridor.webp",
       "overlayAlpha": 0.59,
@@ -2642,6 +2802,8 @@
     {
       "id": "japanese-temple-garden",
       "name": "Temple Garden",
+      "world": "old-japan",
+      "kind": "worship",
       "description": "A temple garden of moss and raked gravel under old maples, a stone basin dripping and nobody about. Ordered, ancient, quieting. Suits contemplation, discipline, seasons watched closely, and Japan beyond the modern city.",
       "imageUrl": "scenes/japanese-temple-garden.webp",
       "overlayAlpha": 0.69,
@@ -2675,6 +2837,8 @@
     {
       "id": "torii-path-forest",
       "name": "Path of Torii Gates",
+      "world": "old-japan",
+      "kind": "worship",
       "description": "A path of vermilion gates climbing through cedar forest, the tunnel of them closing overhead. Sacred, repetitive, transporting. Suits pilgrimage, thresholds between worlds, spirits and old belief, and Japanese folklore.",
       "imageUrl": "scenes/torii-path-forest.webp",
       "overlayAlpha": 0.59,
@@ -2707,6 +2871,8 @@
     {
       "id": "ryokan-tatami-room",
       "name": "Ryokan Room",
+      "world": "modern-east-asia",
+      "kind": "lodging",
       "description": "A tatami room with a low table and a scroll in the alcove, paper screens slid open onto a garden. Spare, hospitable, hushed. Suits travellers put up for the night, formality between strangers, rest after a journey, and traditional Japan.",
       "imageUrl": "scenes/ryokan-tatami-room.webp",
       "overlayAlpha": 0.67,
@@ -2738,6 +2904,8 @@
     {
       "id": "onsen-town-snow",
       "name": "Hot Spring Town",
+      "world": "modern-east-asia",
+      "kind": "lodging",
       "description": "A hot spring town under deep snow, steam lifting off a river between wooden inns, lanterns lit early. Warm, remote, restorative. Suits winter retreats, recovering from something, encounters away from home, and Japan in the cold months.",
       "imageUrl": "scenes/onsen-town-snow.webp",
       "overlayAlpha": 0.51,
@@ -2771,6 +2939,8 @@
     {
       "id": "suzhou-garden-moongate",
       "name": "Scholar's Garden",
+      "world": "imperial-china",
+      "kind": "home",
       "description": "A garden of rockery and still water, a round moon gate framing a view through to another courtyard. Refined, layered, deliberate. Suits poetry and painting, quiet wealth, arrangements made between families, and classical China.",
       "imageUrl": "scenes/suzhou-garden-moongate.webp",
       "overlayAlpha": 0.72,
@@ -2804,6 +2974,8 @@
     {
       "id": "siheyuan-courtyard",
       "name": "Courtyard House",
+      "world": "imperial-china",
+      "kind": "home",
       "description": "A walled courtyard house with rooms on all four sides, a bare tree in the middle and red doors flaking. Enclosed, familial, old. Suits households under one roof, generations disagreeing, northern China, and a family with a long memory.",
       "imageUrl": "scenes/siheyuan-courtyard.webp",
       "overlayAlpha": 0.71,
@@ -2835,6 +3007,8 @@
     {
       "id": "rice-terraces-morning",
       "name": "Rice Terraces",
+      "world": "nature",
+      "kind": "land",
       "description": "Flooded terraces stepping down a hillside at dawn, each one holding the sky, the paths between them barely wide enough. Agrarian, patient, luminous. Suits farming villages, labour repeated for generations, hillside country, and rural Asia.",
       "imageUrl": "scenes/rice-terraces-morning.webp",
       "overlayAlpha": 0.72,
@@ -2866,6 +3040,8 @@
     {
       "id": "tibetan-monastery-cliff",
       "name": "Cliff Monastery",
+      "world": "wider-world",
+      "kind": "worship",
       "description": "A whitewashed monastery built into a cliff face at altitude, prayer flags snapping and the air thin. Remote, devotional, severe. Suits pilgrimage, high places, faith practised hard, and journeys to the edge of the map.",
       "imageUrl": "scenes/tibetan-monastery-cliff.webp",
       "overlayAlpha": 0.57,
@@ -2898,6 +3074,8 @@
     {
       "id": "indian-street-monsoon",
       "name": "Monsoon Street",
+      "world": "wider-world",
+      "kind": "street",
       "description": "A packed street in heavy monsoon rain, shopfronts open to the downpour and water running ankle-deep. Drenched, loud, vivid. Suits the rainy season, cities that never pause, arriving somewhere overwhelming, and contemporary India.",
       "imageUrl": "scenes/indian-street-monsoon.webp",
       "overlayAlpha": 0.64,
@@ -2930,6 +3108,8 @@
     {
       "id": "varanasi-ghats-dawn",
       "name": "River Ghats",
+      "world": "wider-world",
+      "kind": "worship",
       "description": "Wide stone steps going down to a slow river at first light, boats moored and smoke rising off the bank. Sacred, ancient, unhurried. Suits rituals repeated for centuries, death treated as ordinary, pilgrims, and the great rivers of India.",
       "imageUrl": "scenes/varanasi-ghats-dawn.webp",
       "overlayAlpha": 0.7,
@@ -2962,6 +3142,8 @@
     {
       "id": "stepwell-geometric",
       "name": "Stepwell",
+      "world": "wider-world",
+      "kind": "myth",
       "description": "A vast inverted stairwell of stone descending to dark water, flights crossing each other all the way down. Geometric, cool, vertiginous. Suits hidden places, architecture as obsession, shelter from heat, and old India.",
       "imageUrl": "scenes/stepwell-geometric.webp",
       "overlayAlpha": 0.72,
@@ -2991,6 +3173,8 @@
     {
       "id": "caravanserai-night",
       "name": "Caravanserai",
+      "world": "wider-world",
+      "kind": "lodging",
       "description": "A walled desert inn at night, camels couched in the courtyard and fires burning under the arcades. A waypoint, guarded, transient. Suits long trade routes, strangers thrown together, stories told around a fire, and the Silk Road.",
       "imageUrl": "scenes/caravanserai-night.webp",
       "overlayAlpha": 0.45,
@@ -3023,6 +3207,8 @@
     {
       "id": "mughal-palace-courtyard",
       "name": "Palace Courtyard",
+      "world": "wider-world",
+      "kind": "power",
       "description": "A palace court of red sandstone and white marble, a channel of water running down the centre under a hot sky. Imperial, symmetrical, sun-struck. Suits courts and successions, intrigue in a hot climate, wealth without limit, and Mughal India.",
       "imageUrl": "scenes/mughal-palace-courtyard.webp",
       "overlayAlpha": 0.71,
@@ -3056,6 +3242,8 @@
     {
       "id": "savanna-acacia-dusk",
       "name": "Savanna at Dusk",
+      "world": "nature",
+      "kind": "land",
       "description": "Open grassland running to the horizon with flat-topped acacias in silhouette, dust hanging in the air at sunset. Vast, hot, ancient. Suits journeys across open country, herding and hunting, drought, and the African plains.",
       "imageUrl": "scenes/savanna-acacia-dusk.webp",
       "overlayAlpha": 0.54,
@@ -3086,6 +3274,8 @@
     {
       "id": "mudbrick-town-sahel",
       "name": "Mud-Brick Town",
+      "world": "wider-world",
+      "kind": "street",
       "description": "A town built entirely of mud brick, walls shaped by hand with timber beams sticking out, everything the colour of the ground. Earthen, enduring, sun-hammered. Suits desert trade, scholarship in unexpected places, heat that stops the day, and the Sahel.",
       "imageUrl": "scenes/mudbrick-town-sahel.webp",
       "overlayAlpha": 0.61,
@@ -3118,6 +3308,8 @@
     {
       "id": "rift-valley-lake",
       "name": "Soda Lake",
+      "world": "nature",
+      "kind": "land",
       "description": "A shallow alkaline lake under escarpments, flamingos a pink line on the water and heat shimmering off the flats. Mineral, wide, primeval. Suits expeditions, origins, wildlife and isolation, and the East African rift.",
       "imageUrl": "scenes/rift-valley-lake.webp",
       "overlayAlpha": 0.7,
@@ -3150,6 +3342,8 @@
     {
       "id": "colonial-plaza-siesta",
       "name": "Colonial Plaza",
+      "world": "wider-world",
+      "kind": "street",
       "description": "A colonial plaza in the dead heat of the afternoon, arcades deep in shadow and shutters closed all round. Somnolent, ornate, waiting. Suits small towns where everyone knows everything, heat that stops work, old power, and Latin America.",
       "imageUrl": "scenes/colonial-plaza-siesta.webp",
       "overlayAlpha": 0.7,
@@ -3182,6 +3376,8 @@
     {
       "id": "andes-altiplano",
       "name": "Altiplano",
+      "world": "nature",
+      "kind": "land",
       "description": "A high treeless plain between snow peaks, tough grass and a thin track going nowhere visible. Thin-aired, immense, indifferent. Suits high crossings, altitude sickness, herders, and the Andes.",
       "imageUrl": "scenes/andes-altiplano.webp",
       "overlayAlpha": 0.56,
@@ -3213,6 +3409,8 @@
     {
       "id": "amazon-river-town",
       "name": "River Town",
+      "world": "wider-world",
+      "kind": "street",
       "description": "Stilt houses along a wide brown river, boats tied beneath them and rain coming over the forest. Humid, improvised, remote. Suits river journeys, trade far from anywhere, fever and delay, and the interior of South America.",
       "imageUrl": "scenes/amazon-river-town.webp",
       "overlayAlpha": 0.63,
@@ -3246,6 +3444,8 @@
     {
       "id": "steppe-yurt-mongolia",
       "name": "Steppe",
+      "world": "nature",
+      "kind": "land",
       "description": "A white felt tent alone on open grassland, horses tethered and the weather visible an hour before it arrives. Nomadic, exposed, self-sufficient. Suits herding, vast distance, hospitality offered to travellers, and the steppe.",
       "imageUrl": "scenes/steppe-yurt-mongolia.webp",
       "overlayAlpha": 0.68,
@@ -3272,6 +3472,2975 @@
       "examples": [
         "The felt tent stood alone on the grassland with horses tethered outside and weather visible an hour away.",
         "He rode across the steppe toward the yurt with the grass moving in waves and the sky enormous."
+      ]
+    },
+    {
+      "id": "chinese-imperial-hall",
+      "name": "Imperial Audience Hall",
+      "world": "imperial-china",
+      "kind": "power",
+      "description": "The great audience hall of an imperial palace, red lacquered pillars rising to a gilded coffered ceiling, the dragon throne on a raised dais at the far end and a long floor of polished stone before it. Imperial, hushed, dangerous. Suits court audiences, ministers kneeling in rows, edicts read aloud, and power that decides lives with a single word.",
+      "imageUrl": "scenes/chinese-imperial-hall.webp",
+      "overlayAlpha": 0.47,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.47
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.42
+        }
+      },
+      "keywords": [
+        "palace",
+        "throne",
+        "dais",
+        "audience hall",
+        "pillar"
+      ],
+      "cues": [
+        "emperor",
+        "eunuch",
+        "minister",
+        "official",
+        "edict",
+        "kowtow",
+        "dragon"
+      ],
+      "examples": [
+        "The ministers knelt in two long rows between the red pillars, and far off on the dais the emperor let the silence run.",
+        "A eunuch's voice rang out across the audience hall, and every official bowed until his forehead touched the cold stone."
+      ]
+    },
+    {
+      "id": "ancient-chinese-street",
+      "name": "Ancient Capital Street",
+      "world": "imperial-china",
+      "kind": "street",
+      "description": "A long street in an old imperial Chinese capital, shopfronts of carved timber and cloth banners on both sides, carts rolling on the stone flags and a drum tower closing the view at the far end. Busy, prosperous, full of rumour. Suits arriving in the capital, errands and chance meetings, being followed through a crowd, and a city that is always watching.",
+      "imageUrl": "scenes/ancient-chinese-street.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "street",
+        "capital",
+        "shopfront",
+        "stall",
+        "drum tower"
+      ],
+      "cues": [
+        "cart",
+        "banner",
+        "hawker",
+        "peddler",
+        "sedan chair",
+        "carriage"
+      ],
+      "examples": [
+        "The street ran straight to the drum tower, silk shops and apothecaries on either side, a hawker crying pears above the rumble of the carts.",
+        "She stepped down from the sedan chair into the crowded street of the old capital, cloth banners snapping over the shopfronts and a peddler catching at her sleeve."
+      ]
+    },
+    {
+      "id": "chinese-teahouse",
+      "name": "Teahouse Upstairs",
+      "world": "imperial-china",
+      "kind": "food",
+      "description": "The upper floor of an old Chinese teahouse above a busy street, square tables of dark wood, lattice windows thrown open, a storyteller's table at one end and steam rising from the kettles. Lively, eavesdropping, convivial. Suits meeting a contact, overhearing gossip, a storyteller's tale of heroes, and a quarrel that starts over wine.",
+      "imageUrl": "scenes/chinese-teahouse.webp",
+      "overlayAlpha": 0.64,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.64
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.58
+        }
+      },
+      "keywords": [
+        "teahouse",
+        "wine house",
+        "gallery",
+        "lattice"
+      ],
+      "cues": [
+        "waiter",
+        "storyteller",
+        "teapot",
+        "kettle",
+        "wine jar",
+        "dumpling"
+      ],
+      "examples": [
+        "Upstairs in the teahouse the waiter wove between the tables with a kettle, and the storyteller slapped down his block as the room went quiet.",
+        "He took a table by the open lattice, poured from the teapot, and watched the street below while the wine house filled up around him."
+      ]
+    },
+    {
+      "id": "wayside-inn",
+      "name": "Wayside Inn",
+      "world": "imperial-china",
+      "kind": "lodging",
+      "description": "A roadside inn on a lonely highway in old China, a greasy common room of square tables and benches where a waiter with a towel over his shoulder runs between the guests, jars of wine along the wall, a lantern over the door and horses tethered in the yard. Rough, watchful, temporary. Suits travellers and swordsmen, a meal before danger, strangers sizing each other up, and a fight that starts over nothing.",
+      "imageUrl": "scenes/wayside-inn.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.37
+        }
+      },
+      "keywords": [
+        "inn",
+        "common room",
+        "stable",
+        "wine flag"
+      ],
+      "cues": [
+        "innkeeper",
+        "waiter",
+        "swordsman",
+        "wine",
+        "saber",
+        "traveller",
+        "horse",
+        "bamboo hat"
+      ],
+      "examples": [
+        "Under the wine flag of the roadside inn the swordsmen sat at the square tables with their sabers close to hand, and the waiter ran between them with jars of wine.",
+        "The inn stood alone where the road left the hills, its wine flag hanging limp, and inside a traveller in a bamboo hat ate beef without taking his hand from his saber."
+      ]
+    },
+    {
+      "id": "jiangnan-water-town",
+      "name": "Jiangnan Water Town",
+      "world": "imperial-china",
+      "kind": "street",
+      "description": "A water town in the south of China, whitewashed houses with black tile roofs standing straight out of a green canal, stone arch bridges linking the banks and covered boats sliding under them. Gentle, damp, unhurried. Suits journeys south, love letters and misunderstandings, rain on the water, and a family with secrets behind a canal gate.",
+      "imageUrl": "scenes/jiangnan-water-town.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "canal",
+        "water town",
+        "arch bridge",
+        "jetty",
+        "towpath"
+      ],
+      "cues": [
+        "boat",
+        "boatman",
+        "oar",
+        "washing",
+        "umbrella"
+      ],
+      "examples": [
+        "The water town was all white walls and black tiles, the canal running between the houses, and every few steps a stone arch bridge crossed it.",
+        "In the Jiangnan water town the black-awninged boats slid under stone arch bridges past white walls and grey tiles, and a woman washing clothes crouched on the canal steps."
+      ]
+    },
+    {
+      "id": "lantern-river-boats",
+      "name": "Lantern Boats on the River",
+      "world": "imperial-china",
+      "kind": "play",
+      "description": "A river in an old southern Chinese city at night, painted pleasure boats hung with red lanterns moored along the bank, music and laughter behind gauze curtains and lantern light shaking on the black water. Seductive, glittering, decadent. Suits courtesans and poets, secret meetings on the water, a night of drinking, and gossip that travels faster than the boats.",
+      "imageUrl": "scenes/lantern-river-boats.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.35
+        }
+      },
+      "keywords": [
+        "river",
+        "pleasure boat",
+        "riverbank",
+        "pavilion"
+      ],
+      "cues": [
+        "lantern",
+        "courtesan",
+        "poet",
+        "zither",
+        "boatwoman",
+        "music"
+      ],
+      "examples": [
+        "The painted pleasure boats lay moored in a line, their red lanterns doubled in the river, and a zither played somewhere behind a gauze curtain.",
+        "He stepped from the riverbank onto a painted pleasure boat hung with red lanterns, and a courtesan poured him wine while the river lights drifted past."
+      ]
+    },
+    {
+      "id": "chinese-mountain-temple",
+      "name": "Mountain Temple in Mist",
+      "world": "imperial-china",
+      "kind": "worship",
+      "description": "A Chinese Buddhist temple on a forested mountainside in mist, grey tiled halls with upturned eaves stacked up the slope, incense smoke drifting from a bronze burner and a long flight of worn stone steps. Remote, devout, timeless. Suits monks and pilgrims, retreat from the world, a master and a student, and news arriving from far below.",
+      "imageUrl": "scenes/chinese-mountain-temple.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.12,
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "temple",
+        "monastery",
+        "shrine",
+        "incense burner",
+        "stone steps"
+      ],
+      "cues": [
+        "monk",
+        "abbot",
+        "incense",
+        "bell",
+        "prayer",
+        "pilgrim",
+        "sutra"
+      ],
+      "examples": [
+        "The stone steps climbed through the mist to the temple gate, where incense smoke hung under the eaves and a monk was sweeping leaves.",
+        "At dawn the temple bell sounded down the mountain, and the monks knelt in the hall before the Buddha while incense smoke drifted out into the mist."
+      ]
+    },
+    {
+      "id": "yamen-archive-hall",
+      "name": "Imperial Archive Hall",
+      "world": "imperial-china",
+      "kind": "work",
+      "description": "A secret imperial Chinese bureau in a black, windowless building, long silent corridors lined with black-lacquered shelves of scroll cases and sealed files, and oil lamps burning on long desks. Secretive, orderly, faintly menacing. Suits spies and censors, secret files, investigations that reach the palace, and a clerk who knows too much.",
+      "imageUrl": "scenes/yamen-archive-hall.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.28
+        }
+      },
+      "keywords": [
+        "archive",
+        "bureau",
+        "registry",
+        "records office"
+      ],
+      "cues": [
+        "scroll",
+        "dossier",
+        "clerk",
+        "censor",
+        "seal",
+        "lamp",
+        "spy",
+        "secret file"
+      ],
+      "examples": [
+        "The bureau was a square black building with no windows, and in its long corridors there was no sound but footsteps and the scratch of the clerks' brushes.",
+        "In the imperial archive the black shelves ran back into the dark, row on row of sealed scroll cases, and the clerk of the secret bureau found the file without having to look."
+      ]
+    },
+    {
+      "id": "southern-fishing-town",
+      "name": "Southern Fishing Town",
+      "world": "imperial-china",
+      "kind": "street",
+      "description": "A small fishing town on a warm southern coast of old China, boats pulled up on a grey beach, nets drying on poles and narrow lanes of stone houses with salted fish hung under the eaves. Humid, remote, slow. Suits a childhood far from the capital, waiting for letters, the smell of the fish market, and a quiet life that will not last.",
+      "imageUrl": "scenes/southern-fishing-town.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "fishing town",
+        "beach",
+        "harbour",
+        "lane",
+        "quay"
+      ],
+      "cues": [
+        "fisherman",
+        "net",
+        "salted fish",
+        "boat",
+        "tide",
+        "shell"
+      ],
+      "examples": [
+        "The fishing boats lay tilted on the beach at low tide, and down every lane the eaves were hung with rows of salted fish.",
+        "An old fisherman sat mending a net in his doorway, and the smell of the harbour came up the lane on the warm wind."
+      ]
+    },
+    {
+      "id": "bronze-age-megaron",
+      "name": "Hall of a Bronze-Age King",
+      "world": "classical",
+      "kind": "power",
+      "description": "The painted hall of a Bronze Age Greek palace, a great round hearth burning in the middle of the floor between four red columns, smoke rising to an opening in the roof, bronze shields and spears hung on the plastered walls and fleeces spread for guests. Heroic, hospitable, crowded with suitors. Suits the palace of Ithaca, banquets and bards, a king returning in disguise, and hospitality with a knife under it.",
+      "imageUrl": "scenes/bronze-age-megaron.webp",
+      "overlayAlpha": 0.65,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.65
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.59
+        }
+      },
+      "keywords": [
+        "hall",
+        "hearth",
+        "megaron",
+        "palace",
+        "column",
+        "ithaca"
+      ],
+      "cues": [
+        "king",
+        "bard",
+        "feast",
+        "suitor",
+        "spit",
+        "goblet",
+        "fleece",
+        "wine",
+        "shield"
+      ],
+      "examples": [
+        "Smoke rose from the round hearth to the opening in the roof of the painted hall, and the suitors of the Greek palace lay on fleeces between the red columns, feasting.",
+        "In the great hall of the Bronze Age palace the bard sang of Troy by the round hearth, bronze shields gleaming on the plastered walls behind him."
+      ]
+    },
+    {
+      "id": "ancient-ship-open-sea",
+      "name": "Ancient Ship on a Calm Sea",
+      "world": "classical",
+      "kind": "travel",
+      "description": "A black-hulled oared ship of the ancient world running before the wind on a calm, wine-dark sea, a single square sail filled overhead, the oars shipped and no land anywhere. Vast, patient, exposed. Suits long voyages, homesickness, gods and omens, and the open sea between one island and the next.",
+      "imageUrl": "scenes/ancient-ship-open-sea.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "ship",
+        "deck",
+        "stern",
+        "mast",
+        "prow"
+      ],
+      "cues": [
+        "oar",
+        "sail",
+        "oarsman",
+        "helmsman",
+        "rope",
+        "wind",
+        "voyage"
+      ],
+      "examples": [
+        "The black ship ran on before the wind with the oars shipped and the sail full above them, and the sea spread wine-dark to every side.",
+        "The oarsmen pulled the long black ship across an empty sea, the square sail slack on its mast and the helmsman watching the sky for wind."
+      ]
+    },
+    {
+      "id": "aegean-island-cove",
+      "name": "Aegean Cove",
+      "world": "classical",
+      "kind": "land",
+      "description": "A small sheltered cove on a rocky Aegean island, a crescent of pale sand, clear turquoise shallows and a black ship drawn up on the beach under goat-cropped cliffs. Bright, dry, inviting and uncertain. Suits landfall on an unknown island, a night on the shore, scouting inland for smoke, and a welcome that may not be a welcome.",
+      "imageUrl": "scenes/aegean-island-cove.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "cove",
+        "beach",
+        "shore",
+        "island",
+        "cliff"
+      ],
+      "cues": [
+        "ship",
+        "hull",
+        "sand",
+        "goat",
+        "driftwood",
+        "campfire"
+      ],
+      "examples": [
+        "The cove was a crescent of white sand between the rocks of the island, and the water in it so clear they could see the stones on the bottom.",
+        "They beached the ship in the little cove and slept on the shore, and at first light climbed the goat paths up the cliff to look inland."
+      ]
+    },
+    {
+      "id": "greek-sanctuary",
+      "name": "Greek Sanctuary",
+      "world": "classical",
+      "kind": "worship",
+      "description": "An ancient Greek sanctuary on a headland above the sea, a small temple of weathered stone columns, an altar blackened by fire before its steps and olive trees twisted by the wind. Sacred, sunlit, solemn. Suits sacrifices and prayers, oracles and omens, gods who may be listening, and oaths sworn at the altar.",
+      "imageUrl": "scenes/greek-sanctuary.webp",
+      "overlayAlpha": 0.71,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.71
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.64
+        }
+      },
+      "keywords": [
+        "sanctuary",
+        "temple",
+        "altar",
+        "headland",
+        "column"
+      ],
+      "cues": [
+        "sacrifice",
+        "priest",
+        "offering",
+        "oracle",
+        "libation",
+        "smoke"
+      ],
+      "examples": [
+        "The temple stood on the headland among the olive trees, its stone columns pale against the sea, and smoke rose from the altar where the sacrifice burned.",
+        "The priest led them up between the columns of the sanctuary, where the offerings lay heaped and the sea glittered far below."
+      ]
+    },
+    {
+      "id": "grotto-island-garden",
+      "name": "Island Grotto",
+      "world": "classical",
+      "kind": "land",
+      "description": "A great grotto on a lush island, the cave mouth hung with vines heavy with grapes, clear springs running out through meadows of wild flowers, and dark cypress and alder crowding the slopes behind. Enchanted, abundant, a gilded prison. Suits a nymph's island, years of exile, longing for home, and a paradise that is also a trap.",
+      "imageUrl": "scenes/grotto-island-garden.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.63
+        }
+      },
+      "keywords": [
+        "grotto",
+        "cave",
+        "island",
+        "spring",
+        "meadow"
+      ],
+      "cues": [
+        "vine",
+        "grape",
+        "nymph",
+        "violet",
+        "cypress",
+        "loom"
+      ],
+      "examples": [
+        "The grotto opened in the island's hillside, a vine heavy with grapes across its mouth and clear springs running out of it through the flowering meadows.",
+        "Deep in the cave the nymph sang at her loom beside a fire of cedar, and outside the grotto the island lay green and silent in the sun."
+      ]
+    },
+    {
+      "id": "underworld-shore",
+      "name": "Shore of the Dead",
+      "world": "classical",
+      "kind": "myth",
+      "description": "A grey shore at the edge of the world where no sun reaches, black poplars and willows along a slow dark river, mist crawling over cold stones and a pit dug at the water's edge. Mournful, ghostly, forbidden. Suits journeys to the land of the dead, calling up the shades, prophecy and grief, and meeting those who cannot come back.",
+      "imageUrl": "scenes/underworld-shore.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.37,
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "underworld",
+        "shore",
+        "river",
+        "pit",
+        "hades"
+      ],
+      "cues": [
+        "ghost",
+        "shade",
+        "dead",
+        "blood",
+        "prophecy",
+        "poplar"
+      ],
+      "examples": [
+        "At the edge of the world they reached the grey shore of the underworld, where the rivers of Hades meet, and the pale shades came crowding up out of the mist.",
+        "On the shore of Hades the dark river slid past black poplars without a sound, and the ghost of his mother stood on the bank and could not be held."
+      ]
+    },
+    {
+      "id": "school-classroom",
+      "name": "School Classroom",
+      "world": "modern-any",
+      "kind": "work",
+      "description": "An ordinary school classroom after lessons, rows of wooden desks and chairs facing a blackboard still chalked with the day's work, a teacher's desk at the front and afternoon light across the floor from tall windows. Familiar, echoing, full of memory. Suits school days and exams, a new pupil, rivalries and first love, and a classroom revisited years later.",
+      "imageUrl": "scenes/school-classroom.webp",
+      "overlayAlpha": 0.67,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.67
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "classroom",
+        "school",
+        "blackboard"
+      ],
+      "cues": [
+        "desk",
+        "teacher",
+        "pupil",
+        "student",
+        "chalk",
+        "lesson",
+        "bell",
+        "homework"
+      ],
+      "examples": [
+        "The bell went and chairs scraped back across the classroom, and the teacher was still writing the homework on the blackboard.",
+        "She sat at her old desk by the window, where someone had carved initials into the wood, and the school was silent around her."
+      ]
+    },
+    {
+      "id": "abandoned-building",
+      "name": "Abandoned Building",
+      "world": "modern-any",
+      "kind": "myth",
+      "description": "The inside of an abandoned concrete building, a stairwell choked with broken boards and rubble, water stains spreading over the walls and dusty light falling through empty window frames. Derelict, silent, hiding something. Suits a body discovered, children daring each other to go inside, a crime scene, and places the city has forgotten.",
+      "imageUrl": "scenes/abandoned-building.webp",
+      "overlayAlpha": 0.64,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.64
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.57
+        }
+      },
+      "keywords": [
+        "abandoned building",
+        "stairwell",
+        "ruin",
+        "rubble",
+        "duct"
+      ],
+      "cues": [
+        "body",
+        "dust",
+        "torch",
+        "flashlight",
+        "police",
+        "graffiti"
+      ],
+      "examples": [
+        "The stairwell of the abandoned building was choked with rubble, and his torch caught a water stain on the wall shaped like a map.",
+        "The boys dared each other through the broken door. Inside, dust lay thick on the concrete and something had been dragged across it."
+      ]
+    },
+    {
+      "id": "cocktail-lounge",
+      "name": "Hostess Lounge",
+      "world": "modern-east-asia",
+      "kind": "food",
+      "description": "A dim, expensive hostess lounge in a city nightlife district, curved velvet sofas round low tables, bottles glowing behind a small bar and a piano in the corner. Intimate, flattering, transactional. Suits businessmen and hostesses, secrets told over whisky, the night economy, and someone who is not what they seem.",
+      "imageUrl": "scenes/cocktail-lounge.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.2
+        }
+      },
+      "keywords": [
+        "lounge",
+        "hostess club",
+        "booth"
+      ],
+      "cues": [
+        "hostess",
+        "whisky",
+        "ice",
+        "piano",
+        "sofa",
+        "champagne"
+      ],
+      "examples": [
+        "In the hostess club a woman in a silk dress poured his whisky and laughed at his jokes, and the piano in the corner of the lounge played something slow.",
+        "The lounge was low light and velvet sofas round small tables, a hostess at every man's side, and the bill came folded in a leather case."
+      ]
+    },
+    {
+      "id": "izakaya-interior",
+      "name": "Izakaya",
+      "world": "modern-east-asia",
+      "kind": "food",
+      "description": "The inside of a small Japanese izakaya in the evening, a wooden counter with stools, the cook grilling skewers over charcoal behind it, paper menus on the walls and steam and smoke in the lamplight. Warm, noisy, unbuttoned. Suits drinking after work, colleagues and old friends, confessions over beer, and a regular's seat at the counter.",
+      "imageUrl": "scenes/izakaya-interior.webp",
+      "overlayAlpha": 0.65,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.65
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.59
+        }
+      },
+      "keywords": [
+        "izakaya",
+        "counter",
+        "grill"
+      ],
+      "cues": [
+        "skewer",
+        "sake",
+        "beer",
+        "cook",
+        "chopsticks",
+        "salaryman",
+        "noren",
+        "yakitori"
+      ],
+      "examples": [
+        "At the izakaya counter the cook turned the skewers over the charcoal, and the men beside them loosened their ties and called for more beer.",
+        "She ducked under the noren into the izakaya's steam and noise, took the last seat at the counter, and the owner poured her sake and set down a plate of yakitori."
+      ]
+    },
+    {
+      "id": "department-store",
+      "name": "Department Store",
+      "world": "modern-any",
+      "kind": "shop",
+      "description": "The ground floor of a large department store, glass counters of cosmetics and perfume under bright even light, polished floors, and escalators rising through an atrium to floor after floor of goods. Glossy, attentive, aspirational. Suits shopping and gifts, a chance meeting among the counters, a shop girl's life, and the respectable face of the city.",
+      "imageUrl": "scenes/department-store.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.46,
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "department store",
+        "escalator",
+        "atrium",
+        "showroom"
+      ],
+      "cues": [
+        "perfume",
+        "cosmetics",
+        "shop assistant",
+        "shopping bag",
+        "mannequin",
+        "gift"
+      ],
+      "examples": [
+        "The department store smelled of a hundred perfumes, and at the foot of the escalator a shop assistant bowed to every customer who stepped on.",
+        "She rode the escalator up through the department store, floor after floor of goods under the atrium lights, a shopping bag on her wrist."
+      ]
+    },
+    {
+      "id": "golf-driving-range",
+      "name": "Golf Driving Range",
+      "world": "modern-east-asia",
+      "kind": "play",
+      "description": "A covered multi-storey golf driving range in the evening, tiers of hitting bays under floodlights facing a wide green field closed in by tall netting, a ball machine clicking out ball after ball and distance markers scattered across the grass. Repetitive, sociable, faintly lonely. Suits businessmen practising their swing, a conversation between shots, an alibi, and money looking for something to do.",
+      "imageUrl": "scenes/golf-driving-range.webp",
+      "overlayAlpha": 0.57,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.57
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.51
+        }
+      },
+      "keywords": [
+        "driving range",
+        "golf",
+        "hitting bay",
+        "netting"
+      ],
+      "cues": [
+        "club",
+        "swing",
+        "ball",
+        "tee",
+        "golfer",
+        "driver",
+        "ball machine"
+      ],
+      "examples": [
+        "Every bay at the golf driving range was taken, men in shirtsleeves hitting ball after ball out under the floodlights into the tall green netting.",
+        "At the practice range the ball machine clicked out another golf ball onto the mat, he swung his driver, and it flew out under the floodlights into the green netting."
+      ]
+    },
+    {
+      "id": "tokyo-scramble-crossing",
+      "name": "Tokyo Crossing",
+      "world": "modern-east-asia",
+      "kind": "street",
+      "description": "A huge scramble crossing in central Tokyo at night, zebra stripes running in every direction across wet asphalt, giant video screens and lit facades towering on every side and the lights about to change. Overwhelming, electric, anonymous. Suits arriving in the big city, losing someone in a crowd, youth and nightlife, and being alone among thousands.",
+      "imageUrl": "scenes/tokyo-scramble-crossing.webp",
+      "overlayAlpha": 0.63,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.63
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.57
+        }
+      },
+      "keywords": [
+        "crossing",
+        "intersection",
+        "crosswalk",
+        "shibuya"
+      ],
+      "cues": [
+        "crowd",
+        "traffic light",
+        "screen",
+        "neon",
+        "umbrella"
+      ],
+      "examples": [
+        "The lights changed and the crowd surged across the crossing from every corner at once, under screens that flashed the same advert over and over.",
+        "She waited at the edge of the Shibuya crossing in the rain, the giant screens above the intersection throwing colour over a thousand umbrellas."
+      ]
+    },
+    {
+      "id": "night-market",
+      "name": "Night Market",
+      "world": "modern-east-asia",
+      "kind": "shop",
+      "description": "A crowded night market in an East Asian city, rows of food stalls under strings of bare bulbs and awnings, smoke rising from grills and woks, and a narrow aisle between them packed with people. Hot, loud, delicious. Suits eating on the street, a date or a family outing, a pickpocket in the crowd, and the life of the city after dark.",
+      "imageUrl": "scenes/night-market.webp",
+      "overlayAlpha": 0.63,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.63
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.57
+        }
+      },
+      "keywords": [
+        "night market",
+        "stall",
+        "market",
+        "awning"
+      ],
+      "cues": [
+        "skewer",
+        "wok",
+        "vendor",
+        "bulb",
+        "snack",
+        "grill",
+        "noodle"
+      ],
+      "examples": [
+        "The night market was packed shoulder to shoulder, smoke rolling off the grills and the vendors shouting over the hiss of the woks.",
+        "They ate skewers standing up by a stall under a string of bare bulbs, and the crowd pushed past them toward the noodle stands."
+      ]
+    },
+    {
+      "id": "restaurant-dining-room",
+      "name": "Restaurant",
+      "world": "modern-any",
+      "kind": "food",
+      "description": "The dining room of a good restaurant in the evening, white tablecloths and candles on tables set well apart, wine glasses catching the light, waiters moving between them and the kitchen door swinging at the back. Elegant, discreet, a stage for conversation. Suits dinners and dates, business deals, anniversaries that go wrong, and news delivered over dessert.",
+      "imageUrl": "scenes/restaurant-dining-room.webp",
+      "overlayAlpha": 0.66,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.66
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.6
+        }
+      },
+      "keywords": [
+        "restaurant",
+        "dining room",
+        "bistro"
+      ],
+      "cues": [
+        "waiter",
+        "menu",
+        "wine list",
+        "tablecloth",
+        "candle",
+        "dessert",
+        "reservation"
+      ],
+      "examples": [
+        "The waiter led them to a table by the window, lit the candle, and handed over the wine list while the restaurant filled around them.",
+        "Over dessert she put down her fork and told him, and at the next table in the dining room a couple laughed at something else."
+      ]
+    },
+    {
+      "id": "bar-counter",
+      "name": "Bar",
+      "world": "modern-any",
+      "kind": "food",
+      "description": "A long wooden bar in a city pub late in the evening, bottles lined up against a mirror behind it, brass taps and a row of stools, low lamps and the rest of the room in soft shadow. Relaxed, confessional, a little sad. Suits drinking alone, meeting a stranger, a bartender who listens, and the last round before closing.",
+      "imageUrl": "scenes/bar-counter.webp",
+      "overlayAlpha": 0.56,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.56
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.51
+        }
+      },
+      "keywords": [
+        "bar",
+        "pub",
+        "saloon",
+        "barroom"
+      ],
+      "cues": [
+        "bartender",
+        "pint",
+        "whisky",
+        "stool",
+        "tap",
+        "glass",
+        "jukebox"
+      ],
+      "examples": [
+        "He took a stool at the bar and the bartender pulled him a pint without being asked, and the jukebox changed to something old.",
+        "It was nearly closing and the pub had emptied out, just her and the whisky and the bartender polishing glasses under the mirror."
+      ]
+    },
+    {
+      "id": "city-park",
+      "name": "City Park",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "A large park in the middle of a city in soft daylight, paths winding under old elms past lawns and a pond, benches and lamp posts along the way and the skyline showing above the trees. Green, sociable, a breathing space. Suits walks and conversations, jogging and dog-walking, a first date on a bench, and meeting someone by chance.",
+      "imageUrl": "scenes/city-park.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "park",
+        "lawn",
+        "pond",
+        "boathouse"
+      ],
+      "cues": [
+        "bench",
+        "jogger",
+        "dog",
+        "pigeon",
+        "stroller",
+        "picnic",
+        "squirrel"
+      ],
+      "examples": [
+        "She walked through the park under the elms, joggers passing, and sat down on a bench where the lawn ran down to the pond.",
+        "They spread the picnic on the grass while a dog chased pigeons across the lawn, and the city hummed beyond the trees."
+      ]
+    },
+    {
+      "id": "manhattan-avenue",
+      "name": "Manhattan Avenue",
+      "world": "modern-west",
+      "kind": "street",
+      "description": "A Manhattan avenue running straight between towers of glass and old stone, yellow cabs in the traffic, steam rising from a grate and the street a deep canyon under a strip of sky. Fast, enormous, indifferent. Suits New York stories, ambition and loneliness, hailing a cab in the rain, and a city that never looks up.",
+      "imageUrl": "scenes/manhattan-avenue.webp",
+      "overlayAlpha": 0.71,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.71
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.65
+        }
+      },
+      "keywords": [
+        "avenue",
+        "skyscraper",
+        "new york",
+        "manhattan",
+        "sidewalk"
+      ],
+      "cues": [
+        "cab",
+        "taxi",
+        "subway",
+        "steam",
+        "doorman",
+        "traffic"
+      ],
+      "examples": [
+        "Fifth Avenue ran straight between the skyscrapers of Manhattan, yellow cabs honking at the corner and steam rising from a grate in the street.",
+        "She came up out of the subway into midtown Manhattan at rush hour, the sidewalk packed under the towers, and raised her arm for a taxi that did not stop."
+      ]
+    },
+    {
+      "id": "lecture-hall",
+      "name": "Lecture Hall",
+      "world": "modern-any",
+      "kind": "work",
+      "description": "A steep university lecture hall of tiered wooden benches curving down to a podium and a wide screen, afternoon light from high windows and a projector humming in the gloom. Academic, crowded then empty, anonymous. Suits student life, lectures and seminars, a professor with a secret, and sitting at the back beside someone new.",
+      "imageUrl": "scenes/lecture-hall.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.63
+        }
+      },
+      "keywords": [
+        "lecture hall",
+        "university",
+        "campus",
+        "podium"
+      ],
+      "cues": [
+        "professor",
+        "student",
+        "lecture",
+        "projector",
+        "notebook",
+        "laptop",
+        "exam"
+      ],
+      "examples": [
+        "The lecture hall sloped down toward the podium, and the students filed in with coffee, opened their laptops and waited for the professor.",
+        "She slipped into the back row as the projector hummed on, and the lecture had already started without her."
+      ]
+    },
+    {
+      "id": "gym",
+      "name": "Gym",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "A big modern gym early in the morning, racks of weights and benches along a mirrored wall, rows of treadmills facing tall windows and rubber floor mats under bright even light. Sweaty, disciplined, self-absorbed. Suits training and routine, a new body or a new life, conversations between sets, and pushing past a limit.",
+      "imageUrl": "scenes/gym.webp",
+      "overlayAlpha": 0.66,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.66
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.6
+        }
+      },
+      "keywords": [
+        "gym",
+        "weight room",
+        "locker room",
+        "fitness centre"
+      ],
+      "cues": [
+        "treadmill",
+        "dumbbell",
+        "barbell",
+        "trainer",
+        "workout",
+        "mirror",
+        "sweat"
+      ],
+      "examples": [
+        "The gym smelled of rubber and sweat, weights clanked back onto the rack, and a row of treadmills hummed under the long mirror.",
+        "At the gym he racked the barbell and sat up on the bench, and his trainer checked the clock on the mirrored wall and told him one more set."
+      ]
+    },
+    {
+      "id": "airplane-cabin",
+      "name": "Airplane Cabin",
+      "world": "modern-any",
+      "kind": "travel",
+      "description": "The cabin of a passenger airliner on a night flight, rows of seats in dim blue light, the window blinds mostly down, one oval window showing clouds lit by the moon and the engines droning. Suspended, cramped, between lives. Suits long-haul journeys, leaving home or coming back, strangers in adjacent seats, and thinking at thirty thousand feet.",
+      "imageUrl": "scenes/airplane-cabin.webp",
+      "overlayAlpha": 0.57,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.57
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.5
+        }
+      },
+      "keywords": [
+        "aircraft",
+        "airliner",
+        "plane",
+        "aisle",
+        "galley"
+      ],
+      "cues": [
+        "seat",
+        "flight attendant",
+        "seatbelt",
+        "window blind",
+        "engine",
+        "tray table",
+        "passenger"
+      ],
+      "examples": [
+        "The cabin lights dimmed, the engines droned on, and she pulled the blind down over the little window and tipped her seat back.",
+        "The flight attendant came down the aisle with the trolley, and the passenger by the window slept on through the turbulence."
+      ]
+    },
+    {
+      "id": "golf-course",
+      "name": "Golf Course",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "A green golf course on a still morning, a smooth fairway running between stands of pine to a flag on the putting green, a pond and a white sand bunker beside it and a clubhouse far behind. Manicured, affluent, quietly competitive. Suits business deals on the fairway, club members and their politics, a caddie who sees everything, and a round that matters more than it should.",
+      "imageUrl": "scenes/golf-course.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "golf course",
+        "fairway",
+        "putting green",
+        "bunker",
+        "clubhouse"
+      ],
+      "cues": [
+        "golfer",
+        "caddie",
+        "putter",
+        "flag",
+        "golf cart",
+        "hole"
+      ],
+      "examples": [
+        "The fairway ran green and even between the pines to the flag, a pond glinting beside the putting green, and he took his time lining up the putt.",
+        "On the eighteenth fairway his caddie handed him the iron, and beyond the bunker the flag on the putting green stood still in the evening light."
+      ]
+    },
+    {
+      "id": "amusement-park",
+      "name": "Amusement Park",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "An amusement park at dusk as the lights come on, a Ferris wheel turning slowly above the midway, the frame of a roller coaster against the sky, and carousel horses and game stalls glowing below. Giddy, nostalgic, a little melancholy. Suits childhood outings, first dates and teenage dares, a lost child in the crowd, and happiness that knows it will end.",
+      "imageUrl": "scenes/amusement-park.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.36
+        }
+      },
+      "keywords": [
+        "amusement park",
+        "funfair",
+        "midway",
+        "fairground",
+        "theme park"
+      ],
+      "cues": [
+        "ferris wheel",
+        "roller coaster",
+        "carousel",
+        "candy floss",
+        "popcorn",
+        "ride",
+        "ticket"
+      ],
+      "examples": [
+        "The Ferris wheel turned slowly over the amusement park, the roller coaster rattled past overhead, and the smell of popcorn drifted from the stalls.",
+        "At the top of the Ferris wheel their car stopped and swung, and below them the whole fairground was lights and music and small running figures."
+      ]
+    },
+    {
+      "id": "stadium",
+      "name": "Stadium",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "A great sports stadium under floodlights before a match, tier upon tier of empty seats rising round a bright green pitch, the roof edge lit against a dark sky and the air waiting to fill with noise. Vast, tribal, electric. Suits the big game, fans and rivals, a career decided in ninety minutes, and forty thousand voices at once.",
+      "imageUrl": "scenes/stadium.webp",
+      "overlayAlpha": 0.56,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.56
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.49
+        }
+      },
+      "keywords": [
+        "stadium",
+        "pitch",
+        "arena",
+        "grandstand",
+        "touchline"
+      ],
+      "cues": [
+        "fans",
+        "crowd",
+        "floodlight",
+        "referee",
+        "goal",
+        "match",
+        "chant"
+      ],
+      "examples": [
+        "The stadium roared as the teams ran out onto the pitch, forty thousand voices under the floodlights and the grass shining wet below them.",
+        "From the top of the grandstand the pitch looked impossibly small, and when the goal went in the whole stadium rose to its feet at once."
+      ]
+    },
+    {
+      "id": "swimming-pool",
+      "name": "Swimming Pool",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "An indoor swimming pool early in the morning, long lanes of still blue water under a high glazed roof, rope lines floating on the surface and wavering light thrown up across pale tiled walls. Echoing, clean, solitary. Suits training at dawn, a swimmer's discipline, a confrontation at the water's edge, and the calm of doing lengths.",
+      "imageUrl": "scenes/swimming-pool.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.28,
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "swimming pool",
+        "diving board",
+        "changing room",
+        "poolside"
+      ],
+      "cues": [
+        "swimmer",
+        "chlorine",
+        "goggles",
+        "lifeguard",
+        "lengths",
+        "towel",
+        "stroke"
+      ],
+      "examples": [
+        "The swimming pool was empty but for one swimmer doing lengths, the water throwing wavering light up the tiled walls and the air thick with chlorine.",
+        "She stood on the poolside in her goggles, toes curled over the edge, while the lifeguard yawned in his high chair above the still blue lanes."
+      ]
+    },
+    {
+      "id": "tennis-court",
+      "name": "Tennis Court",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "An outdoor tennis court at a private club on a summer afternoon, red clay lined with white, a sagging net, a high wire fence hung with towels and trees throwing shade along one side. Genteel, competitive, sunlit. Suits club rivalries, lessons with a coach, a match that is really an argument, and the leisure of people with money.",
+      "imageUrl": "scenes/tennis-court.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "tennis court",
+        "baseline",
+        "clay court",
+        "tennis club"
+      ],
+      "cues": [
+        "racket",
+        "ball",
+        "net",
+        "serve",
+        "coach",
+        "umpire",
+        "rally"
+      ],
+      "examples": [
+        "On the tennis court the ball came back and forth across the net, and she bent to pick another one off the red clay by the baseline.",
+        "Towels hung on the wire fence of the tennis club, and between serves he could hear his coach calling from the shade under the trees."
+      ]
+    },
+    {
+      "id": "museum-gallery",
+      "name": "Museum Gallery",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "A quiet gallery in a great art museum, tall walls hung with old paintings in gilt frames, a polished wooden floor, a bench in the middle of the room and doorways opening onto more rooms beyond. Hushed, cultured, contemplative. Suits standing before a painting, a meeting disguised as a visit, art theft and forgery, and silence shared with strangers.",
+      "imageUrl": "scenes/museum-gallery.webp",
+      "overlayAlpha": 0.67,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.67
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "museum",
+        "gallery",
+        "exhibition",
+        "art museum"
+      ],
+      "cues": [
+        "painting",
+        "frame",
+        "guard",
+        "sculpture",
+        "curator",
+        "canvas",
+        "bench"
+      ],
+      "examples": [
+        "The gallery was hushed, and she stood a long time before the painting in its gilt frame while the guard shifted his weight by the door.",
+        "They met on the bench in the middle of the museum's Dutch room, facing the same canvas, and neither looked at the other."
+      ]
+    },
+    {
+      "id": "concert-hall",
+      "name": "Concert Hall",
+      "world": "modern-any",
+      "kind": "play",
+      "description": "A grand concert hall before the performance, a lit stage with a grand piano and rows of empty chairs and music stands, tiers of red seats and gilded balconies rising round it and a great organ at the back. Expectant, refined, resonant. Suits a debut, an orchestra and its rivalries, music that changes a life, and a seat beside the wrong person.",
+      "imageUrl": "scenes/concert-hall.webp",
+      "overlayAlpha": 0.51,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.51
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.45
+        }
+      },
+      "keywords": [
+        "concert hall",
+        "stage",
+        "auditorium",
+        "organ loft"
+      ],
+      "cues": [
+        "orchestra",
+        "conductor",
+        "piano",
+        "violin",
+        "applause",
+        "symphony",
+        "music stand"
+      ],
+      "examples": [
+        "The orchestra filed onto the stage of the concert hall, the violins tuning, and the conductor raised his baton over the silence.",
+        "When the last chord faded the whole concert hall stayed silent for a breath, and then the applause came rolling down from the balconies."
+      ]
+    },
+    {
+      "id": "karaoke-room",
+      "name": "Karaoke Room",
+      "world": "modern-east-asia",
+      "kind": "play",
+      "description": "A private karaoke room at night in an East Asian city, a U-shaped sofa round a low table crowded with drinks and snacks, a big screen scrolling lyrics, microphones on the table and coloured lights sweeping the dark. Loud, cramped, cathartic. Suits office parties and old classmates, singing to someone who is not listening, confessions between songs, and a night that goes on too long.",
+      "imageUrl": "scenes/karaoke-room.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "karaoke",
+        "karaoke room",
+        "ktv"
+      ],
+      "cues": [
+        "microphone",
+        "song",
+        "lyrics",
+        "tambourine",
+        "screen",
+        "singer",
+        "remote"
+      ],
+      "examples": [
+        "In the karaoke room the lyrics scrolled across the big screen, and he held the microphone in both hands and sang the old love song badly.",
+        "The KTV booth was hot and dark, bottles crowding the low table, coloured lights sweeping over the sofa while someone shook a tambourine out of time."
+      ]
+    },
+    {
+      "id": "game-arcade",
+      "name": "Game Arcade",
+      "world": "modern-east-asia",
+      "kind": "play",
+      "description": "A crowded game arcade at night in a Japanese or Chinese city, rows of glowing machines and claw cranes full of plush toys, rhythm games flashing and the noise of a hundred jingles at once. Bright, frantic, adolescent. Suits teenagers after school, killing time, a first date over a claw machine, and a hideout from home.",
+      "imageUrl": "scenes/game-arcade.webp",
+      "overlayAlpha": 0.62,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.62
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.55
+        }
+      },
+      "keywords": [
+        "arcade",
+        "game centre",
+        "game arcade",
+        "claw machine"
+      ],
+      "cues": [
+        "token",
+        "coin",
+        "joystick",
+        "high score",
+        "plush toy",
+        "crane",
+        "game"
+      ],
+      "examples": [
+        "The arcade was all flashing screens and jingles, and he fed coins into the claw machine while she pressed her face to the glass.",
+        "After school they went to the game centre and played the drumming game until their arms ached, tokens spilling from their pockets."
+      ]
+    },
+    {
+      "id": "school-library",
+      "name": "School Library",
+      "world": "modern-any",
+      "kind": "work",
+      "description": "A school library in the afternoon, long reading tables where students sit in uniform, rows of wooden shelves with numbered spines, curtains half drawn against the sun and a librarian's counter with a date stamp by the door. Quiet, studious, a refuge. Suits a lonely student, notes passed between shelves, first love over borrowed books, and the one place nobody at school looks for you.",
+      "imageUrl": "scenes/school-library.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "library",
+        "school library",
+        "reading room",
+        "stacks"
+      ],
+      "cues": [
+        "librarian",
+        "book",
+        "shelf",
+        "borrowing card",
+        "date stamp",
+        "student"
+      ],
+      "examples": [
+        "The school library was quiet but for turning pages, and she sat at the far table by the window with the borrowing card tucked into her book.",
+        "The librarian stamped the date inside the cover and slid the book across the counter, and he went back between the shelves to wait for her."
+      ]
+    },
+    {
+      "id": "school-rooftop",
+      "name": "School Rooftop",
+      "world": "modern-east-asia",
+      "kind": "work",
+      "description": "The flat rooftop of a school building in East Asia, a high wire fence round the edge, a water tank and the stairwell door, and the town spread out below under a wide sky. Open, secret, adolescent. Suits skipping class, lunch away from everyone, confessions and fights, and the place students go to be alone.",
+      "imageUrl": "scenes/school-rooftop.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.27,
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "rooftop",
+        "school roof",
+        "roof"
+      ],
+      "cues": [
+        "student",
+        "uniform",
+        "fence",
+        "lunch box",
+        "water tank",
+        "wind"
+      ],
+      "examples": [
+        "At lunch she climbed the stairs to the school rooftop and sat against the water tank, the fence humming in the wind and the town spread out below.",
+        "They skipped the last class and went up onto the roof, where the wind flattened their uniforms and nobody in the classrooms could see them."
+      ]
+    },
+    {
+      "id": "police-squad-room",
+      "name": "Police Squad Room",
+      "world": "modern-any",
+      "kind": "work",
+      "description": "A crowded police squad room, steel desks pushed together under fluorescent light, phones ringing, files stacked high and a whiteboard covered in photographs, maps and arrows. Overworked, tense, smoky with old habits. Suits detectives on a case, a murder board, a suspect's name on everyone's lips, and a department that does not trust itself.",
+      "imageUrl": "scenes/police-squad-room.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.23,
+          "scrim": 0.63
+        }
+      },
+      "keywords": [
+        "police station",
+        "squad room",
+        "precinct",
+        "headquarters"
+      ],
+      "cues": [
+        "detective",
+        "whiteboard",
+        "case file",
+        "suspect",
+        "phone",
+        "badge",
+        "ashtray"
+      ],
+      "examples": [
+        "The squad room was blue with smoke, the phones ringing on every desk, and the detective pinned another photograph to the whiteboard beside the map.",
+        "At the police station the case files were stacked to the ceiling, and the chief called the detectives in and closed the door behind them."
+      ]
+    },
+    {
+      "id": "magistrate-court",
+      "name": "Magistrate's Court",
+      "world": "imperial-china",
+      "kind": "power",
+      "description": "The hall of a county magistrate in old China, the magistrate's table on a raised platform under a great hanging plaque, red-and-black tallies in a pot, rows of constables with staves and the stone floor where the accused must kneel. Stern, theatrical, unjust. Suits trials and confessions, a wronged widow's petition, punishment with the staff, and justice that depends on who you know.",
+      "imageUrl": "scenes/magistrate-court.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "yamen",
+        "tribunal",
+        "court hall",
+        "magistrate's hall"
+      ],
+      "cues": [
+        "magistrate",
+        "constable",
+        "gavel",
+        "petition",
+        "accused",
+        "confession",
+        "prisoner"
+      ],
+      "examples": [
+        "The magistrate slammed the gavel on his table beneath the great plaque, and the constables struck their staves on the yamen floor as the accused knelt.",
+        "The county magistrate slammed down his gavel block, the constables on both sides roared together, and the prisoner kneeling on the stones below began to shake."
+      ]
+    },
+    {
+      "id": "bookshop",
+      "name": "Bookshop",
+      "world": "modern-any",
+      "kind": "shop",
+      "description": "A narrow second-hand bookshop on a side street, books piled to the ceiling with a wooden ladder against the shelves, a bell over the door, a bookseller at the counter under a green-shaded lamp and rain on the shop window. Cosy, dusty, eccentric. Suits browsing on a wet afternoon, a rare book with a secret, a bookseller who knows every reader, and a meeting between the shelves.",
+      "imageUrl": "scenes/bookshop.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.29
+        }
+      },
+      "keywords": [
+        "bookshop",
+        "bookstore",
+        "book stall"
+      ],
+      "cues": [
+        "bookseller",
+        "book",
+        "ladder",
+        "first edition",
+        "lamp",
+        "counter"
+      ],
+      "examples": [
+        "The bookshop was narrow and tall, a ladder leaning against the shelves, and the bookseller was reading behind the counter under a green lamp.",
+        "She bought the first edition from the bookseller for almost nothing, and outside the bookshop window the rain went on falling on the side street."
+      ]
+    },
+    {
+      "id": "boutique",
+      "name": "Boutique",
+      "world": "modern-any",
+      "kind": "shop",
+      "description": "An expensive fashion boutique, a pale carpeted room with only a few clothes hung far apart on rails, a mirrored fitting room, a glass counter and a window display of three garments facing the street. Refined, intimidating, exclusive. Suits shopping with money or pretending to, a shop assistant's judgement, gifts and bribes, and a woman remaking herself.",
+      "imageUrl": "scenes/boutique.webp",
+      "overlayAlpha": 0.71,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.71
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.64
+        }
+      },
+      "keywords": [
+        "boutique",
+        "fitting room",
+        "window display",
+        "fashion house"
+      ],
+      "cues": [
+        "dress",
+        "scarf",
+        "shop assistant",
+        "mannequin",
+        "rail",
+        "silk",
+        "price tag"
+      ],
+      "examples": [
+        "The boutique window held only three dresses, and inside the shop assistant folded a silk scarf into tissue paper as if it were alive.",
+        "She stepped out of the boutique's fitting room in the black dress, and the shop assistant stood back from the mirror and said nothing, which was the point."
+      ]
+    },
+    {
+      "id": "pawnshop-counter",
+      "name": "Pawnshop",
+      "world": "modern-any",
+      "kind": "shop",
+      "description": "A small pawnshop, a high wooden counter with a steel grille between the owner and the customer, watches and rings in a glass case, tickets on a spike and a lamp over the ledger. Shabby, suspicious, desperate. Suits pawning something precious, a debt that cannot wait, a pawnbroker who asks no questions, and a murder that starts with a missing ring.",
+      "imageUrl": "scenes/pawnshop-counter.webp",
+      "overlayAlpha": 0.55,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.55
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.49
+        }
+      },
+      "keywords": [
+        "pawnshop",
+        "pawn shop",
+        "grille"
+      ],
+      "cues": [
+        "pawnbroker",
+        "pawn ticket",
+        "ledger",
+        "watch",
+        "ring",
+        "jewellery",
+        "debt"
+      ],
+      "examples": [
+        "The pawnbroker held the watch up to the lamp behind his grille for a long time, then wrote a figure in the ledger and pushed the ticket across.",
+        "The pawnshop smelled of dust and metal polish, and rings and watches lay in the glass case like things that had been given up."
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy",
+      "world": "modern-any",
+      "kind": "shop",
+      "description": "A small neighbourhood pharmacy, white shelves of medicine boxes behind a counter, a pharmacist in a white coat measuring out pills, a bell over the door and a green cross glowing faintly outside. Clean, quiet, discreet. Suits prescriptions and poisons, a pharmacist who notices things, illness in the family, and a small-town secret.",
+      "imageUrl": "scenes/pharmacy.webp",
+      "overlayAlpha": 0.67,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.67
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "pharmacy",
+        "chemist",
+        "drugstore",
+        "dispensary"
+      ],
+      "cues": [
+        "pharmacist",
+        "prescription",
+        "medicine",
+        "pill",
+        "white coat",
+        "bottle"
+      ],
+      "examples": [
+        "The pharmacist in her white coat counted the pills into a little envelope behind the counter, and the bell over the pharmacy door rang once.",
+        "He handed the prescription across the drugstore counter and waited among the shelves of medicine while the chemist read it twice."
+      ]
+    },
+    {
+      "id": "showa-wooden-apartment",
+      "name": "Old Wooden Apartment",
+      "world": "modern-east-asia",
+      "kind": "home",
+      "description": "An old two-storey wooden apartment building in a Japanese city, a narrow open corridor of identical doors with shoes and umbrellas outside them, an iron staircase on the outside and laundry hanging over the rail. Cheap, cramped, overheard. Suits poverty and students, neighbours who know too much, a lonely tenant, and the seventies and eighties in a working-class district.",
+      "imageUrl": "scenes/showa-wooden-apartment.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "apartment",
+        "corridor",
+        "staircase",
+        "boarding house"
+      ],
+      "cues": [
+        "shoes",
+        "door",
+        "neighbour",
+        "tenant",
+        "landlady",
+        "laundry",
+        "tatami"
+      ],
+      "examples": [
+        "The corridor of the wooden apartment was narrow, shoes set out by every door, and the iron staircase rang under his feet as he climbed to the second floor.",
+        "Through the thin walls of the apartment she could hear the neighbour's radio and his cough, and the landlady's sandals going past on the boards."
+      ]
+    },
+    {
+      "id": "chinese-apartment",
+      "name": "Chinese Apartment Block",
+      "world": "modern-east-asia",
+      "kind": "home",
+      "description": "A flat in an ageing Chinese apartment block, a red-painted concrete floor, a family photograph on the wall above a sofa with a lace cover, a television on a cabinet and a stairwell outside crowded with bicycles and boxes. Familiar, crowded, lived-in. Suits family life and arguments, grandparents and children, a small home in a big city, and the ordinary years of modern China.",
+      "imageUrl": "scenes/chinese-apartment.webp",
+      "overlayAlpha": 0.66,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.66
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.59
+        }
+      },
+      "keywords": [
+        "apartment block",
+        "housing estate",
+        "stairwell"
+      ],
+      "cues": [
+        "family",
+        "television",
+        "sofa",
+        "grandmother",
+        "bicycle",
+        "thermos",
+        "enamel basin",
+        "cabbage"
+      ],
+      "examples": [
+        "In the concrete stairwell of the old apartment block cabbages were stacked on every landing for the winter, and the family's door on the fifth floor had its New Year paper pasted on.",
+        "In the flat the family photograph hung above the sofa with its lace cover, the thermos stood by the enamel basin, and grandmother sat folding dumplings with the television on."
+      ]
+    },
+    {
+      "id": "brooklyn-brownstone-street",
+      "name": "Brownstone Street",
+      "world": "modern-west",
+      "kind": "street",
+      "description": "A tree-lined street of brownstone townhouses in Brooklyn in autumn, high stoops with iron railings climbing to front doors, leaves on the steps and parked cars under the plane trees. Gracious, residential, New York. Suits families and neighbours, a stoop conversation, moving in or moving out, and a neighbourhood changing around its people.",
+      "imageUrl": "scenes/brooklyn-brownstone-street.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.63
+        }
+      },
+      "keywords": [
+        "brownstone",
+        "stoop",
+        "townhouse",
+        "brooklyn",
+        "row house"
+      ],
+      "cues": [
+        "neighbour",
+        "railing",
+        "front door",
+        "leaves",
+        "plane tree",
+        "parked car"
+      ],
+      "examples": [
+        "They sat on the stoop of their Brooklyn brownstone in the evening, leaves drifting onto the steps, and watched the neighbours come home under the plane trees.",
+        "The Brooklyn street was lined with townhouses and old plane trees, iron railings climbing every stoop, and a moving van was double-parked outside number forty."
+      ]
+    },
+    {
+      "id": "paris-cafe-terrace",
+      "name": "Paris Café Terrace",
+      "world": "modern-west",
+      "kind": "food",
+      "description": "The terrace of a Paris café on a grey afternoon, small round tables and wicker chairs in rows facing the boulevard, an awning overhead, a zinc bar glimpsed inside and cream stone apartment buildings with iron balconies across the street. Elegant, idle, observant. Suits watching the world go by, lovers and writers, an affair begun over coffee, and Paris in any decade.",
+      "imageUrl": "scenes/paris-cafe-terrace.webp",
+      "overlayAlpha": 0.67,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.67
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "café terrace",
+        "boulevard",
+        "paris",
+        "brasserie"
+      ],
+      "cues": [
+        "waiter",
+        "espresso",
+        "croissant",
+        "wicker chair",
+        "newspaper",
+        "awning"
+      ],
+      "examples": [
+        "They took a table on the café terrace facing the boulevard, and the waiter brought two espressos and left them alone to watch Paris go by.",
+        "On the café terrace she sat in a wicker chair with her coffee going cold, watching the Paris boulevard, and across the street the iron balconies were full of geraniums."
+      ]
+    },
+    {
+      "id": "pudong-skyline-night",
+      "name": "Shanghai Skyline at Night",
+      "world": "modern-east-asia",
+      "kind": "street",
+      "description": "The skyline of Pudong in Shanghai at night seen from high up, a forest of glass towers lit in blue and gold, the river curving below with the lights of boats on it and the city running out to the horizon. Dazzling, ambitious, cold. Suits new money and old dreams, a view from an office at the top, lovers above the city, and the speed of modern China.",
+      "imageUrl": "scenes/pudong-skyline-night.webp",
+      "overlayAlpha": 0.54,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.54
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.48
+        }
+      },
+      "keywords": [
+        "skyline",
+        "pudong",
+        "lujiazui",
+        "observation deck",
+        "penthouse"
+      ],
+      "cues": [
+        "city lights",
+        "window",
+        "glass",
+        "neon",
+        "river",
+        "view"
+      ],
+      "examples": [
+        "From the observation deck on the ninetieth floor the Lujiazui skyline was a forest of lit glass towers, and the Huangpu river curved below like a band of light.",
+        "He stood at the penthouse window with the whole of Shanghai spread out beneath him in blue and gold, and the city lights ran all the way to the dark."
+      ]
+    },
+    {
+      "id": "palace-red-walls",
+      "name": "Red Palace Walls",
+      "world": "imperial-china",
+      "kind": "power",
+      "description": "A long lane between high red walls inside an imperial Chinese palace, golden-tiled roofs just showing over the top, a narrow strip of sky, snow on the stone flags and a single gate far down the lane. Enclosed, watchful, lonely. Suits palace intrigue, a concubine's walk, messages passed in secret, and a life lived behind walls.",
+      "imageUrl": "scenes/palace-red-walls.webp",
+      "overlayAlpha": 0.7,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.7
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.63
+        }
+      },
+      "keywords": [
+        "palace wall",
+        "forbidden city",
+        "inner court",
+        "palace lane"
+      ],
+      "cues": [
+        "concubine",
+        "eunuch",
+        "maid",
+        "lantern",
+        "snow",
+        "sedan chair"
+      ],
+      "examples": [
+        "The lane ran on between the high red palace walls, golden roofs just showing above them, and a eunuch hurried past her with his head down.",
+        "Snow lay on the flagstones of the inner court, and the concubine walked slowly between the red walls with a maid holding a lantern at her side."
+      ]
+    },
+    {
+      "id": "examination-cells",
+      "name": "Examination Hall",
+      "world": "imperial-china",
+      "kind": "work",
+      "description": "The imperial examination compound of old China, row upon row of numbered brick cells no wider than a man's shoulders along narrow lanes, candidates grinding ink and writing with brushes on plank desks, and officials pacing under the eaves. Cramped, anxious, fateful. Suits scholars at the imperial examinations, years of study decided in three days, cheating and its punishment, and the road to office.",
+      "imageUrl": "scenes/examination-cells.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.47,
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "examination hall",
+        "examination cell",
+        "examination compound",
+        "watchtower"
+      ],
+      "cues": [
+        "scholar",
+        "candidate",
+        "brush",
+        "inkstone",
+        "essay",
+        "proctor",
+        "exam"
+      ],
+      "examples": [
+        "In the examination compound each candidate sat alone in a brick cell barely wide enough to turn in, grinding ink and writing with his brush while officials paced under the eaves.",
+        "Row after row of examination cells ran away under the watchtower, and in every one of them a scholar bent over his essay with a brush."
+      ]
+    },
+    {
+      "id": "city-gate-and-walls",
+      "name": "City Gate and Walls",
+      "world": "imperial-china",
+      "kind": "power",
+      "description": "The great gate of a walled Chinese city, a massive gatehouse tower with upturned eaves above a deep arched passage, grey brick walls running away on either side, banners on the battlements and a road leading up to it. Formidable, watchful, a threshold. Suits arrivals and departures, sieges, guards checking papers, and news brought in from the frontier.",
+      "imageUrl": "scenes/city-gate-and-walls.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "city gate",
+        "gatehouse",
+        "city wall",
+        "battlement"
+      ],
+      "cues": [
+        "guard",
+        "soldier",
+        "banner",
+        "siege",
+        "sentry",
+        "cart",
+        "snow"
+      ],
+      "examples": [
+        "The city gate loomed over the road, its gatehouse tower dark against the snow, and the guards at the arch stamped their feet and checked every cart.",
+        "From the battlements of the city wall the banners snapped in the wind off the frontier, and the sentry watched the dust of riders on the plain."
+      ]
+    },
+    {
+      "id": "herders-cave",
+      "name": "Herder's Cave",
+      "world": "classical",
+      "kind": "home",
+      "description": "A vast cave in a rocky hillside used by a herdsman, pens of sheep and goats built against the walls, wicker racks of cheeses, a great stone rolled beside the entrance and firelight on the rough rock. Primitive, dangerous, rank with animals. Suits a giant's lair, being trapped with no way out, cunning against strength, and hospitality refused.",
+      "imageUrl": "scenes/herders-cave.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.65
+        }
+      },
+      "keywords": [
+        "cave",
+        "sheepfold",
+        "lair",
+        "cave mouth"
+      ],
+      "cues": [
+        "sheep",
+        "goat",
+        "cheese",
+        "boulder",
+        "shepherd",
+        "giant",
+        "fire"
+      ],
+      "examples": [
+        "The cave was vast and smelled of sheep, pens of lambs and kids along its walls and great round cheeses drying in wicker racks by the fire.",
+        "The giant rolled the boulder across the cave mouth and sat down among his goats, and in the firelight they saw there was no other way out."
+      ]
+    },
+    {
+      "id": "ancient-walled-city",
+      "name": "Bronze-Age Walled City",
+      "world": "classical",
+      "kind": "power",
+      "description": "The high stone walls of a Bronze Age city on a hill above a windy plain, massive gates and towers, and far off on the shore the dark hulls of a besieging fleet drawn up in lines. Epic, doomed, besieged. Suits a long siege, warriors on the ramparts, a city watching its champions fight below, and the end of a world.",
+      "imageUrl": "scenes/ancient-walled-city.webp",
+      "overlayAlpha": 0.62,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.62
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.54
+        }
+      },
+      "keywords": [
+        "citadel",
+        "rampart",
+        "troy",
+        "scaean gate"
+      ],
+      "cues": [
+        "warrior",
+        "spear",
+        "chariot",
+        "fleet",
+        "siege",
+        "shield",
+        "helmet"
+      ],
+      "examples": [
+        "The great walls of Troy rose above the plain, towers and gates of massive stone, and from the ramparts the old king watched the chariots raise the dust below.",
+        "The citadel stood high above the windy plain, its great gates shut and barred, and the warriors on the walls leaned on their spears and waited."
+      ]
+    },
+    {
+      "id": "medieval-tavern",
+      "name": "Medieval Tavern",
+      "world": "medieval-europe",
+      "kind": "food",
+      "description": "A low smoky tavern in a medieval town, a fire roaring in a wide stone hearth, rough tables and benches, casks along the wall, rushes on the floor and a staircase up to rooms for travellers. Rowdy, warm, full of strangers. Suits travellers meeting by chance, a bard and a brawl, rumours of a quest, and a room for the night.",
+      "imageUrl": "scenes/medieval-tavern.webp",
+      "overlayAlpha": 0.45,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.45
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.38
+        }
+      },
+      "keywords": [
+        "tavern",
+        "taproom",
+        "alehouse",
+        "inn"
+      ],
+      "cues": [
+        "innkeeper",
+        "ale",
+        "cask",
+        "tankard",
+        "bard",
+        "fiddler",
+        "stew",
+        "brawl"
+      ],
+      "examples": [
+        "The tavern was low and smoky, a fire roaring in the hearth, and the innkeeper drew ale from a cask while a fiddler played in the corner.",
+        "He pushed through the crowded tavern with a tankard in each hand, past the fire in the great hearth and two men squaring up over a game of dice."
+      ]
+    },
+    {
+      "id": "edo-street",
+      "name": "Edo Street",
+      "world": "old-japan",
+      "kind": "street",
+      "description": "A street in old Edo Japan, rows of wooden townhouses with lattice fronts and dark tiled roofs, indigo noren curtains hanging over shop doorways, a drainage channel along the packed earth and a fire watchtower above the roofs. Bustling, orderly, pre-modern. Suits samurai and merchants, a ronin looking for work, festivals and fires, and the floating world of old Tokyo.",
+      "imageUrl": "scenes/edo-street.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.65
+        }
+      },
+      "keywords": [
+        "machiya",
+        "edo",
+        "merchant house",
+        "fire tower"
+      ],
+      "cues": [
+        "samurai",
+        "ronin",
+        "noren",
+        "merchant",
+        "sword",
+        "palanquin",
+        "sandals"
+      ],
+      "examples": [
+        "The street was lined with lattice-fronted townhouses, indigo noren hanging over the shop doors, and a samurai with two swords at his hip ducked out of a merchant house.",
+        "In old Edo the ronin walked down the street past the tea stalls and the fire tower, looking for a house that would hire a masterless sword."
+      ]
+    },
+    {
+      "id": "castle-keep",
+      "name": "Japanese Castle",
+      "world": "old-japan",
+      "kind": "power",
+      "description": "A Japanese castle keep rising in white plaster tiers above curving stone ramparts and a moat, dark wooden gables and upturned roofs at every level, pine trees leaning over the water. Imposing, feudal, beautiful. Suits a lord and his retainers, sieges and loyalty, a messenger arriving at the gate, and the age of the samurai.",
+      "imageUrl": "scenes/castle-keep.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "castle",
+        "moat",
+        "tenshu",
+        "castle keep"
+      ],
+      "cues": [
+        "daimyo",
+        "samurai",
+        "retainer",
+        "banner",
+        "armour",
+        "lord",
+        "pine"
+      ],
+      "examples": [
+        "The castle rose in white tiers above the stone ramparts, its dark roofs curving at every level, and the daimyo's banners hung still over the moat.",
+        "The messenger crossed the bridge over the moat at a run, and the samurai at the castle gate lowered their spears to let him through."
+      ]
+    },
+    {
+      "id": "samurai-residence",
+      "name": "Samurai Residence",
+      "world": "old-japan",
+      "kind": "home",
+      "description": "The inside of a samurai's house in old Japan, a dark-beamed tatami room opening onto a veranda and a raked garden, a suit of armour on its stand, swords on a rack in the alcove and a single hanging scroll. Austere, disciplined, restrained. Suits duty and honour, a household under strain, a quiet conversation that decides a death, and the last days of a way of life.",
+      "imageUrl": "scenes/samurai-residence.webp",
+      "overlayAlpha": 0.61,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.61
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.55
+        }
+      },
+      "keywords": [
+        "residence",
+        "tatami room",
+        "veranda",
+        "alcove"
+      ],
+      "cues": [
+        "samurai",
+        "katana",
+        "armour",
+        "shoji",
+        "retainer",
+        "wife",
+        "sword"
+      ],
+      "examples": [
+        "The samurai knelt on the tatami facing the garden, his swords on the rack in the alcove behind him, and did not turn when his wife slid the shoji open.",
+        "In the samurai's house the suit of armour stood in the corner of the dark tatami room, and the old retainer knelt beside the sword rack and waited to be spoken to."
+      ]
+    },
+    {
+      "id": "tea-ceremony-room",
+      "name": "Tea Ceremony Room",
+      "world": "old-japan",
+      "kind": "food",
+      "description": "A tiny tea-ceremony room of four and a half tatami mats, rough clay walls, a low crawl-through door, an iron kettle steaming over a sunken hearth and a single flower in the alcove. Still, deliberate, profound. Suits the way of tea, a master and a guest, a truce between enemies over one bowl, and beauty in poverty.",
+      "imageUrl": "scenes/tea-ceremony-room.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "tea room",
+        "tea hut",
+        "tatami",
+        "sunken hearth"
+      ],
+      "cues": [
+        "tea master",
+        "tea bowl",
+        "whisk",
+        "kettle",
+        "matcha",
+        "guest",
+        "flower"
+      ],
+      "examples": [
+        "In the tea room the master whisked the matcha in the bowl without a sound, and the iron kettle over the sunken hearth sang very softly.",
+        "He crawled through the low door into the tea hut, knelt on the tatami, and turned the tea bowl twice in his hands before he drank."
+      ]
+    },
+    {
+      "id": "post-town-inn",
+      "name": "Post Town Inn",
+      "world": "old-japan",
+      "kind": "lodging",
+      "description": "Inns along an old Japanese highway post town at dusk, wooden two-storey inns with lanterns lit under the eaves, straw sandals and travellers' hats hung by the entrances, and the road running on between cedars into the mountains. Welcoming, weary, transitory. Suits journeys on foot along the old roads, pilgrims and messengers, an encounter at an inn, and a night before the mountain pass.",
+      "imageUrl": "scenes/post-town-inn.webp",
+      "overlayAlpha": 0.56,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.56
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.49
+        }
+      },
+      "keywords": [
+        "post town",
+        "post station",
+        "highway",
+        "inn",
+        "tokaido"
+      ],
+      "cues": [
+        "traveller",
+        "lantern",
+        "straw sandals",
+        "pilgrim",
+        "palanquin",
+        "horse",
+        "cedar"
+      ],
+      "examples": [
+        "At dusk they reached the post town on the old Tokaido road, lanterns lit under the eaves of every inn, and a maid came out to wash the dust from their feet.",
+        "The pilgrims hung their straw hats by the door of the inn at the post station, and beyond the last house the old road climbed into the cedars."
+      ]
+    },
+    {
+      "id": "cloud-sea-peaks",
+      "name": "Cloud-Sea Peaks",
+      "world": "imperial-china",
+      "kind": "land",
+      "description": "Sheer granite peaks rising out of a sea of cloud, twisted pines clinging to the rock, a pavilion with upturned eaves on the highest summit and cranes flying between the pinnacles. Transcendent, immortal, remote. Suits cultivators and immortals, a sect on the mountain, a master's teaching, and a world above the world.",
+      "imageUrl": "scenes/cloud-sea-peaks.webp",
+      "overlayAlpha": 0.71,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.71
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.64
+        }
+      },
+      "keywords": [
+        "peak",
+        "summit",
+        "cloud sea",
+        "pinnacle"
+      ],
+      "cues": [
+        "immortal",
+        "crane",
+        "cultivator",
+        "flying sword",
+        "pine",
+        "mist",
+        "disciple"
+      ],
+      "examples": [
+        "The peaks rose out of the cloud sea like islands, twisted pines on every ledge, and a crane flew between them toward the pavilion on the summit.",
+        "The disciples rode their flying swords from peak to peak above the clouds, and the old immortal watched them from the highest pinnacle."
+      ]
+    },
+    {
+      "id": "sect-hall",
+      "name": "Sect Hall",
+      "world": "imperial-china",
+      "kind": "power",
+      "description": "The great hall of a martial arts sect on a mountaintop, a wide stone training ground before it where disciples drill, a hall of dark timber and grey tiles with a great plaque over the doors, bronze censers smoking and mountains fading into mist behind. Disciplined, proud, secretive. Suits a sect and its disciples, trials of skill, a master's succession, and rivalries between schools.",
+      "imageUrl": "scenes/sect-hall.webp",
+      "overlayAlpha": 0.72,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.72
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.66
+        }
+      },
+      "keywords": [
+        "sect",
+        "training ground",
+        "sect hall",
+        "martial hall"
+      ],
+      "cues": [
+        "disciple",
+        "master",
+        "sword",
+        "censer",
+        "sparring",
+        "elder",
+        "robe"
+      ],
+      "examples": [
+        "At dawn the disciples of the sect drilled with their swords on the training ground before the great hall, their white robes moving as one.",
+        "The elders sat in a row in the martial hall beneath the plaque, incense rising from the censers, and the young disciple knelt to hear their verdict."
+      ]
+    },
+    {
+      "id": "cultivation-cave",
+      "name": "Cultivation Cave",
+      "world": "imperial-china",
+      "kind": "land",
+      "description": "A hermit's meditation cave high in the Chinese mountains, a smooth stone platform for sitting, a trickle of spring water into a rock pool, a few scrolls and a lamp, and pale light and mist at the cave mouth. Solitary, still, ascetic. Suits secluded cultivation, years of practice alone, a breakthrough or a rival's intrusion, and a hermit who has left the world.",
+      "imageUrl": "scenes/cultivation-cave.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.07,
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "hermitage",
+        "cave dwelling",
+        "meditation cave",
+        "rock pool"
+      ],
+      "cues": [
+        "hermit",
+        "meditation",
+        "cultivation",
+        "scroll",
+        "incense",
+        "spring",
+        "lamp",
+        "qi"
+      ],
+      "examples": [
+        "In the mouth of his cave high on the cliff the hermit sat cross-legged on a stone platform in secluded cultivation, water dripping into the rock pool behind him.",
+        "The hermitage was only a cave high on the cliff, a lamp and a few scrolls, and the hermit had not spoken aloud in seven years of cultivation."
+      ]
+    },
+    {
+      "id": "roman-forum",
+      "name": "Roman Forum",
+      "world": "classical",
+      "kind": "street",
+      "description": "The forum of ancient Rome in its glory, white marble temples and colonnades round a paved square, bronze statues on tall pedestals, a triumphal arch and steps leading up to a basilica under a hot blue sky. Grand, political, crowded with ambition. Suits senators and orators, the politics of the Republic, a conspiracy in the colonnade, and the centre of the world.",
+      "imageUrl": "scenes/roman-forum.webp",
+      "overlayAlpha": 0.65,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.65
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.16,
+          "scrim": 0.58
+        }
+      },
+      "keywords": [
+        "forum",
+        "colonnade",
+        "basilica",
+        "rostra",
+        "senate house"
+      ],
+      "cues": [
+        "senator",
+        "toga",
+        "orator",
+        "statue",
+        "legionary",
+        "marble",
+        "citizen"
+      ],
+      "examples": [
+        "The senators crossed the forum in their white togas, between the marble temples and the statues on their pedestals, arguing all the way to the senate house.",
+        "An orator stood on the rostra in the heat of the forum, and the crowd under the colonnade went quiet to hear what he would say about Caesar."
+      ]
+    },
+    {
+      "id": "villa-atrium",
+      "name": "Roman Villa Atrium",
+      "world": "classical",
+      "kind": "home",
+      "description": "The atrium of a wealthy Roman villa, a shallow pool open to the sky in the middle of a mosaic floor, painted red and ochre walls, columns and doorways leading to rooms and a garden glimpsed beyond. Cultured, private, comfortable. Suits family and slaves, a patron and his clients, dinner parties and poison, and domestic life in the ancient world.",
+      "imageUrl": "scenes/villa-atrium.webp",
+      "overlayAlpha": 0.7,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.7
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.64
+        }
+      },
+      "keywords": [
+        "atrium",
+        "villa",
+        "peristyle",
+        "mosaic floor"
+      ],
+      "cues": [
+        "slave",
+        "fountain",
+        "fresco",
+        "couch",
+        "wine",
+        "patron",
+        "toga"
+      ],
+      "examples": [
+        "Rain fell through the open roof of the Roman villa's atrium into the shallow pool, and the slaves moved softly over the mosaic floor between the painted walls.",
+        "The master of the villa received his clients by the fountain in the peristyle, a cup of wine in his hand and the frescoed walls bright behind him."
+      ]
+    },
+    {
+      "id": "amphitheatre",
+      "name": "Amphitheatre",
+      "world": "classical",
+      "kind": "play",
+      "description": "The arena of a great Roman amphitheatre, tiers of stone seating rising all round a floor of raked sand, arches in rows, awnings stretched over the upper rim and gates in the arena wall below. Brutal, spectacular, roaring. Suits gladiators and the games, a crowd deciding a fate, emperors in their box, and death as entertainment.",
+      "imageUrl": "scenes/amphitheatre.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.63
+        }
+      },
+      "keywords": [
+        "amphitheatre",
+        "arena",
+        "colosseum"
+      ],
+      "cues": [
+        "gladiator",
+        "sand",
+        "crowd",
+        "lion",
+        "emperor",
+        "trident",
+        "net"
+      ],
+      "examples": [
+        "The gladiators came out onto the sand of the arena, and the whole amphitheatre rose around them in a roar that shook the stone.",
+        "From the emperor's box the colosseum was a bowl of fifty thousand faces, and on the sand of the arena below a gladiator with a net circled a man with a sword."
+      ]
+    },
+    {
+      "id": "castle-courtyard",
+      "name": "Castle Courtyard",
+      "world": "medieval-europe",
+      "kind": "power",
+      "description": "The inner courtyard of a medieval castle, high curtain walls and towers of grey stone on every side, a well and a smithy against one wall, wooden stairs up to the keep and a gatehouse with its portcullis raised. Fortified, busy, martial. Suits knights and squires, a lord's household, arrivals through the gatehouse, and a siege waiting to happen.",
+      "imageUrl": "scenes/castle-courtyard.webp",
+      "overlayAlpha": 0.71,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.71
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.65
+        }
+      },
+      "keywords": [
+        "castle",
+        "bailey",
+        "curtain wall",
+        "portcullis"
+      ],
+      "cues": [
+        "knight",
+        "squire",
+        "horse",
+        "banner",
+        "armour",
+        "well",
+        "guard"
+      ],
+      "examples": [
+        "Knights clattered into the castle bailey under the raised portcullis, and squires ran to take their horses while the banners snapped on the towers.",
+        "In the courtyard of the castle a boy drew water from the well, and the blacksmith's hammer rang against the curtain wall in the cold morning."
+      ]
+    },
+    {
+      "id": "great-hall-feast",
+      "name": "Great Hall Feast",
+      "world": "medieval-europe",
+      "kind": "food",
+      "description": "The great hall of a medieval castle at a feast, long trestle tables laden with roasts and candles, a high table on a dais under heraldic banners and tapestries, a fire roaring in a huge stone fireplace set in the wall and minstrels playing in a gallery above. Festive, loud, political. Suits a lord's feast, knights and ladies, oaths and toasts, a poisoned cup, and a wedding that ends in blood.",
+      "imageUrl": "scenes/great-hall-feast.webp",
+      "overlayAlpha": 0.54,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.54
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.47
+        }
+      },
+      "keywords": [
+        "great hall",
+        "high table",
+        "banquet hall",
+        "fireplace"
+      ],
+      "cues": [
+        "feast",
+        "lord",
+        "goblet",
+        "minstrel",
+        "roast",
+        "toast",
+        "knight"
+      ],
+      "examples": [
+        "The castle's great hall was loud with the feast, the trestle tables laden with roasts and candles, and at the high table the lord raised his goblet to the bride.",
+        "Minstrels played in the gallery above the banquet hall, heraldic banners hung from the rafters, and the knights drank toast after toast before the great fireplace."
+      ]
+    },
+    {
+      "id": "blacksmith-forge",
+      "name": "Blacksmith's Forge",
+      "world": "medieval-europe",
+      "kind": "work",
+      "description": "A blacksmith's forge in a village, the fire glowing orange in a stone hearth under a hood, an anvil on a stump, tongs and hammers hanging from the beams, a quenching trough and sparks in the smoky dark. Hot, rhythmic, honest. Suits a smith and an apprentice, a sword being made, village life, and a hero's humble beginnings.",
+      "imageUrl": "scenes/blacksmith-forge.webp",
+      "overlayAlpha": 0.65,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.65
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.58
+        }
+      },
+      "keywords": [
+        "forge",
+        "smithy",
+        "workshop"
+      ],
+      "cues": [
+        "blacksmith",
+        "anvil",
+        "hammer",
+        "tongs",
+        "sparks",
+        "apprentice",
+        "horseshoe",
+        "bellows"
+      ],
+      "examples": [
+        "In the forge the blacksmith drew the glowing iron from the fire with his tongs and laid it on the anvil, and the hammer rang out across the village.",
+        "The apprentice worked the bellows until the coals roared white, and sparks flew up into the smoky rafters of the smithy."
+      ]
+    },
+    {
+      "id": "space-station-corridor",
+      "name": "Space Station Corridor",
+      "world": "imagined",
+      "kind": "travel",
+      "description": "A curving corridor aboard an orbiting space station, white panels lit from within, handrails and hatches along the walls, and a wide viewport showing the curve of a blue planet turning slowly below. Clean, sealed, lonely. Suits astronauts and crews, life in orbit, a malfunction or an intruder, and home seen from very far away.",
+      "imageUrl": "scenes/space-station-corridor.webp",
+      "overlayAlpha": 0.67,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.67
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.25,
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "space station",
+        "airlock",
+        "viewport",
+        "module"
+      ],
+      "cues": [
+        "astronaut",
+        "crew",
+        "hatch",
+        "zero gravity",
+        "planet",
+        "orbit",
+        "spacesuit"
+      ],
+      "examples": [
+        "The corridor of the space station curved away ahead, white panels lit from within, and through the viewport the planet turned slowly below.",
+        "The astronaut pulled herself along the handrails to the airlock, the hatch sealed behind her, and their orbit carried them on into night."
+      ]
+    },
+    {
+      "id": "alien-landscape",
+      "name": "Alien World",
+      "world": "imagined",
+      "kind": "land",
+      "description": "The surface of an alien planet, a plain of strange rock and pale sand under a violet sky, two moons low on the horizon, and towering mineral spires rising in the distance. Awe-struck, hostile, unknown. Suits first contact, a crash landing, explorers far from Earth, and a world that was never meant for us.",
+      "imageUrl": "scenes/alien-landscape.webp",
+      "overlayAlpha": 0.61,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.61
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.39,
+          "scrim": 0.53
+        }
+      },
+      "keywords": [
+        "alien world",
+        "alien planet",
+        "crater",
+        "spire"
+      ],
+      "cues": [
+        "spacesuit",
+        "explorer",
+        "rover",
+        "moons",
+        "lander",
+        "helmet"
+      ],
+      "examples": [
+        "They stepped down from the lander onto the alien world, violet sky above and two moons low over a plain of strange rock and pale sand.",
+        "The explorer climbed to the lip of the crater in her spacesuit, and below her the spires of the alien planet rose out of the dust like a city."
+      ]
+    },
+    {
+      "id": "magic-academy-hall",
+      "name": "Academy of Magic",
+      "world": "imagined",
+      "kind": "work",
+      "description": "The dining hall of an old academy of magic in a mountain fortress, long wooden tables under a high vaulted ceiling, tall arched windows full of evening light, stacks of spellbooks and lanterns burning with a cold blue flame. Wondrous, scholarly, full of secrets. Suits young mages at school, lessons in spells, friendships and rivalries, and a mystery in the corridors.",
+      "imageUrl": "scenes/magic-academy-hall.webp",
+      "overlayAlpha": 0.53,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.53
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.47
+        }
+      },
+      "keywords": [
+        "academy",
+        "school of magic",
+        "dining hall"
+      ],
+      "cues": [
+        "mage",
+        "wizard",
+        "spellbook",
+        "apprentice",
+        "spell",
+        "professor",
+        "wand"
+      ],
+      "examples": [
+        "The apprentices ate at the long tables of the academy's dining hall, spellbooks open beside their plates and blue flames flickering in the lanterns overhead.",
+        "In the school of magic the old wizard raised his hand, and every candle in the vaulted hall went out at once while the young mages held their breath."
+      ]
+    },
+    {
+      "id": "dragon-lair",
+      "name": "Dragon's Lair",
+      "world": "imagined",
+      "kind": "myth",
+      "description": "A vast cavern deep under a mountain, heaps of gold coins, goblets and armour spilling across the rock floor, a sleeping dragon's coils half seen in shadow and a thin shaft of light falling from a crack far above. Awesome, deadly, greedy. Suits a quest's end, treasure and the price of it, a thief creeping in, and a battle with a monster.",
+      "imageUrl": "scenes/dragon-lair.webp",
+      "overlayAlpha": 0.52,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.52
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.46
+        }
+      },
+      "keywords": [
+        "lair",
+        "hoard",
+        "treasure chamber"
+      ],
+      "cues": [
+        "dragon",
+        "gold",
+        "treasure",
+        "scales",
+        "coins",
+        "thief",
+        "smoke"
+      ],
+      "examples": [
+        "The dragon slept on its hoard in the depths of the lair, gold coins and goblets heaped around its coils, and smoke rose from its nostrils with every breath.",
+        "The thief crept down into the treasure chamber by the thin shaft of light, and the mountain of gold before him shifted and began to breathe."
+      ]
+    },
+    {
+      "id": "lagos-market",
+      "name": "Lagos Market",
+      "world": "wider-world",
+      "kind": "shop",
+      "description": "A vast open-air market in Lagos, narrow lanes between stalls under coloured umbrellas and tin roofs, heaps of peppers, fabrics and plastic goods, yellow buses at the edge and the heat hanging over everything. Loud, crowded, alive. Suits market traders and hustlers, family business, a chase through the stalls, and the energy of a West African city.",
+      "imageUrl": "scenes/lagos-market.webp",
+      "overlayAlpha": 0.71,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.71
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.65
+        }
+      },
+      "keywords": [
+        "lagos",
+        "market",
+        "stall"
+      ],
+      "cues": [
+        "trader",
+        "fabric",
+        "pepper",
+        "umbrella",
+        "danfo",
+        "bus",
+        "haggling",
+        "ankara"
+      ],
+      "examples": [
+        "The market in Lagos went on for miles, stall after stall under coloured umbrellas, traders shouting prices over heaps of peppers and bolts of bright fabric.",
+        "She pushed through the Lagos market past the yellow danfo buses, haggling at a stall for a bolt of ankara cloth while the heat pressed down on the tin roofs."
+      ]
+    },
+    {
+      "id": "mexico-city-street",
+      "name": "Mexico City Street",
+      "world": "wider-world",
+      "kind": "street",
+      "description": "A street in the old centre of Mexico City, colonial buildings painted ochre, pink and blue with iron balconies, jacaranda trees in purple flower, a taco stand under a striped awning and the dome of a church at the end. Colourful, lively, layered with history. Suits Mexican stories, family and politics, a meal from a street stall, and a city of saints and revolutions.",
+      "imageUrl": "scenes/mexico-city-street.webp",
+      "overlayAlpha": 0.69,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.69
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.05,
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "mexico city",
+        "street",
+        "taqueria",
+        "zocalo"
+      ],
+      "cues": [
+        "taco",
+        "jacaranda",
+        "mariachi",
+        "vendor",
+        "balcony",
+        "tortilla",
+        "church bell"
+      ],
+      "examples": [
+        "The street in Mexico City was purple with jacaranda blossom, the colonial houses painted ochre and pink, and the taco stand on the corner was already smoking.",
+        "A mariachi band played under the iron balconies of the old colonial street in Mexico City, and the church bells answered from the dome at the end of it."
+      ]
+    },
+    {
+      "id": "istanbul-ferry",
+      "name": "Bosphorus Ferry",
+      "world": "wider-world",
+      "kind": "travel",
+      "description": "The deck of a ferry crossing the Bosphorus in Istanbul, gulls hanging over the wake, the domes and minarets of the old city on one shore and wooden waterfront mansions on the other, tea glasses on the rail. Romantic, crossing between worlds, melancholy. Suits Istanbul stories, commuting between continents, a conversation over tea on the water, and memory and loss.",
+      "imageUrl": "scenes/istanbul-ferry.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.5,
+          "scrim": 0.62
+        }
+      },
+      "keywords": [
+        "ferry",
+        "bosphorus",
+        "istanbul",
+        "deck",
+        "waterfront"
+      ],
+      "cues": [
+        "gull",
+        "tea glass",
+        "minaret",
+        "dome",
+        "wake",
+        "simit",
+        "passenger"
+      ],
+      "examples": [
+        "The ferry crossed the Bosphorus in the grey afternoon, gulls hanging over the wake, and the minarets of Istanbul rose above the water on the far shore.",
+        "She drank her tea at the rail of the deck, Europe on one side and Asia on the other, and threw the end of her simit to the gulls."
+      ]
+    },
+    {
+      "id": "cairo-rooftops",
+      "name": "Cairo Rooftops",
+      "world": "wider-world",
+      "kind": "street",
+      "description": "The rooftops of old Cairo at sunset, a jumble of flat roofs with satellite dishes, water tanks and pigeon coops, minarets rising all around and the haze of the great city stretching to the pyramids on the horizon. Crowded, ancient, golden with dust. Suits Egyptian stories, family life above the street, the call to prayer, and a city of a thousand minarets.",
+      "imageUrl": "scenes/cairo-rooftops.webp",
+      "overlayAlpha": 0.68,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.68
+        },
+        "scrim-multiply-1": {
+          "saturation": 1.18,
+          "scrim": 0.61
+        }
+      },
+      "keywords": [
+        "cairo",
+        "rooftop",
+        "pigeon coop",
+        "minaret"
+      ],
+      "cues": [
+        "pigeon",
+        "satellite dish",
+        "call to prayer",
+        "laundry",
+        "pyramid",
+        "water tank"
+      ],
+      "examples": [
+        "From the rooftops of Cairo the minarets rose on every side into the dusty gold of sunset, and the call to prayer began from one and then from all of them.",
+        "He kept pigeons in a coop on his Cairo rooftop, among the satellite dishes and the laundry, and on clear evenings he could see the pyramids from there."
+      ]
+    },
+    {
+      "id": "marrakech-riad",
+      "name": "Moroccan Riad",
+      "world": "wider-world",
+      "kind": "home",
+      "description": "The courtyard of a Moroccan riad, a tiled fountain in the middle surrounded by orange trees, carved plaster arches and painted cedar doors on every side, galleries above and a square of blue sky over it all. Cool, secluded, serene. Suits North African stories, a family house hidden behind a plain wall, mint tea in the afternoon, and secrets kept from the street.",
+      "imageUrl": "scenes/marrakech-riad.webp",
+      "overlayAlpha": 0.67,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.67
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.6
+        }
+      },
+      "keywords": [
+        "riad",
+        "medina",
+        "courtyard",
+        "marrakech"
+      ],
+      "cues": [
+        "fountain",
+        "orange tree",
+        "mint tea",
+        "zellige",
+        "lantern",
+        "cushion"
+      ],
+      "examples": [
+        "The riad was a Moroccan house turned inward, its rooms opening onto a tiled courtyard with a fountain and orange trees, and no window at all on the street of the medina.",
+        "In the riad's courtyard in Marrakech they sat on cushions drinking mint tea by the fountain, under carved arches and the painted cedar doors of the upper gallery."
+      ]
+    },
+    {
+      "id": "country-house-drawing-room",
+      "name": "Country House Drawing Room",
+      "world": "industrial",
+      "kind": "home",
+      "description": "The drawing room of an English country house in the afternoon, tall windows onto a lawn and parkland, sofas and armchairs round a marble fireplace, portraits on the walls, a piano and a tea tray on a low table. Genteel, mannered, full of undercurrents. Suits families and inheritances, courtship and marriage, visitors and scandal, and life in the great houses.",
+      "imageUrl": "scenes/country-house-drawing-room.webp",
+      "overlayAlpha": 0.62,
+      "render": {
+        "scrim-lerp-1": {
+          "scrim": 0.62
+        },
+        "scrim-multiply-1": {
+          "scrim": 0.56
+        }
+      },
+      "keywords": [
+        "drawing room",
+        "country house",
+        "manor",
+        "estate"
+      ],
+      "cues": [
+        "butler",
+        "tea tray",
+        "piano",
+        "portrait",
+        "fireplace",
+        "visitor",
+        "footman"
+      ],
+      "examples": [
+        "Tea was brought into the drawing room, and she sat very straight on the sofa by the fireplace while the portraits of his ancestors looked down on her.",
+        "The butler announced the visitor, and in the long drawing room of the country house every conversation stopped at once."
       ]
     }
   ]
